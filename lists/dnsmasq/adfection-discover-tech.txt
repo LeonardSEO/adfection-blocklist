@@ -1,0 +1,34 @@
+# Title: AdFection Discover-Tech
+# Description: Controlium, MyDSP, NOAS servers en ID syncing
+# Homepage: lokale build (nog geen GitHub remote)
+# License: CC BY-NC-SA 4.0
+# Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Issues: lokale build (nog geen GitHub remote)/issues
+# Expires: 1 day
+# Last modified: 16 Oct 2026 11:51 UTC
+# Version: 2026.1016.115159
+# Syntax: DNSMasq (local=/domain/, blokkeert ook subdomeinen)
+# Number of entries: 22
+#
+local=/ads-monitor.xyz/
+local=/adtimizer.co/
+local=/akedo.gg/
+local=/controlium.net/
+local=/cookie-sync.xyz/
+local=/cookiesurfer.com/
+local=/discover-tech.io/
+local=/discovertech-alb-100966113.us-east-1.elb.amazonaws.com/
+local=/discovertech.us.auth0.com/
+local=/dtech.adtimizer.com/
+local=/mtrtb.com/
+local=/mydsp.io/
+local=/myipinfo.io/
+local=/myweb3id.io/
+local=/pagead.trustlayersdk.com/
+local=/platc-tester.com/
+local=/powerium.net/
+local=/relevantech.com/
+local=/remindmewhere.app/
+local=/tekma-dmp.ai/
+local=/tracookiepixel.xyz/
+local=/volasim.com/

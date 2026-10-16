@@ -1,26 +1,24 @@
-! AdFection / Discover-Tech / Candiru / Bindecy / Intelos blocklist
-! Gegenereerd: 2026-10-16 11:50 UTC
-! Aantal domeinen: 182
-! Bronnen: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-! Licentie: CC BY-NC-SA 4.0
-
-||admin.mtrtb.com^
-||ads-monitor.xyz^
-||adtimizer.co^
-||adv45.volasim.com^
-||adv50.volasim.com^
-||akedo.gg^
+[Adblock Plus]
+! Title: AdFection Candiru
+! Description: Candiru / Integrity Labs validator, C&C en delivery servers
+! Homepage: lokale build (nog geen GitHub remote)
+! License: CC BY-NC-SA 4.0
+! Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+! Issues: lokale build (nog geen GitHub remote)/issues
+! Expires: 1 day
+! Last modified: 16 Oct 2026 11:51 UTC
+! Version: 2026.1016.115159
+! Syntax: Adblock Plus (AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS)
+! Number of entries: 124
+!
 ||ambiguouscommerce.com^
 ||antperspective.com^
 ||aperturebelt.com^
-||archer.westeurope.cloudapp.azure.com^
 ||asknapkin.com^
 ||barnsecret.com^
 ||baseagriculture.com^
 ||basicstraw.com^
 ||basinapposite.com^
-||bd-mainserver.herokuapp.com^
-||beachvibesnow.com^
 ||beneathbreadth.com^
 ||bizarreclassify.com^
 ||blockroster.net^
@@ -28,8 +26,6 @@
 ||breadgroomer.com^
 ||bronzemonth.com^
 ||browniebell.com^
-||bt.myweb3id.io^
-||bt.platc-tester.com^
 ||bypassbirch.com^
 ||bypasscalculate.com^
 ||bypasscommerce.com^
@@ -38,16 +34,12 @@
 ||chickenstrawberry.com^
 ||citecivilization.com^
 ||closetmeat.com^
-||cn.druid.mtrtb.com^
 ||commonclever.com^
 ||concretebottle.com^
 ||conquerconfess.com^
 ||containsnow.com^
 ||contradictionblindness.com^
-||controlium.net^
 ||convincechaotic.com^
-||cookie-sync.xyz^
-||cookiesurfer.com^
 ||cooperatedisinfect.net^
 ||cottonbread.com^
 ||cranberrybear.com^
@@ -74,25 +66,13 @@
 ||detaincharity.net^
 ||deterdiffusion.com^
 ||devotionbelief.com^
-||discover-tech.io^
-||discovertech-alb-100966113.us-east-1.elb.amazonaws.com^
-||discovertech.us.auth0.com^
 ||distractionfar.com^
 ||drivesplash.com^
-||druid.mtrtb.com^
 ||drummerjourney.com^
-||dtech.adtimizer.co^
-||dtech.adtimizer.com^
-||dtech.mtrtb.com^
 ||dumplingbell.com^
 ||electric-prime.com^
 ||elifluousscintillam.com^
 ||eminententwine.com^
-||enjoymultiplecats.com^
-||events-ui.discover-tech.io^
-||events-ui.myweb3id.io^
-||events.myweb3id.io^
-||events.platc-tester.com^
 ||exhibitexpanse.com^
 ||fallaciousessential.net^
 ||fearevolve.com^
@@ -101,62 +81,38 @@
 ||flexibleelevator.com^
 ||foamdirection.com^
 ||forecastgarden.com^
-||globaldatapoints.com^
 ||goatsandals.com^
 ||golfconcert.com^
 ||groundbreakinginitative.com^
 ||guitarcalculate.com^
 ||hostilefauna.com^
-||icecreamtester.com^
-||imp.powerium.net^
-||infinoas.mtrtb.com^
-||infoanalytics.live^
 ||insightenterprisells.com^
 ||isolatelecture.com^
 ||jellybat.net^
 ||jobmarcher.com^
 ||journeyjest.net^
-||js.cookie-sync.xyz^
-||js.tracookiepixel.xyz^
 ||kartingrumble.com^
 ||keyadapter.com^
 ||labyrinthextravagance.org^
 ||leafconfuse.net^
 ||lessonhandle.com^
-||logger.controlium.net^
-||logger.powerium.net^
 ||macrodrop.net^
 ||macromint.net^
 ||maturitygenesis.com^
 ||measurecabin.com^
-||mtrtb.com^
 ||mushroompalm.com^
-||mydsp.io^
-||myipinfo.io^
-||myweb3id.io^
-||noas.mtrtb.com^
-||noas.powerium.net^
 ||notableexam.org^
 ||notionnowadays.com^
 ||outdooutcome.com^
-||pagead.trustlayersdk.com^
 ||parkourbus.com^
 ||patternperiod.com^
 ||penslice.com^
 ||pepperdominate.com^
-||pickarest.com^
 ||plasticbells.com^
-||platc-tester.com^
-||powerium.net^
-||ppv2.mtrtb.com^
-||pqv2.mtrtb.com^
 ||prawnbasket.com^
 ||predictproper.com^
 ||pressaviation.com^
 ||profligatecensure.com^
-||qa-noas.powerium.net^
-||relevantech.com^
-||remindmewhere.app^
 ||rollstrech.com^
 ||romancedrum.com^
 ||sacrificeprincipal.net^
@@ -174,15 +130,8 @@
 ||suggestutterly.com^
 ||sunsetpotential.com^
 ||tacticscheap.net^
-||tekma-dmp.ai^
-||tekma.adtimizer.co^
 ||tidalscreen.com^
-||tracker.mtrtb.com^
-||tracookiepixel.xyz^
 ||tubeshape.com^
 ||ultimatematter.info^
 ||velvetpremier.com^
-||volasim.com^
 ||windomination.com^
-||www.controlium.net^
-||www.discover-tech.io^

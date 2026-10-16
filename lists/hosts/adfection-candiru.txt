@@ -1,26 +1,23 @@
-# AdFection / Discover-Tech / Candiru / Bindecy / Intelos blocklist
-# Gegenereerd: 2026-10-16 11:50 UTC
-# Aantal domeinen: 182
-# Bronnen: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Licentie: CC BY-NC-SA 4.0
-
-0.0.0.0 admin.mtrtb.com
-0.0.0.0 ads-monitor.xyz
-0.0.0.0 adtimizer.co
-0.0.0.0 adv45.volasim.com
-0.0.0.0 adv50.volasim.com
-0.0.0.0 akedo.gg
+# Title: AdFection Candiru
+# Description: Candiru / Integrity Labs validator, C&C en delivery servers
+# Homepage: lokale build (nog geen GitHub remote)
+# License: CC BY-NC-SA 4.0
+# Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Issues: lokale build (nog geen GitHub remote)/issues
+# Expires: 1 day
+# Last modified: 16 Oct 2026 11:51 UTC
+# Version: 2026.1016.115159
+# Syntax: Hosts (0.0.0.0 domain)
+# Number of entries: 124
+#
 0.0.0.0 ambiguouscommerce.com
 0.0.0.0 antperspective.com
 0.0.0.0 aperturebelt.com
-0.0.0.0 archer.westeurope.cloudapp.azure.com
 0.0.0.0 asknapkin.com
 0.0.0.0 barnsecret.com
 0.0.0.0 baseagriculture.com
 0.0.0.0 basicstraw.com
 0.0.0.0 basinapposite.com
-0.0.0.0 bd-mainserver.herokuapp.com
-0.0.0.0 beachvibesnow.com
 0.0.0.0 beneathbreadth.com
 0.0.0.0 bizarreclassify.com
 0.0.0.0 blockroster.net
@@ -28,8 +25,6 @@
 0.0.0.0 breadgroomer.com
 0.0.0.0 bronzemonth.com
 0.0.0.0 browniebell.com
-0.0.0.0 bt.myweb3id.io
-0.0.0.0 bt.platc-tester.com
 0.0.0.0 bypassbirch.com
 0.0.0.0 bypasscalculate.com
 0.0.0.0 bypasscommerce.com
@@ -38,16 +33,12 @@
 0.0.0.0 chickenstrawberry.com
 0.0.0.0 citecivilization.com
 0.0.0.0 closetmeat.com
-0.0.0.0 cn.druid.mtrtb.com
 0.0.0.0 commonclever.com
 0.0.0.0 concretebottle.com
 0.0.0.0 conquerconfess.com
 0.0.0.0 containsnow.com
 0.0.0.0 contradictionblindness.com
-0.0.0.0 controlium.net
 0.0.0.0 convincechaotic.com
-0.0.0.0 cookie-sync.xyz
-0.0.0.0 cookiesurfer.com
 0.0.0.0 cooperatedisinfect.net
 0.0.0.0 cottonbread.com
 0.0.0.0 cranberrybear.com
@@ -74,25 +65,13 @@
 0.0.0.0 detaincharity.net
 0.0.0.0 deterdiffusion.com
 0.0.0.0 devotionbelief.com
-0.0.0.0 discover-tech.io
-0.0.0.0 discovertech-alb-100966113.us-east-1.elb.amazonaws.com
-0.0.0.0 discovertech.us.auth0.com
 0.0.0.0 distractionfar.com
 0.0.0.0 drivesplash.com
-0.0.0.0 druid.mtrtb.com
 0.0.0.0 drummerjourney.com
-0.0.0.0 dtech.adtimizer.co
-0.0.0.0 dtech.adtimizer.com
-0.0.0.0 dtech.mtrtb.com
 0.0.0.0 dumplingbell.com
 0.0.0.0 electric-prime.com
 0.0.0.0 elifluousscintillam.com
 0.0.0.0 eminententwine.com
-0.0.0.0 enjoymultiplecats.com
-0.0.0.0 events-ui.discover-tech.io
-0.0.0.0 events-ui.myweb3id.io
-0.0.0.0 events.myweb3id.io
-0.0.0.0 events.platc-tester.com
 0.0.0.0 exhibitexpanse.com
 0.0.0.0 fallaciousessential.net
 0.0.0.0 fearevolve.com
@@ -101,62 +80,38 @@
 0.0.0.0 flexibleelevator.com
 0.0.0.0 foamdirection.com
 0.0.0.0 forecastgarden.com
-0.0.0.0 globaldatapoints.com
 0.0.0.0 goatsandals.com
 0.0.0.0 golfconcert.com
 0.0.0.0 groundbreakinginitative.com
 0.0.0.0 guitarcalculate.com
 0.0.0.0 hostilefauna.com
-0.0.0.0 icecreamtester.com
-0.0.0.0 imp.powerium.net
-0.0.0.0 infinoas.mtrtb.com
-0.0.0.0 infoanalytics.live
 0.0.0.0 insightenterprisells.com
 0.0.0.0 isolatelecture.com
 0.0.0.0 jellybat.net
 0.0.0.0 jobmarcher.com
 0.0.0.0 journeyjest.net
-0.0.0.0 js.cookie-sync.xyz
-0.0.0.0 js.tracookiepixel.xyz
 0.0.0.0 kartingrumble.com
 0.0.0.0 keyadapter.com
 0.0.0.0 labyrinthextravagance.org
 0.0.0.0 leafconfuse.net
 0.0.0.0 lessonhandle.com
-0.0.0.0 logger.controlium.net
-0.0.0.0 logger.powerium.net
 0.0.0.0 macrodrop.net
 0.0.0.0 macromint.net
 0.0.0.0 maturitygenesis.com
 0.0.0.0 measurecabin.com
-0.0.0.0 mtrtb.com
 0.0.0.0 mushroompalm.com
-0.0.0.0 mydsp.io
-0.0.0.0 myipinfo.io
-0.0.0.0 myweb3id.io
-0.0.0.0 noas.mtrtb.com
-0.0.0.0 noas.powerium.net
 0.0.0.0 notableexam.org
 0.0.0.0 notionnowadays.com
 0.0.0.0 outdooutcome.com
-0.0.0.0 pagead.trustlayersdk.com
 0.0.0.0 parkourbus.com
 0.0.0.0 patternperiod.com
 0.0.0.0 penslice.com
 0.0.0.0 pepperdominate.com
-0.0.0.0 pickarest.com
 0.0.0.0 plasticbells.com
-0.0.0.0 platc-tester.com
-0.0.0.0 powerium.net
-0.0.0.0 ppv2.mtrtb.com
-0.0.0.0 pqv2.mtrtb.com
 0.0.0.0 prawnbasket.com
 0.0.0.0 predictproper.com
 0.0.0.0 pressaviation.com
 0.0.0.0 profligatecensure.com
-0.0.0.0 qa-noas.powerium.net
-0.0.0.0 relevantech.com
-0.0.0.0 remindmewhere.app
 0.0.0.0 rollstrech.com
 0.0.0.0 romancedrum.com
 0.0.0.0 sacrificeprincipal.net
@@ -174,15 +129,8 @@
 0.0.0.0 suggestutterly.com
 0.0.0.0 sunsetpotential.com
 0.0.0.0 tacticscheap.net
-0.0.0.0 tekma-dmp.ai
-0.0.0.0 tekma.adtimizer.co
 0.0.0.0 tidalscreen.com
-0.0.0.0 tracker.mtrtb.com
-0.0.0.0 tracookiepixel.xyz
 0.0.0.0 tubeshape.com
 0.0.0.0 ultimatematter.info
 0.0.0.0 velvetpremier.com
-0.0.0.0 volasim.com
 0.0.0.0 windomination.com
-0.0.0.0 www.controlium.net
-0.0.0.0 www.discover-tech.io

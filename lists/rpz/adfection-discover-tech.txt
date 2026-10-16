@@ -1,0 +1,60 @@
+; Title: AdFection Discover-Tech
+; Description: Controlium, MyDSP, NOAS servers en ID syncing
+; Homepage: lokale build (nog geen GitHub remote)
+; License: CC BY-NC-SA 4.0
+; Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+; Issues: lokale build (nog geen GitHub remote)/issues
+; Expires: 1 day
+; Last modified: 16 Oct 2026 11:51 UTC
+; Version: 2026.1016.115159
+; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
+; Number of entries: 22
+;
+$TTL 300
+@ IN SOA localhost. root.localhost. 2026101611 43200 3600 259200 300
+@ IN NS localhost.
+
+ads-monitor.xyz CNAME .
+*.ads-monitor.xyz CNAME .
+adtimizer.co CNAME .
+*.adtimizer.co CNAME .
+akedo.gg CNAME .
+*.akedo.gg CNAME .
+controlium.net CNAME .
+*.controlium.net CNAME .
+cookie-sync.xyz CNAME .
+*.cookie-sync.xyz CNAME .
+cookiesurfer.com CNAME .
+*.cookiesurfer.com CNAME .
+discover-tech.io CNAME .
+*.discover-tech.io CNAME .
+discovertech-alb-100966113.us-east-1.elb.amazonaws.com CNAME .
+*.discovertech-alb-100966113.us-east-1.elb.amazonaws.com CNAME .
+discovertech.us.auth0.com CNAME .
+*.discovertech.us.auth0.com CNAME .
+dtech.adtimizer.com CNAME .
+*.dtech.adtimizer.com CNAME .
+mtrtb.com CNAME .
+*.mtrtb.com CNAME .
+mydsp.io CNAME .
+*.mydsp.io CNAME .
+myipinfo.io CNAME .
+*.myipinfo.io CNAME .
+myweb3id.io CNAME .
+*.myweb3id.io CNAME .
+pagead.trustlayersdk.com CNAME .
+*.pagead.trustlayersdk.com CNAME .
+platc-tester.com CNAME .
+*.platc-tester.com CNAME .
+powerium.net CNAME .
+*.powerium.net CNAME .
+relevantech.com CNAME .
+*.relevantech.com CNAME .
+remindmewhere.app CNAME .
+*.remindmewhere.app CNAME .
+tekma-dmp.ai CNAME .
+*.tekma-dmp.ai CNAME .
+tracookiepixel.xyz CNAME .
+*.tracookiepixel.xyz CNAME .
+volasim.com CNAME .
+*.volasim.com CNAME .

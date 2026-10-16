@@ -1,15 +1,18 @@
-# AdFection / Discover-Tech / Candiru / Bindecy / Intelos blocklist
-# Gegenereerd: 2026-10-16 11:50 UTC
-# Aantal domeinen: 182
-# Bronnen: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Licentie: CC BY-NC-SA 4.0
-
+# Title: AdFection Full
+# Description: Alle bekende infrastructuur: Discover-Tech, Candiru, Bindecy, Intelos
+# Homepage: lokale build (nog geen GitHub remote)
+# License: CC BY-NC-SA 4.0
+# Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Issues: lokale build (nog geen GitHub remote)/issues
+# Expires: 1 day
+# Last modified: 16 Oct 2026 11:51 UTC
+# Version: 2026.1016.115159
+# Syntax: Unbound local-zone always_nxdomain
+# Number of entries: 154
+#
 server:
-    local-zone: "admin.mtrtb.com." always_nxdomain
     local-zone: "ads-monitor.xyz." always_nxdomain
     local-zone: "adtimizer.co." always_nxdomain
-    local-zone: "adv45.volasim.com." always_nxdomain
-    local-zone: "adv50.volasim.com." always_nxdomain
     local-zone: "akedo.gg." always_nxdomain
     local-zone: "ambiguouscommerce.com." always_nxdomain
     local-zone: "antperspective.com." always_nxdomain
@@ -29,8 +32,6 @@ server:
     local-zone: "breadgroomer.com." always_nxdomain
     local-zone: "bronzemonth.com." always_nxdomain
     local-zone: "browniebell.com." always_nxdomain
-    local-zone: "bt.myweb3id.io." always_nxdomain
-    local-zone: "bt.platc-tester.com." always_nxdomain
     local-zone: "bypassbirch.com." always_nxdomain
     local-zone: "bypasscalculate.com." always_nxdomain
     local-zone: "bypasscommerce.com." always_nxdomain
@@ -39,7 +40,6 @@ server:
     local-zone: "chickenstrawberry.com." always_nxdomain
     local-zone: "citecivilization.com." always_nxdomain
     local-zone: "closetmeat.com." always_nxdomain
-    local-zone: "cn.druid.mtrtb.com." always_nxdomain
     local-zone: "commonclever.com." always_nxdomain
     local-zone: "concretebottle.com." always_nxdomain
     local-zone: "conquerconfess.com." always_nxdomain
@@ -80,20 +80,13 @@ server:
     local-zone: "discovertech.us.auth0.com." always_nxdomain
     local-zone: "distractionfar.com." always_nxdomain
     local-zone: "drivesplash.com." always_nxdomain
-    local-zone: "druid.mtrtb.com." always_nxdomain
     local-zone: "drummerjourney.com." always_nxdomain
-    local-zone: "dtech.adtimizer.co." always_nxdomain
     local-zone: "dtech.adtimizer.com." always_nxdomain
-    local-zone: "dtech.mtrtb.com." always_nxdomain
     local-zone: "dumplingbell.com." always_nxdomain
     local-zone: "electric-prime.com." always_nxdomain
     local-zone: "elifluousscintillam.com." always_nxdomain
     local-zone: "eminententwine.com." always_nxdomain
     local-zone: "enjoymultiplecats.com." always_nxdomain
-    local-zone: "events-ui.discover-tech.io." always_nxdomain
-    local-zone: "events-ui.myweb3id.io." always_nxdomain
-    local-zone: "events.myweb3id.io." always_nxdomain
-    local-zone: "events.platc-tester.com." always_nxdomain
     local-zone: "exhibitexpanse.com." always_nxdomain
     local-zone: "fallaciousessential.net." always_nxdomain
     local-zone: "fearevolve.com." always_nxdomain
@@ -109,23 +102,17 @@ server:
     local-zone: "guitarcalculate.com." always_nxdomain
     local-zone: "hostilefauna.com." always_nxdomain
     local-zone: "icecreamtester.com." always_nxdomain
-    local-zone: "imp.powerium.net." always_nxdomain
-    local-zone: "infinoas.mtrtb.com." always_nxdomain
     local-zone: "infoanalytics.live." always_nxdomain
     local-zone: "insightenterprisells.com." always_nxdomain
     local-zone: "isolatelecture.com." always_nxdomain
     local-zone: "jellybat.net." always_nxdomain
     local-zone: "jobmarcher.com." always_nxdomain
     local-zone: "journeyjest.net." always_nxdomain
-    local-zone: "js.cookie-sync.xyz." always_nxdomain
-    local-zone: "js.tracookiepixel.xyz." always_nxdomain
     local-zone: "kartingrumble.com." always_nxdomain
     local-zone: "keyadapter.com." always_nxdomain
     local-zone: "labyrinthextravagance.org." always_nxdomain
     local-zone: "leafconfuse.net." always_nxdomain
     local-zone: "lessonhandle.com." always_nxdomain
-    local-zone: "logger.controlium.net." always_nxdomain
-    local-zone: "logger.powerium.net." always_nxdomain
     local-zone: "macrodrop.net." always_nxdomain
     local-zone: "macromint.net." always_nxdomain
     local-zone: "maturitygenesis.com." always_nxdomain
@@ -135,8 +122,6 @@ server:
     local-zone: "mydsp.io." always_nxdomain
     local-zone: "myipinfo.io." always_nxdomain
     local-zone: "myweb3id.io." always_nxdomain
-    local-zone: "noas.mtrtb.com." always_nxdomain
-    local-zone: "noas.powerium.net." always_nxdomain
     local-zone: "notableexam.org." always_nxdomain
     local-zone: "notionnowadays.com." always_nxdomain
     local-zone: "outdooutcome.com." always_nxdomain
@@ -149,13 +134,10 @@ server:
     local-zone: "plasticbells.com." always_nxdomain
     local-zone: "platc-tester.com." always_nxdomain
     local-zone: "powerium.net." always_nxdomain
-    local-zone: "ppv2.mtrtb.com." always_nxdomain
-    local-zone: "pqv2.mtrtb.com." always_nxdomain
     local-zone: "prawnbasket.com." always_nxdomain
     local-zone: "predictproper.com." always_nxdomain
     local-zone: "pressaviation.com." always_nxdomain
     local-zone: "profligatecensure.com." always_nxdomain
-    local-zone: "qa-noas.powerium.net." always_nxdomain
     local-zone: "relevantech.com." always_nxdomain
     local-zone: "remindmewhere.app." always_nxdomain
     local-zone: "rollstrech.com." always_nxdomain
@@ -176,14 +158,10 @@ server:
     local-zone: "sunsetpotential.com." always_nxdomain
     local-zone: "tacticscheap.net." always_nxdomain
     local-zone: "tekma-dmp.ai." always_nxdomain
-    local-zone: "tekma.adtimizer.co." always_nxdomain
     local-zone: "tidalscreen.com." always_nxdomain
-    local-zone: "tracker.mtrtb.com." always_nxdomain
     local-zone: "tracookiepixel.xyz." always_nxdomain
     local-zone: "tubeshape.com." always_nxdomain
     local-zone: "ultimatematter.info." always_nxdomain
     local-zone: "velvetpremier.com." always_nxdomain
     local-zone: "volasim.com." always_nxdomain
     local-zone: "windomination.com." always_nxdomain
-    local-zone: "www.controlium.net." always_nxdomain
-    local-zone: "www.discover-tech.io." always_nxdomain

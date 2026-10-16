@@ -10,29 +10,96 @@ Gebaseerd op:
 
 ## Lijsten
 
-Alle bestanden staan in `lists/`. Kies het formaat van je resolver:
+Opgezet in de stijl van [Hagezi DNS blocklists](https://github.com/hagezi/dns-blocklists): een map per formaat, wildcard compressie (subdomeinen die al door een parent geblokkeerd worden vallen weg) en headers met `Title`, `Version`, `Last modified`, `Expires` en `Number of entries`, zodat AdGuard Home en uBlock automatisch updaten.
 
-| Bestand | Voor |
-| --- | --- |
-| `adblock.txt` | AdGuard Home, uBlock Origin, NextDNS, Pi-hole v6 (blokkeert ook subdomeinen) |
-| `domains.txt` | Pi-hole, Technitium, pfBlockerNG, elke plain domain lijst |
-| `hosts.txt` | `/etc/hosts`, Windows hosts, oudere Pi-hole |
-| `dnsmasq.conf` | dnsmasq, OpenWrt |
-| `unbound.conf` | Unbound, OPNsense, pfSense |
-| `rpz.zone` | BIND, PowerDNS, Knot (Response Policy Zone) |
-| `domains-<categorie>.txt` | Alleen `candiru`, `discover-tech`, `bindecy` of `intelos` |
+Kies **Full** voor alles, of een losse actor lijst. Kies het formaat van je resolver. De `Domains` en `Hosts` varianten bevatten de volledige set inclusief subdomeinen, omdat die formaten geen wildcards ondersteunen.
 
-Abonneren via de raw URL, bijvoorbeeld:
+<!-- LISTS:START -->
 
-```
-https://raw.githubusercontent.com/<gebruiker>/adfection-blocklist/main/lists/adblock.txt
-```
+Totaal: **182** domeinen, **154** na wildcard compressie.
+
+### AdFection Full
+
+Alle bekende infrastructuur: Discover-Tech, Candiru, Bindecy, Intelos
+
+| Formaat | Voor | Link |
+| --- | --- | --- |
+| Adblock | AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS | [adblock/adfection.txt](lists/adblock/adfection.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection.txt](lists/dnsmasq/adfection.txt) |
+| Wildcard | Wildcard domains (root dekt subdomeinen), Technitium, Blocky | [wildcard/adfection-onlydomains.txt](lists/wildcard/adfection-onlydomains.txt) |
+| Asterisk Wildcard | *.domain syntax, pfBlockerNG, Blocky, Diversion | [wildcard/adfection.txt](lists/wildcard/adfection.txt) |
+| Domains | Pi-hole, plain lijsten, volledige set incl. subdomeinen | [domains/adfection.txt](lists/domains/adfection.txt) |
+| Hosts | /etc/hosts, Windows, oudere Pi-hole | [hosts/adfection.txt](lists/hosts/adfection.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection.txt](lists/rpz/adfection.txt) |
+| Unbound | Unbound, OPNsense, pfSense | [unbound/adfection.txt](lists/unbound/adfection.txt) |
+
+### AdFection Candiru
+
+Candiru / Integrity Labs validator, C&C en delivery servers
+
+| Formaat | Voor | Link |
+| --- | --- | --- |
+| Adblock | AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS | [adblock/adfection-candiru.txt](lists/adblock/adfection-candiru.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-candiru.txt](lists/dnsmasq/adfection-candiru.txt) |
+| Wildcard | Wildcard domains (root dekt subdomeinen), Technitium, Blocky | [wildcard/adfection-candiru-onlydomains.txt](lists/wildcard/adfection-candiru-onlydomains.txt) |
+| Asterisk Wildcard | *.domain syntax, pfBlockerNG, Blocky, Diversion | [wildcard/adfection-candiru.txt](lists/wildcard/adfection-candiru.txt) |
+| Domains | Pi-hole, plain lijsten, volledige set incl. subdomeinen | [domains/adfection-candiru.txt](lists/domains/adfection-candiru.txt) |
+| Hosts | /etc/hosts, Windows, oudere Pi-hole | [hosts/adfection-candiru.txt](lists/hosts/adfection-candiru.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-candiru.txt](lists/rpz/adfection-candiru.txt) |
+| Unbound | Unbound, OPNsense, pfSense | [unbound/adfection-candiru.txt](lists/unbound/adfection-candiru.txt) |
+
+### AdFection Discover-Tech
+
+Controlium, MyDSP, NOAS servers en ID syncing
+
+| Formaat | Voor | Link |
+| --- | --- | --- |
+| Adblock | AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS | [adblock/adfection-discover-tech.txt](lists/adblock/adfection-discover-tech.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-discover-tech.txt](lists/dnsmasq/adfection-discover-tech.txt) |
+| Wildcard | Wildcard domains (root dekt subdomeinen), Technitium, Blocky | [wildcard/adfection-discover-tech-onlydomains.txt](lists/wildcard/adfection-discover-tech-onlydomains.txt) |
+| Asterisk Wildcard | *.domain syntax, pfBlockerNG, Blocky, Diversion | [wildcard/adfection-discover-tech.txt](lists/wildcard/adfection-discover-tech.txt) |
+| Domains | Pi-hole, plain lijsten, volledige set incl. subdomeinen | [domains/adfection-discover-tech.txt](lists/domains/adfection-discover-tech.txt) |
+| Hosts | /etc/hosts, Windows, oudere Pi-hole | [hosts/adfection-discover-tech.txt](lists/hosts/adfection-discover-tech.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-discover-tech.txt](lists/rpz/adfection-discover-tech.txt) |
+| Unbound | Unbound, OPNsense, pfSense | [unbound/adfection-discover-tech.txt](lists/unbound/adfection-discover-tech.txt) |
+
+### AdFection Bindecy
+
+Bindecy spyware infrastructuur
+
+| Formaat | Voor | Link |
+| --- | --- | --- |
+| Adblock | AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS | [adblock/adfection-bindecy.txt](lists/adblock/adfection-bindecy.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-bindecy.txt](lists/dnsmasq/adfection-bindecy.txt) |
+| Wildcard | Wildcard domains (root dekt subdomeinen), Technitium, Blocky | [wildcard/adfection-bindecy-onlydomains.txt](lists/wildcard/adfection-bindecy-onlydomains.txt) |
+| Asterisk Wildcard | *.domain syntax, pfBlockerNG, Blocky, Diversion | [wildcard/adfection-bindecy.txt](lists/wildcard/adfection-bindecy.txt) |
+| Domains | Pi-hole, plain lijsten, volledige set incl. subdomeinen | [domains/adfection-bindecy.txt](lists/domains/adfection-bindecy.txt) |
+| Hosts | /etc/hosts, Windows, oudere Pi-hole | [hosts/adfection-bindecy.txt](lists/hosts/adfection-bindecy.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-bindecy.txt](lists/rpz/adfection-bindecy.txt) |
+| Unbound | Unbound, OPNsense, pfSense | [unbound/adfection-bindecy.txt](lists/unbound/adfection-bindecy.txt) |
+
+### AdFection Intelos
+
+Intelos ADINT infrastructuur
+
+| Formaat | Voor | Link |
+| --- | --- | --- |
+| Adblock | AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS | [adblock/adfection-intelos.txt](lists/adblock/adfection-intelos.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-intelos.txt](lists/dnsmasq/adfection-intelos.txt) |
+| Wildcard | Wildcard domains (root dekt subdomeinen), Technitium, Blocky | [wildcard/adfection-intelos-onlydomains.txt](lists/wildcard/adfection-intelos-onlydomains.txt) |
+| Asterisk Wildcard | *.domain syntax, pfBlockerNG, Blocky, Diversion | [wildcard/adfection-intelos.txt](lists/wildcard/adfection-intelos.txt) |
+| Domains | Pi-hole, plain lijsten, volledige set incl. subdomeinen | [domains/adfection-intelos.txt](lists/domains/adfection-intelos.txt) |
+| Hosts | /etc/hosts, Windows, oudere Pi-hole | [hosts/adfection-intelos.txt](lists/hosts/adfection-intelos.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-intelos.txt](lists/rpz/adfection-intelos.txt) |
+| Unbound | Unbound, OPNsense, pfSense | [unbound/adfection-intelos.txt](lists/unbound/adfection-intelos.txt) |
+
+<!-- LISTS:END -->
 
 ## Hoe het werkt
 
 ```
 sources/*.txt  ─┐
-                ├─> scripts/build.py ─> lists/*
+                ├─> scripts/build.py ─> lists/<formaat>/adfection*.txt
 candidates/approved.txt ─┘                ▲
                                           │ handmatige review
 scripts/discover.py ─> candidates/candidates-YYYYMMDD.txt
