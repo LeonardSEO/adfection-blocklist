@@ -1,0 +1,53 @@
+name: Build en discovery
+
+on:
+  push:
+    branches: [main]
+    paths: ["sources/**", "candidates/approved.txt", "allowlist.txt", "scripts/**"]
+  schedule:
+    - cron: "17 6 * * 1"   # elke maandag 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discovery (alleen bij schedule of handmatig)
+        if: github.event_name != 'push'
+        env:
+          CENSYS_API_ID: ${{ secrets.CENSYS_API_ID }}
+          CENSYS_API_SECRET: ${{ secrets.CENSYS_API_SECRET }}
+          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
+        run: python3 scripts/discover.py
+
+      - name: Build lijsten
+        run: python3 scripts/build.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lists candidates
+          git diff --cached --quiet || git commit -m "Automatische update $(date -u +%F)"
+          git push
+
+      - name: Issue bij nieuwe kandidaten
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=$(ls -t candidates/candidates-*.txt 2>/dev/null | head -1)
+          [ -z "$f" ] && exit 0
+          n=$(grep -cv '^#\|^$' "$f" || true)
+          [ "$n" -eq 0 ] && exit 0
+          { echo "Discovery vond **$n** nieuwe kandidaten. Controleer en verplaats wat klopt naar \`candidates/approved.txt\`."; echo; echo '```'; grep -v '^#\|^$' "$f"; echo '```'; } > body.md
+          gh issue create --title "Review: $n nieuwe kandidaten ($(basename "$f"))" --body-file body.md

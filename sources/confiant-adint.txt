@@ -1,0 +1,23 @@
+# Bron: Confiant, "ADINT: weaponized ad tech for zero-click spyware and mass identity vacuuming" (oktober 2026)
+# https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming
+
+# Discover-Tech / Adtimizer
+adtimizer.co                # discover-tech: zelfde AWS account als mtrtb
+tekma.adtimizer.co          # discover-tech: zelfde load balancer
+dtech.mtrtb.com             # discover-tech: subdomein
+tekma-dmp.ai                # discover-tech: Tekma, ADINT, zelfde Wix account
+www.discover-tech.io        # discover-tech: bedrijfssite
+ads-monitor.xyz             # discover-tech: in Confiant IOC lijst
+pagead.trustlayersdk.com    # discover-tech: C2 endpoint van de SDK
+
+# Candiru: CloudFront delivery laag
+d23625plpxg1yn.cloudfront.net # candiru: ?impid= iframe host
+d39619tdxn6mhj.cloudfront.net # candiru: ?impid= iframe host
+d2f4zpg1mgzwov.cloudfront.net # candiru: ?impid= iframe host
+d1fzw0miu1r9rc.cloudfront.net # candiru: ?impid= iframe host
+d19oo8r6k9oumb.cloudfront.net # candiru: ?impid= iframe host
+d147nolwbekx2b.cloudfront.net # candiru: ?impid= iframe host
+dcv2rnj2ograe.cloudfront.net  # candiru: ?impid= iframe host
+d1x4e580sn23dn.cloudfront.net # candiru: ?impid= iframe host
+d2epnp0vokbtl7.cloudfront.net # candiru: ?qq= fingerprinting en payload
+d8lmy5wyiokrq.cloudfront.net  # candiru: tracking pixel

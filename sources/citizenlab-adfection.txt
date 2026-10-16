@@ -1,0 +1,75 @@
+# Bron: Citizen Lab Report 195, "Exposing AdFection" (15 oktober 2026)
+# https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/
+# Formaat: domein  # categorie: toelichting
+
+# Candiru / Integrity Labs: validator servers (Fingerprint V1)
+keyadapter.com              # candiru: validator server
+sharethere.net              # candiru: validator server
+# Candiru: C&C servers (Fingerprint C1)
+fearevolve.com              # candiru: C&C, hardcoded in DLL sample
+insightenterprisells.com    # candiru: C&C
+jobmarcher.com              # candiru: C&C, hardcoded in DLL sample
+plasticbells.com            # candiru: C&C
+# Candiru: profiling servers
+outdooutcome.com            # candiru: profiling, SOA info@rockhoster
+suggestutterly.com          # candiru: profiling, SOA info@rockhoster
+sincereaccertain.com        # candiru: ?qq= profiling via Discover-Tech ads
+d1fcoizt7mje85.cloudfront.net # candiru: ?qq= profiling via Discover-Tech ads
+
+# Discover-Tech: Controlium platform
+controlium.net              # discover-tech: Controlium
+www.controlium.net          # discover-tech: Controlium
+logger.controlium.net       # discover-tech: event logger
+powerium.net                # discover-tech: Controlium
+logger.powerium.net         # discover-tech: event logger
+noas.powerium.net           # discover-tech: NOAS server
+qa-noas.powerium.net        # discover-tech: NOAS server QA
+imp.powerium.net            # discover-tech: impressie tracking
+volasim.com                 # discover-tech: gelieerd, Controlium host
+adv45.volasim.com           # discover-tech: Controlium
+adv50.volasim.com           # discover-tech: Controlium
+discovertech-alb-100966113.us-east-1.elb.amazonaws.com # discover-tech: AWS load balancer
+discovertech.us.auth0.com   # discover-tech: Controlium login
+# Discover-Tech: MyDSP en NOAS
+mtrtb.com                   # discover-tech: MyDSP hoofddomein
+noas.mtrtb.com              # discover-tech: NOAS server
+infinoas.mtrtb.com          # discover-tech: NOAS Infinite FIFO
+pqv2.mtrtb.com              # discover-tech: NOAS v2 test
+ppv2.mtrtb.com              # discover-tech: NOAS v2 productie
+tracker.mtrtb.com           # discover-tech: impressie en klik tracking
+admin.mtrtb.com             # discover-tech: MyDSP admin
+druid.mtrtb.com             # discover-tech: biddingdata
+cn.druid.mtrtb.com          # discover-tech: biddingdata Sunteng
+mydsp.io                    # discover-tech: MyDSP
+discover-tech.io            # discover-tech: bedrijfssite, tracking pixel
+events-ui.discover-tech.io  # discover-tech: Mini Platform C
+myweb3id.io                 # discover-tech: ID syncing
+events.myweb3id.io          # discover-tech: ID syncing Yandex, NOAS
+events-ui.myweb3id.io       # discover-tech: Mini Platform C
+bt.myweb3id.io              # discover-tech: Banner Tester
+platc-tester.com            # discover-tech: test platform
+events.platc-tester.com     # discover-tech: NOAS test
+bt.platc-tester.com         # discover-tech: Banner Tester
+myipinfo.io                 # discover-tech: advertiser bestemming, OpSec decoder
+tracookiepixel.xyz          # discover-tech: ID syncing Beeswax
+js.tracookiepixel.xyz       # discover-tech: tracking pixel script
+cookie-sync.xyz             # discover-tech: cookie syncing
+js.cookie-sync.xyz          # discover-tech: tracking pixel script
+cookiesurfer.com            # discover-tech: laadt tracking pixel
+dtech.adtimizer.co          # discover-tech: impressie en klik tracking
+dtech.adtimizer.com         # discover-tech: impressie tracking
+akedo.gg                    # discover-tech: gelieerde advertiser
+remindmewhere.app           # discover-tech: gelieerde advertiser (Volasim)
+relevantech.com             # discover-tech: voorganger, sinds 2020 in handen
+
+# Bindecy
+beachvibesnow.com           # bindecy: cupid-ca certificaat
+enjoymultiplecats.com       # bindecy: cupid-ca certificaat
+icecreamtester.com          # bindecy: cupid-ca certificaat
+pickarest.com               # bindecy: cupid-ca certificaat
+infoanalytics.live          # bindecy: cupid-ca certificaat
+archer.westeurope.cloudapp.azure.com # bindecy: Archer product
+bd-mainserver.herokuapp.com # bindecy: hoofdserver
+
+# Intelos
+globaldatapoints.com        # intelos: AD/HOC platform

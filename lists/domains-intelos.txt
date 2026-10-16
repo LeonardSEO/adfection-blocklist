@@ -1,0 +1,7 @@
+# AdFection / Discover-Tech / Candiru / Bindecy / Intelos blocklist
+# Gegenereerd: 2026-10-16 11:50 UTC
+# Aantal domeinen: 182
+# Bronnen: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Licentie: CC BY-NC-SA 4.0
+
+globaldatapoints.com

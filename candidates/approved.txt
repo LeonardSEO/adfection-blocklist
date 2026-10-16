@@ -1,0 +1,1 @@
+# Goedgekeurde domeinen uit discovery runs. Formaat: domein  # categorie: reden

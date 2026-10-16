@@ -1,0 +1,56 @@
+# AdFection / Discover-Tech / Candiru / Bindecy / Intelos blocklist
+# Gegenereerd: 2026-10-16 11:50 UTC
+# Aantal domeinen: 182
+# Bronnen: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Licentie: CC BY-NC-SA 4.0
+
+admin.mtrtb.com
+ads-monitor.xyz
+adtimizer.co
+adv45.volasim.com
+adv50.volasim.com
+akedo.gg
+bt.myweb3id.io
+bt.platc-tester.com
+cn.druid.mtrtb.com
+controlium.net
+cookie-sync.xyz
+cookiesurfer.com
+discover-tech.io
+discovertech-alb-100966113.us-east-1.elb.amazonaws.com
+discovertech.us.auth0.com
+druid.mtrtb.com
+dtech.adtimizer.co
+dtech.adtimizer.com
+dtech.mtrtb.com
+events-ui.discover-tech.io
+events-ui.myweb3id.io
+events.myweb3id.io
+events.platc-tester.com
+imp.powerium.net
+infinoas.mtrtb.com
+js.cookie-sync.xyz
+js.tracookiepixel.xyz
+logger.controlium.net
+logger.powerium.net
+mtrtb.com
+mydsp.io
+myipinfo.io
+myweb3id.io
+noas.mtrtb.com
+noas.powerium.net
+pagead.trustlayersdk.com
+platc-tester.com
+powerium.net
+ppv2.mtrtb.com
+pqv2.mtrtb.com
+qa-noas.powerium.net
+relevantech.com
+remindmewhere.app
+tekma-dmp.ai
+tekma.adtimizer.co
+tracker.mtrtb.com
+tracookiepixel.xyz
+volasim.com
+www.controlium.net
+www.discover-tech.io

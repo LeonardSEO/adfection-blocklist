@@ -1,0 +1,23 @@
+# Domeinen die NOOIT in de output mogen, ook als een bron of discovery ze noemt.
+# Dit zijn legitieme platforms waar het blokkeren van het hoofddomein internet breekt.
+# Specifieke subdomeinen (zoals xyz.cloudfront.net) blijven wel toegestaan.
+amazonaws.com
+us-east-1.elb.amazonaws.com
+cloudfront.net
+azure.com
+cloudapp.azure.com
+westeurope.cloudapp.azure.com
+herokuapp.com
+auth0.com
+us.auth0.com
+google.com
+microsoft.com
+yandex.ru
+an.yandex.ru
+aliexpress.com
+s.click.aliexpress.com
+bidr.io
+cloudflare-dns.com
+example.com
+citizenlab.ca
+confiant.com
