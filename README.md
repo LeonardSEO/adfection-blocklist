@@ -160,10 +160,10 @@ python3 scripts/discover.py --skip censys --max-seconds 600
 
 Discovery queries Certificate Transparency (crt.sh), existing urlscan.io search results and Cloudflare DNS over HTTPS. It does not submit websites for scanning or fetch suspected spyware endpoints. Optional `URLSCAN_API_KEY` raises authenticated service limits. Optional `CENSYS_API_ID` / `CENSYS_API_SECRET` enable a **legacy Censys v2 API** integration; availability depends on your account and is not guaranteed. Store credentials in environment variables or GitHub Actions secrets, never in repository files.
 
-Results are **leads for manual review**, not verified malicious domains. Certificate issuance, a shared IP or a reference on a publisher's page does not establish malicious ownership. Discovery is bounded by time, API availability and first-page result limits. A JSON report records skipped sources and failures; partial runs exit nonzero, even when they found zero candidates.
+Results are **leads for manual review**, not verified malicious domains. Certificate issuance, a shared IP or a reference on a publisher's page does not establish malicious ownership. Discovery divides its time budget between enabled services so one unavailable source cannot prevent the others from being queried. It is bounded by time, API availability and first-page result limits. A JSON report records skipped sources and failures; partial runs exit nonzero, even when they found zero candidates.
 
 - **CI** runs offline tests and checks generated output on pushes and pull requests.
-- **Build and discovery** rebuilds on relevant pushes to `main`. Every Monday at **06:17 UTC**, or when manually dispatched, it also performs discovery. Discovery failure does not stop the independent list build.
+- **Build and discovery** rebuilds on relevant pushes to `main`. Every Monday at **06:17 UTC**, or when manually dispatched, it also performs discovery. Manual runs allow a custom time budget through the `discovery_seconds` input. Discovery failure does not stop the independent list build.
 - Automation commits generated list changes. Discovery results are committed separately and produce a review issue for new candidates or partial results, with duplicate issue titles suppressed.
 - The workflows explicitly request their required token permissions; changing the repository-wide default to read/write is normally unnecessary. Organization policies and branch protection can still restrict automated pushes.
 

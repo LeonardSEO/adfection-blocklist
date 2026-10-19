@@ -181,7 +181,7 @@ def main() -> None:
     if args.max_seconds < 1:
         ap.error('--max-seconds moet positief zijn')
     ERRORS.clear()
-    DEADLINE = time.monotonic() + args.max_seconds
+    overall_deadline = time.monotonic() + args.max_seconds
 
     known: set[str] = set(parse(APPROVED))
     for src in SOURCES.glob("*.txt"):
@@ -190,7 +190,9 @@ def main() -> None:
 
     found: dict[str, str] = {}
     completed = []
+    failed = []
     omitted = sorted(skip)
+    actions = []
     for name, action in [('crtsh', lambda: crtsh(found)), ('urlscan', lambda: urlscan(found)),
                          ('censys', lambda: censys(found)), ('dns', lambda: dns(found, known))]:
         if name in skip:
@@ -198,12 +200,19 @@ def main() -> None:
         if name == 'censys' and not (os.environ.get('CENSYS_API_ID') and os.environ.get('CENSYS_API_SECRET')):
             omitted.append('censys (no credentials)')
             continue
+        actions.append((name, action))
+    for index, (name, action) in enumerate(actions):
+        # Reserve a share for every remaining service; an unavailable CT endpoint
+        # must not consume the entire run and starve urlscan or DNS verification.
+        now = time.monotonic()
+        DEADLINE = now + max(0, overall_deadline - now) / (len(actions) - index)
+        error_count = len(ERRORS)
         try:
             action()
-            completed.append(name)
         except DiscoveryDeadline as error:
-            ERRORS.append(str(error))
-            break
+            ERRORS.append(f'{name}: {error}')
+        (completed if len(ERRORS) == error_count else failed).append(name)
+    DEADLINE = None
 
     new = {d: why for d, why in found.items() if d not in known and d not in allow}
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")
@@ -220,7 +229,7 @@ def main() -> None:
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     out.with_suffix('.json').write_text(json.dumps({
         'status': 'partial' if ERRORS else 'completed',
-        'completed_sources': completed, 'skipped_sources': omitted,
+        'completed_sources': completed, 'failed_sources': failed, 'skipped_sources': omitted,
         'errors': ERRORS, 'candidate_count': len(new),
         'limitations': 'First result page only; historical or undisclosed infrastructure is not enumerated.'
     }, indent=2) + '\n', encoding='utf-8')

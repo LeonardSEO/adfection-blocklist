@@ -12,6 +12,12 @@ on:
   schedule:
     - cron: '17 6 * * 1'
   workflow_dispatch:
+    inputs:
+      discovery_seconds:
+        description: 'Discovery time budget in seconds (scheduled runs use 600)'
+        required: true
+        default: '600'
+        type: string
 
 permissions:
   contents: read
@@ -71,7 +77,8 @@ jobs:
           CENSYS_API_ID: ${{ secrets.CENSYS_API_ID }}
           CENSYS_API_SECRET: ${{ secrets.CENSYS_API_SECRET }}
           URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
-        run: python3 scripts/discover.py --max-seconds 600
+          DISCOVERY_SECONDS: ${{ inputs.discovery_seconds || '600' }}
+        run: python3 -u scripts/discover.py --max-seconds "$DISCOVERY_SECONDS"
       - name: Archive discovery reports
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7

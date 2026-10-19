@@ -7,7 +7,7 @@
 - Clarified partial coverage, historical indicators, associated sites and client update behavior.
 - Added root records alongside asterisk wildcard records and distinguished rule/domain counts.
 - Reject unknown or conflicting categories and empty builds; check generated output without modifying files.
-- Added offline regression tests, pull request CI, bounded discovery and explicit partial/error reports.
+- Added offline regression tests, pull request CI, bounded discovery with a time share per service, and explicit partial/error reports.
 - Added contributor guidance, source attribution, issue templates and separate code/list licensing scope.
 
 ## 2026-10-16
