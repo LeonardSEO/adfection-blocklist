@@ -5,8 +5,8 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 19 Oct 2026 08:27 UTC
-# Version: 2026.1019.082709
+# Last modified: 19 Oct 2026 08:31 UTC
+# Version: 2026.1019.083112
 # Syntax: Explicit root and wildcard pairs (domain and *.domain)
 # Number of entries: 14
 # Number of domains: 7
