@@ -5,14 +5,14 @@
 ; Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 ; Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ; Expires: 1 day
-; Last modified: 19 Oct 2026 08:26 UTC
-; Version: 2026.1019.082646
+; Last modified: 19 Oct 2026 08:27 UTC
+; Version: 2026.1019.082709
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
 ; Number of entries: 318
 ; Number of domains: 159
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1792398406 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1792398429 43200 3600 259200 300
 @ IN NS localhost.
 
 ads-impressions.com CNAME .
