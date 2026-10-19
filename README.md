@@ -112,7 +112,7 @@ See [source attribution and coverage](docs/SOURCES.md) for extraction counts, in
 
 | Directory | Syntax | Coverage |
 | --- | --- | --- |
-| `lists/adblock/` | `||example.org^` | Root and subdomains in compatible filter engines |
+| `lists/adblock/` | `\|\|example.org^` | Root and subdomains in compatible filter engines |
 | `lists/domains/` | `example.org` | All explicitly listed hosts; importer determines matching |
 | `lists/hosts/` | `0.0.0.0 example.org` | Exact hostname when used as an OS hosts file |
 | `lists/dnsmasq/` | `local=/example.org/` | Local negative answers for root and subdomains |
