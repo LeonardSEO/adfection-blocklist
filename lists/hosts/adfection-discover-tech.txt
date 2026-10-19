@@ -1,16 +1,18 @@
 # Title: AdFection Discover-Tech
-# Description: Controlium, MyDSP, NOAS servers en ID syncing
-# Homepage: lokale build (nog geen GitHub remote)
+# Description: Controlium, MyDSP, NOAS servers and ID syncing
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Issues: lokale build (nog geen GitHub remote)/issues
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 16 Oct 2026 11:51 UTC
-# Version: 2026.1016.115159
+# Last modified: 19 Oct 2026 08:25 UTC
+# Version: 2026.1019.082559
 # Syntax: Hosts (0.0.0.0 domain)
-# Number of entries: 50
+# Number of entries: 56
+# Number of domains: 56
 #
 0.0.0.0 admin.mtrtb.com
+0.0.0.0 ads-impressions.com
 0.0.0.0 ads-monitor.xyz
 0.0.0.0 adtimizer.co
 0.0.0.0 adv45.volasim.com
@@ -18,6 +20,7 @@
 0.0.0.0 akedo.gg
 0.0.0.0 bt.myweb3id.io
 0.0.0.0 bt.platc-tester.com
+0.0.0.0 checkmyimp.com
 0.0.0.0 cn.druid.mtrtb.com
 0.0.0.0 controlium.net
 0.0.0.0 cookie-sync.xyz
@@ -43,8 +46,12 @@
 0.0.0.0 mydsp.io
 0.0.0.0 myipinfo.io
 0.0.0.0 myweb3id.io
+0.0.0.0 noas.adtimizer.co
+0.0.0.0 noas.impchkdsp.com
 0.0.0.0 noas.mtrtb.com
 0.0.0.0 noas.powerium.net
+0.0.0.0 noas.trakking.co
+0.0.0.0 nutralove.co
 0.0.0.0 pagead.trustlayersdk.com
 0.0.0.0 platc-tester.com
 0.0.0.0 powerium.net

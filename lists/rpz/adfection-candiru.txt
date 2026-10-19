@@ -1,17 +1,18 @@
 ; Title: AdFection Candiru
-; Description: Candiru / Integrity Labs validator, C&C en delivery servers
-; Homepage: lokale build (nog geen GitHub remote)
+; Description: Candiru / Integrity Labs validator, C2 and delivery servers
+; Homepage: https://github.com/LeonardSEO/adfection-blocklist
 ; License: CC BY-NC-SA 4.0
 ; Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-; Issues: lokale build (nog geen GitHub remote)/issues
+; Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ; Expires: 1 day
-; Last modified: 16 Oct 2026 11:51 UTC
-; Version: 2026.1016.115159
+; Last modified: 19 Oct 2026 08:25 UTC
+; Version: 2026.1019.082559
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
-; Number of entries: 124
+; Number of entries: 248
+; Number of domains: 124
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 2026101611 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1792398359 43200 3600 259200 300
 @ IN NS localhost.
 
 ambiguouscommerce.com CNAME .

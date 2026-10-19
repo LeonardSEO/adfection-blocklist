@@ -1,19 +1,22 @@
 # Title: AdFection Discover-Tech
-# Description: Controlium, MyDSP, NOAS servers en ID syncing
-# Homepage: lokale build (nog geen GitHub remote)
+# Description: Controlium, MyDSP, NOAS servers and ID syncing
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Issues: lokale build (nog geen GitHub remote)/issues
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 16 Oct 2026 11:51 UTC
-# Version: 2026.1016.115159
+# Last modified: 19 Oct 2026 08:25 UTC
+# Version: 2026.1019.082559
 # Syntax: Unbound local-zone always_nxdomain
-# Number of entries: 22
+# Number of entries: 27
+# Number of domains: 27
 #
 server:
+    local-zone: "ads-impressions.com." always_nxdomain
     local-zone: "ads-monitor.xyz." always_nxdomain
     local-zone: "adtimizer.co." always_nxdomain
     local-zone: "akedo.gg." always_nxdomain
+    local-zone: "checkmyimp.com." always_nxdomain
     local-zone: "controlium.net." always_nxdomain
     local-zone: "cookie-sync.xyz." always_nxdomain
     local-zone: "cookiesurfer.com." always_nxdomain
@@ -25,6 +28,9 @@ server:
     local-zone: "mydsp.io." always_nxdomain
     local-zone: "myipinfo.io." always_nxdomain
     local-zone: "myweb3id.io." always_nxdomain
+    local-zone: "noas.impchkdsp.com." always_nxdomain
+    local-zone: "noas.trakking.co." always_nxdomain
+    local-zone: "nutralove.co." always_nxdomain
     local-zone: "pagead.trustlayersdk.com." always_nxdomain
     local-zone: "platc-tester.com." always_nxdomain
     local-zone: "powerium.net." always_nxdomain

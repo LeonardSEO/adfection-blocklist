@@ -1,0 +1,23 @@
+name: False positive
+description: Report a listed hostname that blocks legitimate use.
+title: "False positive: "
+body:
+  - type: input
+    id: hostname
+    attributes:
+      label: Exact hostname
+    validations:
+      required: true
+  - type: input
+    id: list
+    attributes:
+      label: List URL and blocker/version
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Impact and evidence
+      description: Explain what fails and whether a local exception resolves it. Do not include private logs or credentials.
+    validations:
+      required: true

@@ -31,6 +31,14 @@ adv50.volasim.com           # discover-tech: Controlium
 discovertech-alb-100966113.us-east-1.elb.amazonaws.com # discover-tech: AWS load balancer
 discovertech.us.auth0.com   # discover-tech: Controlium login
 # Discover-Tech: MyDSP en NOAS
+# Appendix C, reviewed 2026-10-19. The report describes these as associated
+# infrastructure; this does not imply every host served an exploit.
+noas.adtimizer.co           # discover-tech: Appendix C, additional associated NOAS server
+noas.impchkdsp.com          # discover-tech: Appendix C, additional associated NOAS server
+noas.trakking.co            # discover-tech: Appendix C, additional associated NOAS server
+checkmyimp.com              # discover-tech: Appendix C, associated ad tracking or targeting
+ads-impressions.com         # discover-tech: Appendix C, associated ad tracking or targeting
+nutralove.co                # discover-tech: Appendix C, associated ad tracking or targeting
 mtrtb.com                   # discover-tech: MyDSP hoofddomein
 noas.mtrtb.com              # discover-tech: NOAS server
 infinoas.mtrtb.com          # discover-tech: NOAS Infinite FIFO

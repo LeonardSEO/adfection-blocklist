@@ -1,19 +1,22 @@
 [Adblock Plus]
 ! Title: AdFection Discover-Tech
-! Description: Controlium, MyDSP, NOAS servers en ID syncing
-! Homepage: lokale build (nog geen GitHub remote)
+! Description: Controlium, MyDSP, NOAS servers and ID syncing
+! Homepage: https://github.com/LeonardSEO/adfection-blocklist
 ! License: CC BY-NC-SA 4.0
 ! Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-! Issues: lokale build (nog geen GitHub remote)/issues
+! Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ! Expires: 1 day
-! Last modified: 16 Oct 2026 11:51 UTC
-! Version: 2026.1016.115159
-! Syntax: Adblock Plus (AdGuard, AdGuard Home, uBlock Origin, Pi-hole v6, NextDNS)
-! Number of entries: 22
+! Last modified: 19 Oct 2026 08:25 UTC
+! Version: 2026.1019.082559
+! Syntax: Adblock domain rules (AdGuard Home, uBlock Origin)
+! Number of entries: 27
+! Number of domains: 27
 !
+||ads-impressions.com^
 ||ads-monitor.xyz^
 ||adtimizer.co^
 ||akedo.gg^
+||checkmyimp.com^
 ||controlium.net^
 ||cookie-sync.xyz^
 ||cookiesurfer.com^
@@ -25,6 +28,9 @@
 ||mydsp.io^
 ||myipinfo.io^
 ||myweb3id.io^
+||noas.impchkdsp.com^
+||noas.trakking.co^
+||nutralove.co^
 ||pagead.trustlayersdk.com^
 ||platc-tester.com^
 ||powerium.net^

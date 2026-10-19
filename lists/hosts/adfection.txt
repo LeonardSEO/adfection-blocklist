@@ -1,16 +1,18 @@
 # Title: AdFection Full
-# Description: Alle bekende infrastructuur: Discover-Tech, Candiru, Bindecy, Intelos
-# Homepage: lokale build (nog geen GitHub remote)
+# Description: Published indicators associated with Discover-Tech, Candiru, Bindecy and Intelos
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Issues: lokale build (nog geen GitHub remote)/issues
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 16 Oct 2026 11:51 UTC
-# Version: 2026.1016.115159
+# Last modified: 19 Oct 2026 08:25 UTC
+# Version: 2026.1019.082559
 # Syntax: Hosts (0.0.0.0 domain)
-# Number of entries: 182
+# Number of entries: 188
+# Number of domains: 188
 #
 0.0.0.0 admin.mtrtb.com
+0.0.0.0 ads-impressions.com
 0.0.0.0 ads-monitor.xyz
 0.0.0.0 adtimizer.co
 0.0.0.0 adv45.volasim.com
@@ -41,6 +43,7 @@
 0.0.0.0 bypasscommerce.com
 0.0.0.0 calmbase.org
 0.0.0.0 cartoondrop.net
+0.0.0.0 checkmyimp.com
 0.0.0.0 chickenstrawberry.com
 0.0.0.0 citecivilization.com
 0.0.0.0 closetmeat.com
@@ -140,10 +143,14 @@
 0.0.0.0 mydsp.io
 0.0.0.0 myipinfo.io
 0.0.0.0 myweb3id.io
+0.0.0.0 noas.adtimizer.co
+0.0.0.0 noas.impchkdsp.com
 0.0.0.0 noas.mtrtb.com
 0.0.0.0 noas.powerium.net
+0.0.0.0 noas.trakking.co
 0.0.0.0 notableexam.org
 0.0.0.0 notionnowadays.com
+0.0.0.0 nutralove.co
 0.0.0.0 outdooutcome.com
 0.0.0.0 pagead.trustlayersdk.com
 0.0.0.0 parkourbus.com

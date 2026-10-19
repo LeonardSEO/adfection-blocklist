@@ -1,7 +1,18 @@
-Lijsten (lists/, sources/, candidates/): Creative Commons BY-NC-SA 4.0
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+AdFection blocklist licensing
 
-Scripts (scripts/, .github/): MIT License
+Original compilation and project additions (lists/, sources/, candidates/):
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+License deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full legal text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+Attribution to the original publications is recorded in docs/SOURCES.md and the
+source files. Third-party research and reports remain subject to their own rights
+and terms; this grant covers only rights held by this project. It does not assert
+that all source publications are CC-licensed or relicense their full text.
+
+Code (scripts/, tests/, .github/): MIT License
+SPDX-License-Identifier: MIT
 
 Copyright (c) 2026 Leonard van Hemert
 

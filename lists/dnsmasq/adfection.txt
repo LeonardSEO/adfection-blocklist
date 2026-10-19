@@ -1,15 +1,17 @@
 # Title: AdFection Full
-# Description: Alle bekende infrastructuur: Discover-Tech, Candiru, Bindecy, Intelos
-# Homepage: lokale build (nog geen GitHub remote)
+# Description: Published indicators associated with Discover-Tech, Candiru, Bindecy and Intelos
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Issues: lokale build (nog geen GitHub remote)/issues
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 16 Oct 2026 11:51 UTC
-# Version: 2026.1016.115159
-# Syntax: DNSMasq (local=/domain/, blokkeert ook subdomeinen)
-# Number of entries: 154
+# Last modified: 19 Oct 2026 08:25 UTC
+# Version: 2026.1019.082559
+# Syntax: DNSMasq (local=/domain/, includes subdomains)
+# Number of entries: 159
+# Number of domains: 159
 #
+local=/ads-impressions.com/
 local=/ads-monitor.xyz/
 local=/adtimizer.co/
 local=/akedo.gg/
@@ -36,6 +38,7 @@ local=/bypasscalculate.com/
 local=/bypasscommerce.com/
 local=/calmbase.org/
 local=/cartoondrop.net/
+local=/checkmyimp.com/
 local=/chickenstrawberry.com/
 local=/citecivilization.com/
 local=/closetmeat.com/
@@ -121,8 +124,11 @@ local=/mushroompalm.com/
 local=/mydsp.io/
 local=/myipinfo.io/
 local=/myweb3id.io/
+local=/noas.impchkdsp.com/
+local=/noas.trakking.co/
 local=/notableexam.org/
 local=/notionnowadays.com/
+local=/nutralove.co/
 local=/outdooutcome.com/
 local=/pagead.trustlayersdk.com/
 local=/parkourbus.com/

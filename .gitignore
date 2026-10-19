@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 body.md
+.DS_Store
+.venv/
+.env
+.env.*

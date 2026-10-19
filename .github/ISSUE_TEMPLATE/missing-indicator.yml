@@ -1,0 +1,23 @@
+name: Missing indicator
+description: Suggest a hostname with public research evidence.
+title: "Missing indicator: "
+body:
+  - type: input
+    id: hostname
+    attributes:
+      label: Exact hostname
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary-source URL and publication date
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reported role and supporting evidence
+      description: A shared IP, certificate or ad impression alone does not establish malicious ownership.
+    validations:
+      required: true

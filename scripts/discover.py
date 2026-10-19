@@ -33,6 +33,12 @@ from build import ALLOWLIST, APPROVED, DOMAIN_RE, ROOT, SOURCES, parse  # noqa: 
 
 UA = "adfection-blocklist-discovery/1.0 (defensive research)"
 ALB = "discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+ERRORS: list[str] = []
+DEADLINE: float | None = None
+
+
+class DiscoveryDeadline(Exception):
+    pass
 
 # Apexen waarvan het zinvol is om subdomeinen en co-hosting te zoeken.
 # Bewust geen gedeelde platforms (cloudfront, azure, heroku).
@@ -41,6 +47,7 @@ PIVOT_APEXES = [
     "discover-tech.io", "myipinfo.io", "tracookiepixel.xyz", "cookie-sync.xyz",
     "adtimizer.co", "adtimizer.com", "volasim.com", "tekma-dmp.ai", "trustlayersdk.com",
     "mydsp.io", "globaldatapoints.com", "ads-monitor.xyz",
+    "impchkdsp.com", "trakking.co", "checkmyimp.com", "ads-impressions.com", "nutralove.co",
 ]
 URLSCAN_QUERIES = [
     'filename:"c_tracking_pixel_gdpr.js"',
@@ -57,28 +64,33 @@ CENSYS_QUERIES = [
 ]
 
 
-def get_json(url: str, headers: dict | None = None, retries: int = 3):
+def get_json(url: str, headers: dict | None = None, retries: int = 2):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     for attempt in range(retries):
+        if DEADLINE is not None and time.monotonic() >= DEADLINE:
+            raise DiscoveryDeadline('Discovery time budget reached; results are partial')
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            timeout = min(15, max(0.1, DEADLINE - time.monotonic())) if DEADLINE else 15
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8", "replace") or "null")
         except urllib.error.HTTPError as e:
             if e.code in (429, 502, 503, 504) and attempt < retries - 1:
                 time.sleep(5 * (attempt + 1))
                 continue
             print(f"  ! {e.code} bij {url}", file=sys.stderr)
+            ERRORS.append(f'HTTP {e.code}: {url}')
             return None
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        except (urllib.error.URLError, OSError, json.JSONDecodeError) as e:
             if attempt < retries - 1:
                 time.sleep(3)
                 continue
             print(f"  ! {e} bij {url}", file=sys.stderr)
+            ERRORS.append(f'{type(e).__name__}: {url}')
             return None
 
 
 def clean(name: str) -> str | None:
-    name = name.strip().lower().lstrip("*.").rstrip(".")
+    name = name.strip().lower().removeprefix('*.').rstrip(".")
     return name if DOMAIN_RE.match(name) else None
 
 
@@ -133,7 +145,7 @@ def dns(found: dict[str, str], known: set[str]) -> None:
         if ALB in cnames:
             found[name] = "dns: CNAME naar Discover-Tech ALB (bevestigd)"
         elif alb_ips and set(doh(name, "A")) & alb_ips:
-            found[name] = "dns: A record deelt IP met Discover-Tech ALB (bevestigd)"
+            found[name] = "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
         time.sleep(0.2)
 
 
@@ -158,10 +170,18 @@ def censys(found: dict[str, str]) -> None:
 
 
 def main() -> None:
+    global DEADLINE
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--skip", default="", help="komma gescheiden: crtsh,urlscan,dns,censys")
+    ap.add_argument('--max-seconds', type=int, default=600, help='Totale tijdslimiet (standaard 600 seconden)')
     args = ap.parse_args()
     skip = set(filter(None, args.skip.split(",")))
+    if skip - {'crtsh', 'urlscan', 'dns', 'censys'}:
+        ap.error('Onbekende --skip bron')
+    if args.max_seconds < 1:
+        ap.error('--max-seconds moet positief zijn')
+    ERRORS.clear()
+    DEADLINE = time.monotonic() + args.max_seconds
 
     known: set[str] = set(parse(APPROVED))
     for src in SOURCES.glob("*.txt"):
@@ -169,27 +189,44 @@ def main() -> None:
     allow = set(parse(ALLOWLIST))
 
     found: dict[str, str] = {}
-    if "crtsh" not in skip:
-        crtsh(found)
-    if "urlscan" not in skip:
-        urlscan(found)
-    if "censys" not in skip:
-        censys(found)
-    if "dns" not in skip:
-        dns(found, known)
+    completed = []
+    omitted = sorted(skip)
+    for name, action in [('crtsh', lambda: crtsh(found)), ('urlscan', lambda: urlscan(found)),
+                         ('censys', lambda: censys(found)), ('dns', lambda: dns(found, known))]:
+        if name in skip:
+            continue
+        if name == 'censys' and not (os.environ.get('CENSYS_API_ID') and os.environ.get('CENSYS_API_SECRET')):
+            omitted.append('censys (no credentials)')
+            continue
+        try:
+            action()
+            completed.append(name)
+        except DiscoveryDeadline as error:
+            ERRORS.append(str(error))
+            break
 
     new = {d: why for d, why in found.items() if d not in known and d not in allow}
-    stamp = dt.date.today().strftime("%Y%m%d")
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")
     out = ROOT / "candidates" / f"candidates-{stamp}.txt"
     lines = [
         f"# Discovery run {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M UTC}",
+        f"# Status: {'PARTIAL - source errors or time limit' if ERRORS else 'completed configured queries (not exhaustive)'}",
+        f"# Skipped: {', '.join(omitted) or 'none'}",
         f"# {len(new)} nieuwe kandidaten (niet in sources/, approved.txt of allowlist.txt)",
         "# Controleer elke regel. Wat klopt: kopieer naar candidates/approved.txt",
         "# met een categorie, bijvoorbeeld:  foo.mtrtb.com  # discover-tech: crt.sh",
         "",
     ] + [f"{d:<55} # {why}" for d, why in sorted(new.items(), key=lambda x: (x[1], x[0]))]
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    out.with_suffix('.json').write_text(json.dumps({
+        'status': 'partial' if ERRORS else 'completed',
+        'completed_sources': completed, 'skipped_sources': omitted,
+        'errors': ERRORS, 'candidate_count': len(new),
+        'limitations': 'First result page only; historical or undisclosed infrastructure is not enumerated.'
+    }, indent=2) + '\n', encoding='utf-8')
     print(f"{len(new)} nieuwe kandidaten in {out.relative_to(ROOT)}")
+    if ERRORS:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,13 +1,14 @@
 # Title: AdFection Intelos
-# Description: Intelos ADINT infrastructuur
-# Homepage: lokale build (nog geen GitHub remote)
+# Description: Published Intelos ADINT-associated infrastructure
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
-# Issues: lokale build (nog geen GitHub remote)/issues
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 16 Oct 2026 11:51 UTC
-# Version: 2026.1016.115159
-# Syntax: Domains (Pi-hole, Technitium, pfBlockerNG), volledige lijst
+# Last modified: 19 Oct 2026 08:25 UTC
+# Version: 2026.1019.082559
+# Syntax: Plain domains, all explicit hosts
 # Number of entries: 1
+# Number of domains: 1
 #
 globaldatapoints.com
