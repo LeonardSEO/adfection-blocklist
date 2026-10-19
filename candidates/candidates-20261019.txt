@@ -1,0 +1,12 @@
+# Discovery run 2026-10-19 08:33 UTC
+# Status: PARTIAL - source errors or time limit
+# Skipped: censys (no credentials)
+# 5 nieuwe kandidaten (niet in sources/, approved.txt of allowlist.txt)
+# Controleer elke regel. Wat klopt: kopieer naar candidates/approved.txt
+# met een categorie, bijvoorbeeld:  foo.mtrtb.com  # discover-tech: crt.sh
+
+1787646375424138-3100197338-119.mtrtb.com               # dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)
+www.adtimizer.co                                        # urlscan: domain:adtimizer.co
+1790180408009733-8822372887-52.ppv2.mtrtb.com           # urlscan: domain:mtrtb.com
+www.mtrtb.com                                           # urlscan: domain:mtrtb.com
+ipinfo.myweb3id.io                                      # urlscan: domain:myweb3id.io
