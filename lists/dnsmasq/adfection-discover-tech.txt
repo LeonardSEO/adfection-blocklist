@@ -5,8 +5,8 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 19 Oct 2026 08:31 UTC
-# Version: 2026.1019.083112
+# Last modified: 26 Oct 2026 13:13 UTC
+# Version: 2026.1026.131341
 # Syntax: DNSMasq (local=/domain/, includes subdomains)
 # Number of entries: 27
 # Number of domains: 27
