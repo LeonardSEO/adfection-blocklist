@@ -1,0 +1,25 @@
+{
+  "status": "partial",
+  "completed_sources": [
+    "urlscan",
+    "dns"
+  ],
+  "failed_sources": [
+    "crtsh"
+  ],
+  "skipped_sources": [
+    "censys (no credentials)"
+  ],
+  "errors": [
+    "HTTP 502: https://crt.sh/?q=%25.controlium.net&output=json",
+    "HTTP 404: https://crt.sh/?q=%25.myipinfo.io&output=json",
+    "TimeoutError: https://crt.sh/?q=%25.tracookiepixel.xyz&output=json",
+    "HTTP 502: https://crt.sh/?q=%25.cookie-sync.xyz&output=json",
+    "HTTP 502: https://crt.sh/?q=%25.adtimizer.co&output=json",
+    "TimeoutError: https://crt.sh/?q=%25.adtimizer.com&output=json",
+    "HTTP 404: https://crt.sh/?q=%25.volasim.com&output=json",
+    "crtsh: Discovery time budget reached; results are partial"
+  ],
+  "candidate_count": 17,
+  "limitations": "First result page only; historical or undisclosed infrastructure is not enumerated."
+}

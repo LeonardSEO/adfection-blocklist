@@ -1,0 +1,24 @@
+# Discovery run 2026-10-26 13:18 UTC
+# Status: PARTIAL - source errors or time limit
+# Skipped: censys (no credentials)
+# 17 nieuwe kandidaten (niet in sources/, approved.txt of allowlist.txt)
+# Controleer elke regel. Wat klopt: kopieer naar candidates/approved.txt
+# met een categorie, bijvoorbeeld:  foo.mtrtb.com  # discover-tech: crt.sh
+
+cn.admin.mtrtb.com                                      # crt.sh: certificaat onder mtrtb.com
+cn.creatives.mtrtb.com                                  # crt.sh: certificaat onder mtrtb.com
+cn.mtrtb.com                                            # crt.sh: certificaat onder mtrtb.com
+cn.tracker.mtrtb.com                                    # crt.sh: certificaat onder mtrtb.com
+cn.turnilo.mtrtb.com                                    # crt.sh: certificaat onder mtrtb.com
+gam-eu.mtrtb.com                                        # crt.sh: certificaat onder mtrtb.com
+sun.cn.mtrtb.com                                        # crt.sh: certificaat onder mtrtb.com
+tracker-eu.mtrtb.com                                    # crt.sh: certificaat onder mtrtb.com
+viewa.mtrtb.com                                         # crt.sh: certificaat onder mtrtb.com
+viewp.mtrtb.com                                         # crt.sh: certificaat onder mtrtb.com
+www.mtrtb.com                                           # crt.sh: certificaat onder mtrtb.com
+cn.k8s.dashboard.mtrtb.com                              # dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)
+vpn.mtrtb.com                                           # dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)
+www.tracker.mtrtb.com                                   # dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)
+www.adtimizer.co                                        # urlscan: domain:adtimizer.co
+1790180408009733-8822372887-52.ppv2.mtrtb.com           # urlscan: domain:mtrtb.com
+1790814041700313-3401190136-138.ppv2.mtrtb.com          # urlscan: domain:mtrtb.com
