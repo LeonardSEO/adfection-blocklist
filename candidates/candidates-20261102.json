@@ -1,0 +1,21 @@
+{
+  "status": "partial",
+  "completed_sources": [
+    "urlscan",
+    "dns"
+  ],
+  "failed_sources": [
+    "crtsh"
+  ],
+  "skipped_sources": [
+    "censys (no credentials)"
+  ],
+  "errors": [
+    "TimeoutError: https://crt.sh/?q=%25.powerium.net&output=json",
+    "HTTP 404: https://crt.sh/?q=%25.discover-tech.io&output=json",
+    "TimeoutError: https://crt.sh/?q=%25.adtimizer.co&output=json",
+    "crtsh: Discovery time budget reached; results are partial"
+  ],
+  "candidate_count": 23,
+  "limitations": "First result page only; historical or undisclosed infrastructure is not enumerated."
+}
