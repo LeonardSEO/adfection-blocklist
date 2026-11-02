@@ -6,8 +6,8 @@
 ! Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 ! Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ! Expires: 1 day
-! Last modified: 26 Oct 2026 13:13 UTC
-! Version: 2026.1026.131341
+! Last modified: 02 Nov 2026 16:09 UTC
+! Version: 2026.1102.160925
 ! Syntax: Adblock domain rules (AdGuard Home, uBlock Origin)
 ! Number of entries: 27
 ! Number of domains: 27
