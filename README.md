@@ -17,6 +17,12 @@ Use **Full** unless you deliberately want one category only. Subscribe to one fo
 
 The download links below point to raw text, suitable for subscription where the client supports custom URLs. `Expires: 1 day` is a refresh hint for compatible clients, **not** a guarantee that every client updates daily. Local hosts and resolver configuration files need their own update process. NextDNS custom URL import is not assumed to be supported.
 
+## Shared Free API access
+
+Both projects use one credential-isolated urlscan/Censys coordinator in Adfection. Add `URLSCAN_API_KEY` and `CENSYS_PAT` there once. Shared reservations prevent manual reruns or the second repository from duplicating budgets; Censys uses Free asset lookups only. The provider job runs at 05:47 UTC, before daily research. No new scans are submitted.
+
+See [Free API setup, limits and diagnosis](docs/FREE-API.md). The normal measurement jobs remain secret-free and use our sanitized public observations.
+
 ## Independent source and optional unverified list
 
 Daily Actions now produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists.

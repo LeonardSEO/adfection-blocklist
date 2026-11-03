@@ -1,0 +1,109 @@
+name: Shared Free API collection
+
+on:
+  schedule:
+    - cron: '47 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# This single coordinator owns both projects' account budgets and Censys concurrency.
+concurrency:
+  group: maintenance
+  cancel-in-progress: false
+
+jobs:
+  reserve:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.14'
+      - name: Read public Pegasus inputs and reserve shared quotas before any API calls
+        env:
+          HAS_URLSCAN: ${{ secrets.URLSCAN_API_KEY != '' }}
+          HAS_CENSYS: ${{ secrets.CENSYS_PAT != '' }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/pegasus/research"
+          for name in registry project; do
+            curl --fail --silent --show-error --proto '=https' --max-time 30 \
+              "https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/research/$name.json" \
+              --output "$RUNNER_TEMP/pegasus/research/$name.json"
+          done
+          python3 scripts/providers.py prepare "$RUNNER_TEMP/pegasus" "$RUNNER_TEMP/plan.json"
+          git add research/providers/state.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Reserve shared Free API budgets before collection'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: reserved-provider-plan
+          path: ${{ runner.temp }}/plan.json
+          retention-days: 2
+
+  collect:
+    needs: reserve
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.14'
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333
+        with:
+          name: reserved-provider-plan
+          path: ${{ runner.temp }}/reserved
+      - name: Query only approved Free API endpoints; never connect to candidate hosts
+        env:
+          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
+          CENSYS_PAT: ${{ secrets.CENSYS_PAT }}
+        run: python3 scripts/providers.py collect "$RUNNER_TEMP/reserved/plan.json" "$RUNNER_TEMP/provider-output"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: sanitized-provider-output
+          path: ${{ runner.temp }}/provider-output/*.json
+          retention-days: 30
+
+  publish:
+    needs: collect
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.14'
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333
+        with:
+          name: sanitized-provider-output
+          path: ${{ runner.temp }}/provider-output
+      - name: Validate sanitized output and publish shared observations
+        run: |
+          python3 scripts/providers.py validate "$RUNNER_TEMP/provider-output"
+          for name in adfection pegasus status; do cp "$RUNNER_TEMP/provider-output/$name.json" "research/providers/$name.json"; done
+          git add research/providers
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish shared Free API observations for both projects'
+          git push origin HEAD:main

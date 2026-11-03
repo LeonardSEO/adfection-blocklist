@@ -17,14 +17,21 @@ import xml.etree.ElementTree as ET
 from research import (ROOT, DOMAIN_RE, read_json, write_json, utcnow, ensure_indicator,
                       observe, relate, validate_registry, indicator, timestamp, asset_supported)
 from probe import probe
+from providers import search_url, SNAPSHOT_BASE, validate_snapshots
 
 POLICY = read_json(ROOT / 'research/project.json', {})
 FEEDS = POLICY.get('feeds', [])
 SEED_LIMIT = 24
+PROVIDER_SNAPSHOT = {}
 NETWORK_ERRORS = (urllib.error.URLError, OSError, TimeoutError)
 
 
 def fetch(url, deadline, *, accept=None):
+    if urllib.parse.urlsplit(url).hostname == 'urlscan.io':
+        cached=PROVIDER_SNAPSHOT.get('responses',{}).get(url)
+        if cached and 0 <= (timestamp(utcnow())-timestamp(cached['fetched_at'])).total_seconds() <= 7*86400:
+            return json.dumps(cached['body']).encode()
+        raise OSError('URLscan observation not in the shared Free-account cache')
     remaining = deadline - time.monotonic()
     if remaining <= 0:
         raise TimeoutError('research time budget reached')
@@ -114,7 +121,7 @@ def record_scans(registry, rows, url, at, allowed, anchor=None):
 
 def discover_assets(registry, deadline, at, allowed):
     for path in POLICY.get('asset_paths', []):
-        url = 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': 'filename:"'+path.rsplit('/',1)[-1]+'"', 'size': 20})
+        url = search_url('filename:"'+path.rsplit('/',1)[-1]+'"',20)
         for hit in json.loads(fetch(url, deadline)).get('results', []):
             reference = hit.get('_id', '')
             import re
@@ -163,7 +170,7 @@ def task(registry, key, kind, deadline, at, allowed):
                 if registry['indicators'][child]['status'] == 'candidate':
                     enqueue(registry, child, ['dns', 'measure'])
     elif kind == 'urlscan':
-        url = 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': 'page.domain:' + host, 'size': 100})
+        url = search_url('page.domain:' + host)
         record_scans(registry, json.loads(fetch(url, deadline)).get('results', []), url, at, allowed, key)
     elif kind == 'dns':
         for qtype in ('A', 'AAAA', 'CNAME', 'NS'):
@@ -207,9 +214,18 @@ def task(registry, key, kind, deadline, at, allowed):
 
 
 def run(registry, deadline, at, allowed, rules=()):
+    for lookup in PROVIDER_SNAPSHOT.get('censys',[]):
+        if not 0 <= (timestamp(at)-timestamp(lookup['fetched_at'])).total_seconds() <= 7*86400:
+            continue
+        for row in lookup['names']:
+            host=row['name']
+            if not DOMAIN_RE.fullmatch(host) or host in allowed: continue
+            key=ensure_indicator(registry,host,'censys-lookup')
+            observe(registry,key,'censys-lookup',{'kind':lookup['kind'],'asset':lookup['value']},lookup['url'],row['observed_at'],lookup['fetched_at'])
+            if registry['indicators'][key]['status']=='candidate': enqueue(registry,key,['dns','measure'])
     # Candidates only get bounded DNS/probe work, never independent graph expansion.
     for key, item in sorted(registry['indicators'].items()):
-        if item['type'] == 'domain' and item['status'] == 'candidate' and item['origin'] in ('certificate-san', 'existing-scan', 'dns-cname', 'archive-query', 'legacy-lead', 'asset-scan') and item['value'] not in allowed and (not item.get('last_attempts', {}).get('measure') or (timestamp(at) - timestamp(item['last_attempts']['measure'])).total_seconds() >= 86400):
+        if item['type'] == 'domain' and item['status'] == 'candidate' and item['origin'] in ('certificate-san', 'existing-scan', 'dns-cname', 'archive-query', 'legacy-lead', 'asset-scan', 'censys-lookup') and item['value'] not in allowed and (not item.get('last_attempts', {}).get('measure') or (timestamp(at) - timestamp(item['last_attempts']['measure'])).total_seconds() >= 86400):
             enqueue(registry, key, ['dns', 'measure'])
     seeds = [r['value'] for r in registry['indicators'].values() if r['type'] == 'domain' and r['status'] in ('historical', 'accepted') and r['value'] not in allowed]
     for host in select_seeds(seeds, timestamp(at).date()):
@@ -217,6 +233,7 @@ def run(registry, deadline, at, allowed, rules=()):
     registry['queue'].sort(key=lambda row: (registry['indicators'][row['target']]['status'] != 'candidate', min((registry['indicators'][row['target']].get('last_attempts', {}).get(t, '') for t in row['tasks']), default='')))
     report = {'observed_at': at, 'status': 'completed', 'completed_queries': [], 'errors': [], 'publications': [],
               'limits': {'max_seed_domains': SEED_LIMIT, 'api_pages': 1, 'probe_path': '/', 'max_body_bytes': 65536}}
+    report['providers'] = {'generated_at':PROVIDER_SNAPSHOT.get('generated_at'), 'disabled':PROVIDER_SNAPSHOT.get('disabled',[]), **PROVIDER_SNAPSHOT.get('provider_report',{})}
     # News is context only and never becomes an indicator automatically.
     for feed in FEEDS:
         try:
@@ -270,6 +287,7 @@ def run(registry, deadline, at, allowed, rules=()):
 
 
 def main():
+    global PROVIDER_SNAPSHOT
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--max-seconds', type=int, default=600)
     args = parser.parse_args()
@@ -280,7 +298,18 @@ def main():
     bootstrap = read_json(ROOT / 'sources/bootstrap.json')
     validate_registry(registry, rules, bootstrap)
     allowed = {line.strip() for line in (ROOT / 'allowlist.txt').read_text().splitlines() if line.strip() and not line.startswith('#')}
-    report = run(registry, time.monotonic()+args.max_seconds, utcnow(), allowed, rules)
+    deadline=time.monotonic()+args.max_seconds
+    snapshot_error=None
+    try:
+        snapshot=json.loads(fetch(SNAPSHOT_BASE+POLICY['slug']+'.json',min(deadline,time.monotonic()+10)))
+        validate_snapshots({project:snapshot for project in ('adfection','pegasus')})
+        PROVIDER_SNAPSHOT=snapshot
+    except (NETWORK_ERRORS + (ValueError,)) as error:
+        snapshot_error=type(error).__name__
+    report = run(registry, deadline, utcnow(), allowed, rules)
+    if snapshot_error:
+        report['errors'].append({'query':'shared-provider-snapshot','error':snapshot_error})
+        report['status']='partial'
     validate_registry(registry, rules, bootstrap)
     write_json(ROOT / 'research/registry.json', registry)
     write_json(ROOT / 'candidates/latest.json', report)

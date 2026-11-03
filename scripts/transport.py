@@ -7,7 +7,7 @@ import urllib.parse
 
 from probe import resolve_public, dial, timeout
 
-PROVIDERS = {'crt.sh', 'urlscan.io', 'cloudflare-dns.com', 'securitylab.amnesty.org', 'citizenlab.ca'}
+PROVIDERS = {'crt.sh', 'urlscan.io', 'cloudflare-dns.com', 'securitylab.amnesty.org', 'citizenlab.ca', 'raw.githubusercontent.com'}
 MAX_BYTES = 4 * 1024 * 1024
 
 
