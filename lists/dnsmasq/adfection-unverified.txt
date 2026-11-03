@@ -1,0 +1,13 @@
+# Title: AdFection Unverified
+# Description: Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk
+# Homepage: https://github.com/LeonardSEO/adfection-blocklist
+# License: CC BY-NC-SA 4.0
+# Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
+# Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
+# Expires: 1 day
+# Last modified: 03 Nov 2026 13:02 UTC
+# Version: 2026.1103.130254
+# Syntax: DNSMasq (local=/domain/, includes subdomains)
+# Number of entries: 0
+# Number of domains: 0
+#

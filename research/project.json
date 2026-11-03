@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "slug": "adfection",
+  "title": "AdFection",
+  "feeds": [
+    "https://securitylab.amnesty.org/feed/",
+    "https://citizenlab.ca/feed/"
+  ],
+  "news_terms": [
+    "adfection",
+    "candiru",
+    "discover-tech",
+    "bindecy",
+    "intelos"
+  ],
+  "owned_roots": [
+    "mtrtb.com",
+    "powerium.net",
+    "controlium.net",
+    "myweb3id.io",
+    "platc-tester.com",
+    "discover-tech.io",
+    "myipinfo.io",
+    "tracookiepixel.xyz",
+    "cookie-sync.xyz",
+    "adtimizer.co",
+    "adtimizer.com",
+    "volasim.com",
+    "tekma-dmp.ai",
+    "trustlayersdk.com",
+    "mydsp.io",
+    "globaldatapoints.com",
+    "ads-monitor.xyz",
+    "impchkdsp.com",
+    "trakking.co",
+    "checkmyimp.com",
+    "ads-impressions.com",
+    "nutralove.co"
+  ],
+  "cname_targets": [
+    "discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+  ],
+  "asset_paths": [
+    "/c_tracking_pixel_gdpr.js",
+    "/c_tracking_pixel_gdpr_enhanced.js"
+  ]
+}

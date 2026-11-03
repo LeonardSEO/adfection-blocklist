@@ -1,0 +1,2 @@
+# Pegasus/community seed and qualified own indicators; historical attribution may be stale.
+# Type: ip

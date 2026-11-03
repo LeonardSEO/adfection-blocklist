@@ -1,0 +1,4533 @@
+{
+  "indicators": {
+    "domain:1787646375424138-3100197338-119.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "c02b84a009225e6e997d3686015ff24a5f971e908f91b9208f93e3e12914337b",
+        "acd4d7ac33acdd8784187ec53a993d868cf50bc194b405a999534c4d62c0f7ab"
+      ],
+      "families": [],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "legacy-lead",
+      "sources": [],
+      "status": "candidate",
+      "type": "domain",
+      "value": "1787646375424138-3100197338-119.mtrtb.com"
+    },
+    "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "485435b220b7f849697f3bd22ecf011b8ee8b1a2b5103d3d3505b8bc7406b241",
+        "4d0d1093f1981afb59edee296daf27ce33725f5bc82e92516d9d8e7ceef3337c",
+        "3e46655a4c048a1c647a1516d34e23fb04cbc0fe0ac638428183f0bd48786e3a",
+        "b2ae0b7c2f2e868bebaba2bcf1b74bc3b964f62712e20e10882f892f57311053",
+        "df57d60177f502940eb2948433a6a9330623d4191d9518eaf67f249003b4f9fa",
+        "36715a09392f32159c2c6fa88d5fc44a0a575c5cc3b22fff7ecb0a1257f4bc46"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "1790180408009733-8822372887-52.ppv2.mtrtb.com"
+    },
+    "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "bc3bd9f0e01bd3d65324682bfc207dc91719e519e27cf7117b626f1c4d381e45",
+        "364d144723a7016e31e554bfbbe52488db6786f648232ff4b8635a9345b1cc42",
+        "16eb657a0c2c237c8d47911cc3e7ff7b23d26946d9bc41a96bab8caa6dae90c5",
+        "e6c3d5bae55de34ee57616ba7616d2c12902bcbb0b17675b035ceadc0b234833"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "1790814041700313-3401190136-138.ppv2.mtrtb.com"
+    },
+    "domain:admin.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "admin.mtrtb.com"
+    },
+    "domain:ads-impressions.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "ads-impressions.com"
+    },
+    "domain:ads-monitor.xyz": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "ads-monitor.xyz"
+    },
+    "domain:adtimizer.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "adtimizer.co"
+    },
+    "domain:adv45.volasim.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "adv45.volasim.com"
+    },
+    "domain:adv50.volasim.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "adv50.volasim.com"
+    },
+    "domain:akedo.gg": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "akedo.gg"
+    },
+    "domain:ambiguouscommerce.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "ambiguouscommerce.com"
+    },
+    "domain:amir-back.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [
+        "f47a9ecd908c1ed32a0a82bd38c8c751fc7322a3fc4732158ba813c8c5c4b313",
+        "e73d4478fad0076562ce6e2e06c804807b54ee97f15c730099ce5c129cbaa378"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "amir-back.tracookiepixel.xyz"
+    },
+    "domain:amir-front.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [
+        "29b879afd54ead073c125894f29ed2b86eb4749319981ca259accd7ff97b4a1c",
+        "ed4a5a7a000ba6566217beb7254b423f39fdbc48f96741173c23d2db2afec544"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "amir-front.tracookiepixel.xyz"
+    },
+    "domain:antperspective.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "antperspective.com"
+    },
+    "domain:aperturebelt.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "aperturebelt.com"
+    },
+    "domain:archer.westeurope.cloudapp.azure.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "archer.westeurope.cloudapp.azure.com"
+    },
+    "domain:asknapkin.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "asknapkin.com"
+    },
+    "domain:barnsecret.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "barnsecret.com"
+    },
+    "domain:baseagriculture.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "baseagriculture.com"
+    },
+    "domain:basicstraw.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "basicstraw.com"
+    },
+    "domain:basinapposite.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "basinapposite.com"
+    },
+    "domain:bd-mainserver.herokuapp.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bd-mainserver.herokuapp.com"
+    },
+    "domain:beachvibesnow.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "beachvibesnow.com"
+    },
+    "domain:beneathbreadth.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "beneathbreadth.com"
+    },
+    "domain:bizarreclassify.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bizarreclassify.com"
+    },
+    "domain:blockroster.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "blockroster.net"
+    },
+    "domain:bondmuscle.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bondmuscle.com"
+    },
+    "domain:breadgroomer.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "breadgroomer.com"
+    },
+    "domain:bronzemonth.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bronzemonth.com"
+    },
+    "domain:browniebell.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "browniebell.com"
+    },
+    "domain:bt.myweb3id.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bt.myweb3id.io"
+    },
+    "domain:bt.platc-tester.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bt.platc-tester.com"
+    },
+    "domain:bypassbirch.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bypassbirch.com"
+    },
+    "domain:bypasscalculate.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bypasscalculate.com"
+    },
+    "domain:bypasscommerce.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "bypasscommerce.com"
+    },
+    "domain:calmbase.org": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "calmbase.org"
+    },
+    "domain:cartoondrop.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cartoondrop.net"
+    },
+    "domain:checkmyimp.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "checkmyimp.com"
+    },
+    "domain:chickenstrawberry.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "chickenstrawberry.com"
+    },
+    "domain:citecivilization.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "citecivilization.com"
+    },
+    "domain:closetmeat.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "closetmeat.com"
+    },
+    "domain:cn.admin.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "f1d81203be9233a9d5372527a95593463c7749f56aacc86e7a18458214122b32",
+        "14af13a73e40c589544dcdf4c54b382da1998e6528b43ef4948d83ff2e78d1bf",
+        "564146276264e5d509d4094286ff9daf7063edf5f6e7b1e4134c9afa8698b0c1",
+        "ed6aa53f21d785731e3725da3139442fe100bc31250c474d70705bcd0d014d92"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.admin.mtrtb.com"
+    },
+    "domain:cn.creatives.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "4bc38221f9451c29f328e5dffd3ffc417eef92991cb91dd8661cdb3349228a1b",
+        "20413e223a9a9ae06925f1f6fe5443e9de93c86e90513b63935dfe6edfc651ed",
+        "e90677af3ea2f577c428f2159c77dd09925e1da183d8a1ab5d96e085642a7d26",
+        "a261b600eb35e982a8916c8f8af264c439bfec5ae03f40848f6a4e58af790818"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.creatives.mtrtb.com"
+    },
+    "domain:cn.druid.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.druid.mtrtb.com"
+    },
+    "domain:cn.k8s.dashboard.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "0c6c8f7e47cde824bf80a2eaa56b259d120d68d3f5c604447ac9a4c82bc263df",
+        "c93cf0ffd3bda322a70dede473c4de1f632b5986bfb53909dbaadbd556b3749b",
+        "d3a0da280fc1c2da14980c2a33d6bc7ce6728a0f855a0ff38ca8a82a40a15bb8",
+        "d083664848eb5f22bf18e462074c485cd7a31f3e1775a93ab9621a51fd70e231"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.k8s.dashboard.mtrtb.com"
+    },
+    "domain:cn.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "0b2db617d696850e96c14fd8fc57db0b3ee36bfc009aab23875e26dcdf044435",
+        "183f29b2338437c2f3df2cae200b25f7182ccc5f9c52b04be88f20683c5f1afc",
+        "cc7ab4cf4931bd58e323f8101daa9796cf8f9540b1dbc81250f5f5a741f49ca9",
+        "683500f059fb54c52d75a67b06959a2f6a8d99194c4ad7c01f06a059db1a7388"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.mtrtb.com"
+    },
+    "domain:cn.tracker.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "0f1b6f79a89cf2e822962bc17564c33056cc1df0463e7db039938831752aabe1",
+        "c9521f1ccfe339f5f184929bdf6e269893644ac03e61dc20bd4f9987b4e82635",
+        "3dcaefa6ea2d453927f76fea9b97ffb27617b760b0c1c97875de73b96851eb1e",
+        "486bc2a648ec16bd5764c4a90a9b78d5b81c855af4a15687b760bfc19412bcc7"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.tracker.mtrtb.com"
+    },
+    "domain:cn.turnilo.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "37d7e4668a2efca444d5f37ffad1f689c4cc86c006a02fae455b6efad49b62b9",
+        "7824396d934ccea11742c4a25ed03bd4e9e33f163dc0da13153206d5b370672f",
+        "198df567d7855a9d4f4cc0f5990585de5a05be98b1c661de0dc265fc271b0564",
+        "0b214802a48604de293a1b128778fcc94629f9fd7d4e74fc2fdd3d4d87274d50"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cn.turnilo.mtrtb.com"
+    },
+    "domain:commonclever.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "commonclever.com"
+    },
+    "domain:concretebottle.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "concretebottle.com"
+    },
+    "domain:conquerconfess.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "conquerconfess.com"
+    },
+    "domain:containsnow.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "containsnow.com"
+    },
+    "domain:contradictionblindness.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "contradictionblindness.com"
+    },
+    "domain:controlium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "controlium.net"
+    },
+    "domain:convincechaotic.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "convincechaotic.com"
+    },
+    "domain:cookie-sync.xyz": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cookie-sync.xyz"
+    },
+    "domain:cookiesurfer.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cookiesurfer.com"
+    },
+    "domain:cooperatedisinfect.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cooperatedisinfect.net"
+    },
+    "domain:cottonbread.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cottonbread.com"
+    },
+    "domain:cranberrybear.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cranberrybear.com"
+    },
+    "domain:cropcritique.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "cropcritique.com"
+    },
+    "domain:crossoverdue.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "crossoverdue.com"
+    },
+    "domain:d147nolwbekx2b.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d147nolwbekx2b.cloudfront.net"
+    },
+    "domain:d19oo8r6k9oumb.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d19oo8r6k9oumb.cloudfront.net"
+    },
+    "domain:d1fcoizt7mje85.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d1fcoizt7mje85.cloudfront.net"
+    },
+    "domain:d1fzw0miu1r9rc.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d1fzw0miu1r9rc.cloudfront.net"
+    },
+    "domain:d1x4e580sn23dn.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d1x4e580sn23dn.cloudfront.net"
+    },
+    "domain:d23625plpxg1yn.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d23625plpxg1yn.cloudfront.net"
+    },
+    "domain:d2epnp0vokbtl7.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d2epnp0vokbtl7.cloudfront.net"
+    },
+    "domain:d2f4zpg1mgzwov.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d2f4zpg1mgzwov.cloudfront.net"
+    },
+    "domain:d39619tdxn6mhj.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d39619tdxn6mhj.cloudfront.net"
+    },
+    "domain:d8lmy5wyiokrq.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "d8lmy5wyiokrq.cloudfront.net"
+    },
+    "domain:damageconsider.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "damageconsider.com"
+    },
+    "domain:dcv2rnj2ograe.cloudfront.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dcv2rnj2ograe.cloudfront.net"
+    },
+    "domain:deardrill.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "deardrill.com"
+    },
+    "domain:dediccatedconsideration.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dediccatedconsideration.com"
+    },
+    "domain:deducedefend.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "deducedefend.com"
+    },
+    "domain:deliverconcern.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "deliverconcern.net"
+    },
+    "domain:densefoot.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "densefoot.com"
+    },
+    "domain:desireeclipse.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "desireeclipse.com"
+    },
+    "domain:detaincharity.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "detaincharity.net"
+    },
+    "domain:deterdiffusion.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "deterdiffusion.com"
+    },
+    "domain:devotionbelief.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "devotionbelief.com"
+    },
+    "domain:discover-tech.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "discover-tech.io"
+    },
+    "domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+    },
+    "domain:discovertech.us.auth0.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "discovertech.us.auth0.com"
+    },
+    "domain:distractionfar.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "distractionfar.com"
+    },
+    "domain:drivesplash.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "drivesplash.com"
+    },
+    "domain:druid.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "druid.mtrtb.com"
+    },
+    "domain:drummerjourney.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "drummerjourney.com"
+    },
+    "domain:dtech.adtimizer.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dtech.adtimizer.co"
+    },
+    "domain:dtech.adtimizer.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dtech.adtimizer.com"
+    },
+    "domain:dtech.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dtech.mtrtb.com"
+    },
+    "domain:dumplingbell.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "dumplingbell.com"
+    },
+    "domain:electric-prime.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "electric-prime.com"
+    },
+    "domain:elifluousscintillam.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "elifluousscintillam.com"
+    },
+    "domain:eminententwine.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "eminententwine.com"
+    },
+    "domain:enjoymultiplecats.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "enjoymultiplecats.com"
+    },
+    "domain:events-ui.discover-tech.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "events-ui.discover-tech.io"
+    },
+    "domain:events-ui.myweb3id.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "events-ui.myweb3id.io"
+    },
+    "domain:events.myweb3id.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "events.myweb3id.io"
+    },
+    "domain:events.platc-tester.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "events.platc-tester.com"
+    },
+    "domain:exhibitexpanse.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "exhibitexpanse.com"
+    },
+    "domain:fallaciousessential.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "fallaciousessential.net"
+    },
+    "domain:fearevolve.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "fearevolve.com"
+    },
+    "domain:fileswaper.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "fileswaper.com"
+    },
+    "domain:finalsalami.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "finalsalami.com"
+    },
+    "domain:flexibleelevator.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "flexibleelevator.com"
+    },
+    "domain:foamdirection.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "foamdirection.com"
+    },
+    "domain:forecastgarden.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "forecastgarden.com"
+    },
+    "domain:front-ngrok.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [
+        "62bac84691baa0f0d06980438140fec4182fba714a6dae90560e630411b92fd3",
+        "756ddb10472ad03ea67b731d6bc0c498dd951bfe5697c55865bb68e8fdcb8c27"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "front-ngrok.tracookiepixel.xyz"
+    },
+    "domain:gam-eu.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "263698f5692dc361f2ae48c506e0cebff7df3a8e9ba4dd137286e1a257657622",
+        "65e467bb96aeae5f4711fe6515ca11b82d8c2917839128742f3a7c6a05db0d02",
+        "f419667cc7eabe77277a2223edd3727f4c66528960f82437851269ce798351d6",
+        "e52c0cc71cfb59dbdc642c9407f3559e0abf3bbfa7f5f7c36c24ec493aeba891"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "gam-eu.mtrtb.com"
+    },
+    "domain:globaldatapoints.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "intelos"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "globaldatapoints.com"
+    },
+    "domain:goatsandals.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "goatsandals.com"
+    },
+    "domain:golfconcert.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "golfconcert.com"
+    },
+    "domain:groundbreakinginitative.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "groundbreakinginitative.com"
+    },
+    "domain:guitarcalculate.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "guitarcalculate.com"
+    },
+    "domain:hostilefauna.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "hostilefauna.com"
+    },
+    "domain:icecreamtester.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "icecreamtester.com"
+    },
+    "domain:imp.powerium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "imp.powerium.net"
+    },
+    "domain:infinoas.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "infinoas.mtrtb.com"
+    },
+    "domain:infoanalytics.live": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "infoanalytics.live"
+    },
+    "domain:insightenterprisells.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "insightenterprisells.com"
+    },
+    "domain:ipinfo.myweb3id.io": {
+      "admissions": [],
+      "evidence": [
+        "5709ef672a7726f40662e1cd72ce8239c0d47b837d1eeebf5212373212e20f3e",
+        "7bc5dafc39b020fdc188e361ca2347d0fbb0739d7b2b986fff806d86e46ce74b"
+      ],
+      "families": [],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "legacy-lead",
+      "sources": [],
+      "status": "candidate",
+      "type": "domain",
+      "value": "ipinfo.myweb3id.io"
+    },
+    "domain:isolatelecture.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "isolatelecture.com"
+    },
+    "domain:jellybat.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "jellybat.net"
+    },
+    "domain:jobmarcher.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "jobmarcher.com"
+    },
+    "domain:journeyjest.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "journeyjest.net"
+    },
+    "domain:js.cookie-sync.xyz": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "js.cookie-sync.xyz"
+    },
+    "domain:js.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "js.tracookiepixel.xyz"
+    },
+    "domain:kartingrumble.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "kartingrumble.com"
+    },
+    "domain:keyadapter.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "keyadapter.com"
+    },
+    "domain:labyrinthextravagance.org": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "labyrinthextravagance.org"
+    },
+    "domain:leafconfuse.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "leafconfuse.net"
+    },
+    "domain:lessonhandle.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "lessonhandle.com"
+    },
+    "domain:logger.controlium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "logger.controlium.net"
+    },
+    "domain:logger.powerium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "logger.powerium.net"
+    },
+    "domain:macrodrop.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "macrodrop.net"
+    },
+    "domain:macromint.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "macromint.net"
+    },
+    "domain:maturitygenesis.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "maturitygenesis.com"
+    },
+    "domain:measurecabin.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "measurecabin.com"
+    },
+    "domain:mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "mtrtb.com"
+    },
+    "domain:mushroompalm.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "mushroompalm.com"
+    },
+    "domain:mydsp.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "mydsp.io"
+    },
+    "domain:myipinfo.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "myipinfo.io"
+    },
+    "domain:myweb3id.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "myweb3id.io"
+    },
+    "domain:noas.adtimizer.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "noas.adtimizer.co"
+    },
+    "domain:noas.impchkdsp.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "noas.impchkdsp.com"
+    },
+    "domain:noas.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "noas.mtrtb.com"
+    },
+    "domain:noas.powerium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "noas.powerium.net"
+    },
+    "domain:noas.trakking.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "noas.trakking.co"
+    },
+    "domain:notableexam.org": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "notableexam.org"
+    },
+    "domain:notionnowadays.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "notionnowadays.com"
+    },
+    "domain:nutralove.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "nutralove.co"
+    },
+    "domain:outdooutcome.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "outdooutcome.com"
+    },
+    "domain:pagead.trustlayersdk.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "pagead.trustlayersdk.com"
+    },
+    "domain:parkourbus.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "parkourbus.com"
+    },
+    "domain:patternperiod.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "patternperiod.com"
+    },
+    "domain:penslice.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "penslice.com"
+    },
+    "domain:pepperdominate.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "pepperdominate.com"
+    },
+    "domain:pickarest.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "bindecy"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "pickarest.com"
+    },
+    "domain:plasticbells.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "plasticbells.com"
+    },
+    "domain:platc-tester.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "platc-tester.com"
+    },
+    "domain:powerium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "powerium.net"
+    },
+    "domain:ppv2.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "ppv2.mtrtb.com"
+    },
+    "domain:pqv2.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "pqv2.mtrtb.com"
+    },
+    "domain:prawnbasket.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "prawnbasket.com"
+    },
+    "domain:predictproper.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "predictproper.com"
+    },
+    "domain:pressaviation.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "pressaviation.com"
+    },
+    "domain:profligatecensure.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "profligatecensure.com"
+    },
+    "domain:qa-noas.powerium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "qa-noas.powerium.net"
+    },
+    "domain:relevantech.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "relevantech.com"
+    },
+    "domain:remindmewhere.app": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "remindmewhere.app"
+    },
+    "domain:rollstrech.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "rollstrech.com"
+    },
+    "domain:romancedrum.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "romancedrum.com"
+    },
+    "domain:sacrificeprincipal.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "sacrificeprincipal.net"
+    },
+    "domain:salmonpride.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "salmonpride.net"
+    },
+    "domain:scoreparade.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "scoreparade.com"
+    },
+    "domain:selectedpazzle.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "selectedpazzle.com"
+    },
+    "domain:server-ngrok.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [
+        "ee8db92e5e8e3c1cf3a2aa29e9a0d9a1d1f34b903563c377821c581f112ea55b",
+        "c83b567c453fd138815311d97fcbc6ccbaf879eb7a6b24ea84a72140d6e0d60c"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "server-ngrok.tracookiepixel.xyz"
+    },
+    "domain:shareitwork.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "shareitwork.com"
+    },
+    "domain:sharethere.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "sharethere.net"
+    },
+    "domain:signifyslight.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "signifyslight.com"
+    },
+    "domain:sincereaccertain.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "sincereaccertain.com"
+    },
+    "domain:spongefruit.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "spongefruit.com"
+    },
+    "domain:stablesurface.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "stablesurface.com"
+    },
+    "domain:strangegarden.org": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "strangegarden.org"
+    },
+    "domain:stylebrakedown.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "stylebrakedown.com"
+    },
+    "domain:suggestutterly.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "suggestutterly.com"
+    },
+    "domain:sun.cn.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "86d90403afbed79dc11779e46a400bd747d30b23b59746456f88d16be11049a0",
+        "1e4ab96ab440402406a4da4d452b614fdf9a6e51bd3a44109b23c2cd6cd3bc0e",
+        "94b1006b91dbf6e0bcabb73e6dcbc24736c7f44c5bd6db9740ac884046fc88bb",
+        "67705df6e9c97ac7a06fbcf815a727db52d8cc01941d24b350e11cf9c3489ea9"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "sun.cn.mtrtb.com"
+    },
+    "domain:sunsetpotential.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "sunsetpotential.com"
+    },
+    "domain:tacticscheap.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tacticscheap.net"
+    },
+    "domain:tekma-dmp.ai": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tekma-dmp.ai"
+    },
+    "domain:tekma.adtimizer.co": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tekma.adtimizer.co"
+    },
+    "domain:tidalscreen.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tidalscreen.com"
+    },
+    "domain:tracker-eu.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "2eeca0b19bc6bef049be684409bbf9d6f42a3cea6074c93156bca47e58098420",
+        "9be037eee97d2446a66531cd301142003bcd2e19939bf5ca2fcf288353615298",
+        "0dafb1fd7ee9557694707711fea95e9f3471aca95b4b985ad71fe09f26d00832",
+        "a9a7201233a4cb6c9f0585221a0f861b1889c44f4746b645224417102e888f97"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tracker-eu.mtrtb.com"
+    },
+    "domain:tracker.mtrtb.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tracker.mtrtb.com"
+    },
+    "domain:tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tracookiepixel.xyz"
+    },
+    "domain:tubeshape.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "tubeshape.com"
+    },
+    "domain:ultimatematter.info": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "ultimatematter.info"
+    },
+    "domain:velvetpremier.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "velvetpremier.com"
+    },
+    "domain:viewa.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "2851254664b91a0ac66a66322b51cba847d743c21faccc8fee975035517d7e4d",
+        "5f23082aa4b1268cf5e3e238f63fae0131101b9cd689fa4c4096cd1f2c0280db",
+        "d3539f5f022548726fa622fb00579538bab643468fb09042fda0a792d5b8cfdd",
+        "3072c91ccf97781dc18fdd21348b0a14bfa271d7a9485fd5988a3fb0a48c511c"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "viewa.mtrtb.com"
+    },
+    "domain:viewp.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "4ca60a7d7d31071fa874b2f977df220fdd26604dc9e5b7cd4b7b43a4d526cf10",
+        "f60ed0ecad40c7e0dae350e62d78c2908a12aed16520a8e19db09f66393eec59",
+        "5c23586172d27092ff9cd0270a071ae615290fcc3938e0a8f43d98b1123cee2e",
+        "31e95683d961f97feda581db29ac9312ecb3e36bdd6fa081d7564968f6854bc9"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "viewp.mtrtb.com"
+    },
+    "domain:volasim.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "volasim.com"
+    },
+    "domain:vpn.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "b1f5ad940b78d1f937d2e8c0a98da3cbc406fbfc1ad30fd7b4cc8f47e65e9c0b",
+        "e8e278889336cec7e283867fc8fdc5f72f7e72dc6ffd359fb3822a8d7b2e8b98",
+        "e7f437ac90e12374203a64dff8afa202be5f3773d9d511e33978fa26a4046b20",
+        "36ce06138db1e951cca603edbd872724e8b01d2b44f04d5dfcabf71e72bd1a1e"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "vpn.mtrtb.com"
+    },
+    "domain:windomination.com": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "candiru"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "windomination.com"
+    },
+    "domain:www.adtimizer.co": {
+      "admissions": [],
+      "evidence": [
+        "13459983e51dbce32d6086e56ec3ab083b03f0c05845cfb2957cb31a2cbcbf9f",
+        "cb9783af1be770210941ea1ae7866adc9dd24d35403e4b7814dda80fb31288cb",
+        "e4272b1b10fcb9657ea88182fc08ee6d3dc4f6bd14454c9aa204caa26e3da8ff",
+        "f61646ae2d4e45dd3fa1fe1c98e9b08273b6d35a2d491ea6569bd8988ec96ac3",
+        "a3dbe03f1d81f9a6e3ca11ca24c68450efe92d1c68f5bd655a823746866862b9",
+        "33f94419b2e85c11b23de04b4dd0859d567381bfe65d2e6c083674bd87f3ce87"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.adtimizer.co"
+    },
+    "domain:www.controlium.net": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.controlium.net"
+    },
+    "domain:www.discover-tech.io": {
+      "admissions": [],
+      "evidence": [],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "sources/confiant-adint.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.discover-tech.io"
+    },
+    "domain:www.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "b0324a9245c08f4fe2d13f180103f1124e1d3d194982b843f380f0878d7e6ead",
+        "ad8c04dbf07cb8695ffbd114b5c26d0611593d0d424319360d9118ea00bb6478",
+        "f8529f84199fac4eeb99016d3a28685a55e94f2fc03f3a74a7348106a945a23e",
+        "c05fdff5959f05ecdd58e782a02599976772ac8b040992acff288e91ef1c74d8",
+        "3805c52ecf63aff0d695abed0b3b4a8455ddbd6a3aaaa38abfb3772a7ea0e413",
+        "9b2f40b7a4ae77b0af2e9afbdc849362074f7aeb54c88bb1aeb4e3984f66ffab"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.mtrtb.com"
+    },
+    "domain:www.myipinfo.io": {
+      "admissions": [],
+      "evidence": [
+        "2dd4fd188e0d057e1d89f6493917f6dc3addb517e253ff0041cfb8a5a02b2ab8",
+        "9f2f453b0a13c739282f402f341e9efa8bb66749b60b631ffcfd55ef908bf620"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.myipinfo.io"
+    },
+    "domain:www.tracker.mtrtb.com": {
+      "admissions": [],
+      "evidence": [
+        "b76ea02b41eea482aa28838c16b84b3c8f166f9af045269865d8c15f38d4d2e5",
+        "625c7b05e8e6591d4342b4154e4aa4975edcb40ecceccca2dfe531b88fc2b905",
+        "c24effdde4a64b581de4f5f207014d64f7188dfe2d88aa3b641af5a20f0fe1f1",
+        "56d22ac00aee4d1cd60b0deadb2322a9a3f19923f0e229133e63caad5ae48cab"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.tracker.mtrtb.com"
+    },
+    "domain:www.tracookiepixel.xyz": {
+      "admissions": [],
+      "evidence": [
+        "47fccc8d93829e74e86b72f6fa2cba6a122ee0b49ec2270416d88b32d74c73e3",
+        "954ce321b5d544608e6d7d55a93fb75847d6db151b17c9f5caff04a42ecfe3d4"
+      ],
+      "families": [
+        "discover-tech"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "origin": "bootstrap",
+      "sources": [
+        "candidates/approved.txt"
+      ],
+      "status": "historical",
+      "type": "domain",
+      "value": "www.tracookiepixel.xyz"
+    }
+  },
+  "observations": {
+    "0b214802a48604de293a1b128778fcc94629f9fd7d4e74fc2fdd3d4d87274d50": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.turnilo.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "0b2db617d696850e96c14fd8fc57db0b3ee36bfc009aab23875e26dcdf044435": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "0c6c8f7e47cde824bf80a2eaa56b259d120d68d3f5c604447ac9a4c82bc263df": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:cn.k8s.dashboard.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "0dafb1fd7ee9557694707711fea95e9f3471aca95b4b985ad71fe09f26d00832": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:tracker-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "0f1b6f79a89cf2e822962bc17564c33056cc1df0463e7db039938831752aabe1": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "13459983e51dbce32d6086e56ec3ab083b03f0c05845cfb2957cb31a2cbcbf9f": {
+      "data": {
+        "file": "candidates/candidates-20261019.txt",
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261019.txt"
+    },
+    "14af13a73e40c589544dcdf4c54b382da1998e6528b43ef4948d83ff2e78d1bf": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.admin.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "16eb657a0c2c237c8d47911cc3e7ff7b23d26946d9bc41a96bab8caa6dae90c5": {
+      "data": {
+        "issue": 2,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "183f29b2338437c2f3df2cae200b25f7182ccc5f9c52b04be88f20683c5f1afc": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "198df567d7855a9d4f4cc0f5990585de5a05be98b1c661de0dc265fc271b0564": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.turnilo.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "1e4ab96ab440402406a4da4d452b614fdf9a6e51bd3a44109b23c2cd6cd3bc0e": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:sun.cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "20413e223a9a9ae06925f1f6fe5443e9de93c86e90513b63935dfe6edfc651ed": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.creatives.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "263698f5692dc361f2ae48c506e0cebff7df3a8e9ba4dd137286e1a257657622": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:gam-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "2851254664b91a0ac66a66322b51cba847d743c21faccc8fee975035517d7e4d": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewa.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "29b879afd54ead073c125894f29ed2b86eb4749319981ca259accd7ff97b4a1c": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:amir-front.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "2dd4fd188e0d057e1d89f6493917f6dc3addb517e253ff0041cfb8a5a02b2ab8": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder myipinfo.io"
+      },
+      "indicator": "domain:www.myipinfo.io",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "2eeca0b19bc6bef049be684409bbf9d6f42a3cea6074c93156bca47e58098420": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:tracker-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "3072c91ccf97781dc18fdd21348b0a14bfa271d7a9485fd5988a3fb0a48c511c": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewa.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "31e95683d961f97feda581db29ac9312ecb3e36bdd6fa081d7564968f6854bc9": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewp.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "33f94419b2e85c11b23de04b4dd0859d567381bfe65d2e6c083674bd87f3ce87": {
+      "data": {
+        "issue": 4,
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "364d144723a7016e31e554bfbbe52488db6786f648232ff4b8635a9345b1cc42": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "36715a09392f32159c2c6fa88d5fc44a0a575c5cc3b22fff7ecb0a1257f4bc46": {
+      "data": {
+        "issue": 4,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "36ce06138db1e951cca603edbd872724e8b01d2b44f04d5dfcabf71e72bd1a1e": {
+      "data": {
+        "issue": 4,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:vpn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "37d7e4668a2efca444d5f37ffad1f689c4cc86c006a02fae455b6efad49b62b9": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.turnilo.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "3805c52ecf63aff0d695abed0b3b4a8455ddbd6a3aaaa38abfb3772a7ea0e413": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "3dcaefa6ea2d453927f76fea9b97ffb27617b760b0c1c97875de73b96851eb1e": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "3e46655a4c048a1c647a1516d34e23fb04cbc0fe0ac638428183f0bd48786e3a": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "47fccc8d93829e74e86b72f6fa2cba6a122ee0b49ec2270416d88b32d74c73e3": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:www.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "485435b220b7f849697f3bd22ecf011b8ee8b1a2b5103d3d3505b8bc7406b241": {
+      "data": {
+        "file": "candidates/candidates-20261019.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261019.txt"
+    },
+    "486bc2a648ec16bd5764c4a90a9b78d5b81c855af4a15687b760bfc19412bcc7": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "4bc38221f9451c29f328e5dffd3ffc417eef92991cb91dd8661cdb3349228a1b": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.creatives.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "4ca60a7d7d31071fa874b2f977df220fdd26604dc9e5b7cd4b7b43a4d526cf10": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewp.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "4d0d1093f1981afb59edee296daf27ce33725f5bc82e92516d9d8e7ceef3337c": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "564146276264e5d509d4094286ff9daf7063edf5f6e7b1e4134c9afa8698b0c1": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.admin.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "56d22ac00aee4d1cd60b0deadb2322a9a3f19923f0e229133e63caad5ae48cab": {
+      "data": {
+        "issue": 4,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:www.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "5709ef672a7726f40662e1cd72ce8239c0d47b837d1eeebf5212373212e20f3e": {
+      "data": {
+        "file": "candidates/candidates-20261019.txt",
+        "reason": "urlscan: domain:myweb3id.io"
+      },
+      "indicator": "domain:ipinfo.myweb3id.io",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261019.txt"
+    },
+    "5c23586172d27092ff9cd0270a071ae615290fcc3938e0a8f43d98b1123cee2e": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewp.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "5f23082aa4b1268cf5e3e238f63fae0131101b9cd689fa4c4096cd1f2c0280db": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewa.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "625c7b05e8e6591d4342b4154e4aa4975edcb40ecceccca2dfe531b88fc2b905": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:www.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "62bac84691baa0f0d06980438140fec4182fba714a6dae90560e630411b92fd3": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:front-ngrok.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "65e467bb96aeae5f4711fe6515ca11b82d8c2917839128742f3a7c6a05db0d02": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:gam-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "67705df6e9c97ac7a06fbcf815a727db52d8cc01941d24b350e11cf9c3489ea9": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:sun.cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "683500f059fb54c52d75a67b06959a2f6a8d99194c4ad7c01f06a059db1a7388": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "756ddb10472ad03ea67b731d6bc0c498dd951bfe5697c55865bb68e8fdcb8c27": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:front-ngrok.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "7824396d934ccea11742c4a25ed03bd4e9e33f163dc0da13153206d5b370672f": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.turnilo.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "7bc5dafc39b020fdc188e361ca2347d0fbb0739d7b2b986fff806d86e46ce74b": {
+      "data": {
+        "issue": 1,
+        "reason": "urlscan: domain:myweb3id.io"
+      },
+      "indicator": "domain:ipinfo.myweb3id.io",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:24Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/1"
+    },
+    "86d90403afbed79dc11779e46a400bd747d30b23b59746456f88d16be11049a0": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:sun.cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "94b1006b91dbf6e0bcabb73e6dcbc24736c7f44c5bd6db9740ac884046fc88bb": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:sun.cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "954ce321b5d544608e6d7d55a93fb75847d6db151b17c9f5caff04a42ecfe3d4": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:www.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "9b2f40b7a4ae77b0af2e9afbdc849362074f7aeb54c88bb1aeb4e3984f66ffab": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "9be037eee97d2446a66531cd301142003bcd2e19939bf5ca2fcf288353615298": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:tracker-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "9f2f453b0a13c739282f402f341e9efa8bb66749b60b631ffcfd55ef908bf620": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder myipinfo.io"
+      },
+      "indicator": "domain:www.myipinfo.io",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "a261b600eb35e982a8916c8f8af264c439bfec5ae03f40848f6a4e58af790818": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.creatives.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "a3dbe03f1d81f9a6e3ca11ca24c68450efe92d1c68f5bd655a823746866862b9": {
+      "data": {
+        "issue": 2,
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "a9a7201233a4cb6c9f0585221a0f861b1889c44f4746b645224417102e888f97": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:tracker-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "acd4d7ac33acdd8784187ec53a993d868cf50bc194b405a999534c4d62c0f7ab": {
+      "data": {
+        "issue": 1,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:1787646375424138-3100197338-119.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:24Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/1"
+    },
+    "ad8c04dbf07cb8695ffbd114b5c26d0611593d0d424319360d9118ea00bb6478": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "b0324a9245c08f4fe2d13f180103f1124e1d3d194982b843f380f0878d7e6ead": {
+      "data": {
+        "file": "candidates/candidates-20261019.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261019.txt"
+    },
+    "b1f5ad940b78d1f937d2e8c0a98da3cbc406fbfc1ad30fd7b4cc8f47e65e9c0b": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:vpn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "b2ae0b7c2f2e868bebaba2bcf1b74bc3b964f62712e20e10882f892f57311053": {
+      "data": {
+        "issue": 1,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:24Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/1"
+    },
+    "b76ea02b41eea482aa28838c16b84b3c8f166f9af045269865d8c15f38d4d2e5": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:www.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "bc3bd9f0e01bd3d65324682bfc207dc91719e519e27cf7117b626f1c4d381e45": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "c02b84a009225e6e997d3686015ff24a5f971e908f91b9208f93e3e12914337b": {
+      "data": {
+        "file": "candidates/candidates-20261019.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:1787646375424138-3100197338-119.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261019.txt"
+    },
+    "c05fdff5959f05ecdd58e782a02599976772ac8b040992acff288e91ef1c74d8": {
+      "data": {
+        "issue": 1,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:24Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/1"
+    },
+    "c24effdde4a64b581de4f5f207014d64f7188dfe2d88aa3b641af5a20f0fe1f1": {
+      "data": {
+        "issue": 2,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:www.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "c83b567c453fd138815311d97fcbc6ccbaf879eb7a6b24ea84a72140d6e0d60c": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:server-ngrok.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "c93cf0ffd3bda322a70dede473c4de1f632b5986bfb53909dbaadbd556b3749b": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:cn.k8s.dashboard.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "c9521f1ccfe339f5f184929bdf6e269893644ac03e61dc20bd4f9987b4e82635": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.tracker.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "cb9783af1be770210941ea1ae7866adc9dd24d35403e4b7814dda80fb31288cb": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "cc7ab4cf4931bd58e323f8101daa9796cf8f9540b1dbc81250f5f5a741f49ca9": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "d083664848eb5f22bf18e462074c485cd7a31f3e1775a93ab9621a51fd70e231": {
+      "data": {
+        "issue": 4,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:cn.k8s.dashboard.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "d3539f5f022548726fa622fb00579538bab643468fb09042fda0a792d5b8cfdd": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewa.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "d3a0da280fc1c2da14980c2a33d6bc7ce6728a0f855a0ff38ca8a82a40a15bb8": {
+      "data": {
+        "issue": 2,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:cn.k8s.dashboard.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "df57d60177f502940eb2948433a6a9330623d4191d9518eaf67f249003b4f9fa": {
+      "data": {
+        "issue": 2,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "e4272b1b10fcb9657ea88182fc08ee6d3dc4f6bd14454c9aa204caa26e3da8ff": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "e52c0cc71cfb59dbdc642c9407f3559e0abf3bbfa7f5f7c36c24ec493aeba891": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:gam-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "e6c3d5bae55de34ee57616ba7616d2c12902bcbb0b17675b035ceadc0b234833": {
+      "data": {
+        "issue": 4,
+        "reason": "urlscan: domain:mtrtb.com"
+      },
+      "indicator": "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "e73d4478fad0076562ce6e2e06c804807b54ee97f15c730099ce5c129cbaa378": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:amir-back.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "e7f437ac90e12374203a64dff8afa202be5f3773d9d511e33978fa26a4046b20": {
+      "data": {
+        "issue": 2,
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:vpn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "e8e278889336cec7e283867fc8fdc5f72f7e72dc6ffd359fb3822a8d7b2e8b98": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "dns: A record deelt IP met Discover-Tech ALB (zwakke aanwijzing; gedeelde hosting mogelijk)"
+      },
+      "indicator": "domain:vpn.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "e90677af3ea2f577c428f2159c77dd09925e1da183d8a1ab5d96e085642a7d26": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.creatives.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "ed4a5a7a000ba6566217beb7254b423f39fdbc48f96741173c23d2db2afec544": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:amir-front.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "ed6aa53f21d785731e3725da3139442fe100bc31250c474d70705bcd0d014d92": {
+      "data": {
+        "issue": 4,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.admin.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:38Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/4"
+    },
+    "ee8db92e5e8e3c1cf3a2aa29e9a0d9a1d1f34b903563c377821c581f112ea55b": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:server-ngrok.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "f1d81203be9233a9d5372527a95593463c7749f56aacc86e7a18458214122b32": {
+      "data": {
+        "file": "candidates/candidates-20261026.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:cn.admin.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:18:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261026.txt"
+    },
+    "f419667cc7eabe77277a2223edd3727f4c66528960f82437851269ce798351d6": {
+      "data": {
+        "issue": 2,
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:gam-eu.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-26T13:19:04Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/2"
+    },
+    "f47a9ecd908c1ed32a0a82bd38c8c751fc7322a3fc4732158ba813c8c5c4b313": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder tracookiepixel.xyz"
+      },
+      "indicator": "domain:amir-back.tracookiepixel.xyz",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "f60ed0ecad40c7e0dae350e62d78c2908a12aed16520a8e19db09f66393eec59": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:viewp.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    },
+    "f61646ae2d4e45dd3fa1fe1c98e9b08273b6d35a2d491ea6569bd8988ec96ac3": {
+      "data": {
+        "issue": 1,
+        "reason": "urlscan: domain:adtimizer.co"
+      },
+      "indicator": "domain:www.adtimizer.co",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-10-19T08:33:24Z",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/issues/1"
+    },
+    "f8529f84199fac4eeb99016d3a28685a55e94f2fc03f3a74a7348106a945a23e": {
+      "data": {
+        "file": "candidates/candidates-20261102.txt",
+        "reason": "crt.sh: certificaat onder mtrtb.com"
+      },
+      "indicator": "domain:www.mtrtb.com",
+      "kind": "legacy-lead",
+      "observed_at": null,
+      "recorded_at": "2026-11-02T16:14:00+00:00",
+      "source": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc/candidates/candidates-20261102.txt"
+    }
+  },
+  "queue": [
+    {
+      "target": "domain:1787646375424138-3100197338-119.mtrtb.com",
+      "tasks": [
+        "dns",
+        "measure"
+      ]
+    },
+    {
+      "target": "domain:ipinfo.myweb3id.io",
+      "tasks": [
+        "dns",
+        "measure"
+      ]
+    }
+  ],
+  "relationships": [],
+  "version": 1
+}

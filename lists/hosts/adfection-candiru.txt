@@ -2,11 +2,11 @@
 # Description: Candiru / Integrity Labs validator, C2 and delivery servers
 # Homepage: https://github.com/LeonardSEO/adfection-blocklist
 # License: CC BY-NC-SA 4.0
-# Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
+# Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 03 Nov 2026 10:55 UTC
-# Version: 2026.1103.105559
+# Last modified: 03 Nov 2026 13:02 UTC
+# Version: 2026.1103.130254
 # Syntax: Hosts (0.0.0.0 domain)
 # Number of entries: 124
 # Number of domains: 124

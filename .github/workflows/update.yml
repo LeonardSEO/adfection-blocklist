@@ -1,20 +1,20 @@
-name: Build and discovery
+name: Independent research and direct publication
 
 on:
   push:
     branches: [main]
     paths:
-      - 'sources/**'
-      - 'candidates/approved.txt'
-      - 'allowlist.txt'
       - 'scripts/**'
+      - 'research/detectors.json'
+      - 'research/project.json'
+      - 'allowlist.txt'
       - '.github/workflows/update.yml'
   schedule:
     - cron: '17 6 * * *'
   workflow_dispatch:
     inputs:
       discovery_seconds:
-        description: 'Discovery time budget in seconds (scheduled runs use 600)'
+        description: 'Research budget in seconds (1-600; daily default 600)'
         required: true
         default: '600'
         type: string
@@ -27,78 +27,80 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  measure:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 13
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.14'
+      - name: Collect public observations and root-only measurements
+        env:
+          RESEARCH_SECONDS: ${{ inputs.discovery_seconds || '600' }}
+        run: |
+          status=0
+          python3 -u scripts/refresh.py --max-seconds "$RESEARCH_SECONDS" || status=$?
+          if [ "$status" -eq 3 ]; then
+            echo '::warning::Research is partial; prior evidence and unfinished queue are retained.'
+          elif [ "$status" -ne 0 ]; then
+            exit "$status"
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: measurements-${{ github.run_id }}
+          path: |
+            research/registry.json
+            candidates/latest.json
+          if-no-files-found: error
+          retention-days: 30
+
+  publish:
+    needs: measure
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
     permissions:
       contents: write
-      pull-requests: write
       actions: write
     steps:
+      # Check out the trusted main branch; never execute code from the artifact.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.14'
-      - name: Query public research services
-        if: github.event_name != 'push'
+      - name: Download this run's measurement data
         env:
-          CENSYS_API_ID: ${{ secrets.CENSYS_API_ID }}
-          CENSYS_API_SECRET: ${{ secrets.CENSYS_API_SECRET }}
-          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
-          DISCOVERY_SECONDS: ${{ inputs.discovery_seconds || '600' }}
-        shell: bash
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh run download "$GITHUB_RUN_ID" --name "measurements-$GITHUB_RUN_ID" --dir "$RUNNER_TEMP/measurements"
+      - name: Evaluate detectors and validate evidence offline
         run: |
-          status=0
-          python3 -u scripts/discover.py --max-seconds "$DISCOVERY_SECONDS" || status=$?
-          if [ "$status" -eq 3 ]; then
-            echo '::warning::Discovery is partial: see the reports in the artifact and update PR. No candidates are approved automatically.'
-          elif [ "$status" -ne 0 ]; then
-            exit "$status"
-          fi
-      - name: Archive discovery reports
-        if: always() && github.event_name != 'push'
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        with:
-          name: discovery-${{ github.run_id }}
-          path: |
-            candidates/candidates-*.txt
-            candidates/candidates-*.json
-          if-no-files-found: error
-      - name: Offline regression tests
-        run: python3 -m unittest discover -s tests -v
-      - name: Build and verify lists
-        run: |
+          python3 scripts/publish.py --measurements "$RUNNER_TEMP/measurements"
+          python3 scripts/publish.py --check
           python3 scripts/build.py
           python3 scripts/build.py --check
-      - name: Create update PR and start CI
+      - name: Validate before direct publication
+        run: |
+          python3 -m unittest discover -s tests -v
+          bash scripts/check-resolvers.sh
+      - name: Publish validated observations directly to main
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
+          git add research/registry.json research/unverified.json candidates/latest.json lists README.md
+          if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add lists README.md
-          find candidates -maxdepth 1 -type f -name 'candidates-*' -print0 | xargs -0 -r git add --
-          if git diff --cached --quiet; then exit 0; fi
-          branch="automation/refresh-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-          git switch -c "$branch"
-          git commit -m "Refresh lists and discovery reports $(date -u +%F)"
-          git push origin "$branch"
-          {
-            echo 'Rebuild all list formats from reviewed sources and record available discovery leads.'
-            echo
-            echo 'Discovery candidates remain unapproved and are never added to the blocklists automatically.'
-            stem="candidates/candidates-$(date -u +%Y%m%d)"
-            if [ -f "$stem.json" ]; then
-              echo
-              echo '```json'
-              cat "$stem.json"
-              echo '```'
-            fi
-          } > "$RUNNER_TEMP/update-pr.md"
-          pr=$(gh pr create --base main --head "$branch" --title "Refresh lists $(date -u +%F)" --body-file "$RUNNER_TEMP/update-pr.md")
-          gh pr merge "$pr" --auto --squash
-          # Explicit dispatch avoids approval-gated CI for GITHUB_TOKEN-created PRs.
-          gh workflow run ci.yml --ref "$branch"
+          git commit -m "Publish independent research $(date -u +%F)"
+          # A concurrent main update causes a normal non-fast-forward failure; never force-push.
+          git push origin HEAD:main
+          # GITHUB_TOKEN pushes do not trigger push workflows, so dispatch CI explicitly.
+          gh workflow run ci.yml --ref main

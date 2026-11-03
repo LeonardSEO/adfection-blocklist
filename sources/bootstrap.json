@@ -1,0 +1,1083 @@
+{
+  "indicators": {
+    "domain:1790180408009733-8822372887-52.ppv2.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:1790814041700313-3401190136-138.ppv2.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:admin.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:ads-impressions.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:ads-monitor.xyz": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:adtimizer.co": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:adv45.volasim.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:adv50.volasim.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:akedo.gg": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:ambiguouscommerce.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:amir-back.tracookiepixel.xyz": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:amir-front.tracookiepixel.xyz": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:antperspective.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:aperturebelt.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:archer.westeurope.cloudapp.azure.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:asknapkin.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:barnsecret.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:baseagriculture.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:basicstraw.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:basinapposite.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bd-mainserver.herokuapp.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:beachvibesnow.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:beneathbreadth.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bizarreclassify.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:blockroster.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bondmuscle.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:breadgroomer.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bronzemonth.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:browniebell.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bt.myweb3id.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:bt.platc-tester.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:bypassbirch.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bypasscalculate.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:bypasscommerce.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:calmbase.org": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cartoondrop.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:checkmyimp.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:chickenstrawberry.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:citecivilization.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:closetmeat.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cn.admin.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:cn.creatives.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:cn.druid.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:cn.k8s.dashboard.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:cn.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:cn.tracker.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:cn.turnilo.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:commonclever.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:concretebottle.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:conquerconfess.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:containsnow.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:contradictionblindness.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:controlium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:convincechaotic.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cookie-sync.xyz": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:cookiesurfer.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:cooperatedisinfect.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cottonbread.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cranberrybear.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:cropcritique.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:crossoverdue.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:d147nolwbekx2b.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d19oo8r6k9oumb.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d1fcoizt7mje85.cloudfront.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:d1fzw0miu1r9rc.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d1x4e580sn23dn.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d23625plpxg1yn.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d2epnp0vokbtl7.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d2f4zpg1mgzwov.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d39619tdxn6mhj.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:d8lmy5wyiokrq.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:damageconsider.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:dcv2rnj2ograe.cloudfront.net": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:deardrill.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:dediccatedconsideration.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:deducedefend.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:deliverconcern.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:densefoot.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:desireeclipse.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:detaincharity.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:deterdiffusion.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:devotionbelief.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:discover-tech.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:discovertech.us.auth0.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:distractionfar.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:drivesplash.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:druid.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:drummerjourney.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:dtech.adtimizer.co": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:dtech.adtimizer.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:dtech.mtrtb.com": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:dumplingbell.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:electric-prime.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:elifluousscintillam.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:eminententwine.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:enjoymultiplecats.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:events-ui.discover-tech.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:events-ui.myweb3id.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:events.myweb3id.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:events.platc-tester.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:exhibitexpanse.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:fallaciousessential.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:fearevolve.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:fileswaper.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:finalsalami.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:flexibleelevator.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:foamdirection.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:forecastgarden.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:front-ngrok.tracookiepixel.xyz": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:gam-eu.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:globaldatapoints.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:goatsandals.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:golfconcert.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:groundbreakinginitative.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:guitarcalculate.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:hostilefauna.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:icecreamtester.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:imp.powerium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:infinoas.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:infoanalytics.live": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:insightenterprisells.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:isolatelecture.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:jellybat.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:jobmarcher.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:journeyjest.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:js.cookie-sync.xyz": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:js.tracookiepixel.xyz": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:kartingrumble.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:keyadapter.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:labyrinthextravagance.org": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:leafconfuse.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:lessonhandle.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:logger.controlium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:logger.powerium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:macrodrop.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:macromint.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:maturitygenesis.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:measurecabin.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:mushroompalm.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:mydsp.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:myipinfo.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:myweb3id.io": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:noas.adtimizer.co": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:noas.impchkdsp.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:noas.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:noas.powerium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:noas.trakking.co": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:notableexam.org": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:notionnowadays.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:nutralove.co": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:outdooutcome.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:pagead.trustlayersdk.com": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:parkourbus.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:patternperiod.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:penslice.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:pepperdominate.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:pickarest.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:plasticbells.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:platc-tester.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:powerium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:ppv2.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:pqv2.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:prawnbasket.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:predictproper.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:pressaviation.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:profligatecensure.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:qa-noas.powerium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:relevantech.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:remindmewhere.app": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:rollstrech.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:romancedrum.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:sacrificeprincipal.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:salmonpride.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:scoreparade.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:selectedpazzle.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:server-ngrok.tracookiepixel.xyz": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:shareitwork.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:sharethere.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:signifyslight.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:sincereaccertain.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:spongefruit.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:stablesurface.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:strangegarden.org": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:stylebrakedown.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:suggestutterly.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt",
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:sun.cn.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:sunsetpotential.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:tacticscheap.net": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:tekma-dmp.ai": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:tekma.adtimizer.co": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:tidalscreen.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:tracker-eu.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:tracker.mtrtb.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:tracookiepixel.xyz": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:tubeshape.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:ultimatematter.info": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:velvetpremier.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:viewa.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:viewp.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:volasim.com": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:vpn.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:windomination.com": {
+      "sources": [
+        "sources/recordedfuture-candiru.txt"
+      ]
+    },
+    "domain:www.adtimizer.co": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:www.controlium.net": {
+      "sources": [
+        "sources/citizenlab-adfection.txt"
+      ]
+    },
+    "domain:www.discover-tech.io": {
+      "sources": [
+        "sources/confiant-adint.txt"
+      ]
+    },
+    "domain:www.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:www.myipinfo.io": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:www.tracker.mtrtb.com": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    },
+    "domain:www.tracookiepixel.xyz": {
+      "sources": [
+        "candidates/approved.txt"
+      ]
+    }
+  },
+  "rejected": [],
+  "sources": {
+    "candidates/approved.txt": {
+      "sha256": "0eaaa4a2dd2c9258f6e30bfdc98f078a186dba9c724927c4f292ca4f9c0c3bfa",
+      "url": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc0eee28a98f6bbd6385a084e3c424c9241/candidates/approved.txt"
+    },
+    "sources/citizenlab-adfection.txt": {
+      "sha256": "820161f17c7b431dbfe9cfa9497ca931e581b5b76917a5bbd5ce517439cd9b86",
+      "url": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc0eee28a98f6bbd6385a084e3c424c9241/sources/citizenlab-adfection.txt"
+    },
+    "sources/confiant-adint.txt": {
+      "sha256": "d3420d83d7c836f3260b3ea30446ea5a940e6830568029802b2529fade154f58",
+      "url": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc0eee28a98f6bbd6385a084e3c424c9241/sources/confiant-adint.txt"
+    },
+    "sources/recordedfuture-candiru.txt": {
+      "sha256": "678d7024d3c246c38722fd39538e363b95e3207ac925a8cf871474b91a2ccbbe",
+      "url": "https://github.com/LeonardSEO/adfection-blocklist/blob/9a380cc0eee28a98f6bbd6385a084e3c424c9241/sources/recordedfuture-candiru.txt"
+    }
+  },
+  "version": 1
+}

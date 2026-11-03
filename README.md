@@ -17,9 +17,34 @@ Use **Full** unless you deliberately want one category only. Subscribe to one fo
 
 The download links below point to raw text, suitable for subscription where the client supports custom URLs. `Expires: 1 day` is a refresh hint for compatible clients, **not** a guarantee that every client updates daily. Local hosts and resolver configuration files need their own update process. NextDNS custom URL import is not assumed to be supported.
 
+## Independent source and optional unverified list
+
+Daily Actions now produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists.
+
+**`adfection-unverified.txt` is a separate, opt-in blocklist.** It automatically includes candidates with concrete infrastructure/measurement evidence before full actor attribution is verified. It has greater false-positive risk. Use it alongside the regular list if you want this broader coverage. All eight formats are linked below. Each inclusion has a reproducible rule and evidence IDs in [research/unverified.json](research/unverified.json); it does not claim verified malware or current actor control.
+
+Research runs daily at **06:17 UTC**, with a ten-minute budget and a persistent queue. A read-only collector and separate offline publisher validate observations, tests, output consistency and resolver syntax, then push generated updates **directly to `main`**. No maintenance PR or per-domain human approval is required for the opt-in tier. Qualified detector rules remain available for automatic admission to the regular discovered list.
+
+See [architecture and evidence rules](docs/ARCHITECTURE.md), [research policy](research/project.json), [persistent register](research/registry.json) and [latest report](candidates/latest.json). Historical source dates and actual measurement dates are distinct.
+
 <!-- LISTS:START -->
 
 **211 unique domains**, **159 after wildcard compression**.
+
+### AdFection Unverified
+
+Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk
+
+| Format | Intended use | Download / subscription |
+| --- | --- | --- |
+| Adblock | AdGuard Home, uBlock Origin; root + subdomains | [adblock/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/adblock/adfection-unverified.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/dnsmasq/adfection-unverified.txt) |
+| Wildcard | Compressed roots; importer must match subdomains | [wildcard/adfection-unverified-onlydomains.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-unverified-onlydomains.txt) |
+| Asterisk Wildcard | Explicit root + *.domain pairs; check importer support | [wildcard/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-unverified.txt) |
+| Domains | Pi-hole / plain domain import; all explicit hosts | [domains/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/domains/adfection-unverified.txt) |
+| Hosts | OS hosts file; exact hostnames | [hosts/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/hosts/adfection-unverified.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/rpz/adfection-unverified.txt) |
+| Unbound | Unbound local-zone configuration | [unbound/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/unbound/adfection-unverified.txt) |
 
 ### AdFection Full
 
@@ -81,6 +106,21 @@ Published Bindecy-associated infrastructure
 | RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-bindecy.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/rpz/adfection-bindecy.txt) |
 | Unbound | Unbound local-zone configuration | [unbound/adfection-bindecy.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/unbound/adfection-bindecy.txt) |
 
+### AdFection Independently Discovered
+
+Own findings supported by qualified detectors
+
+| Format | Intended use | Download / subscription |
+| --- | --- | --- |
+| Adblock | AdGuard Home, uBlock Origin; root + subdomains | [adblock/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/adblock/adfection-discovered.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/dnsmasq/adfection-discovered.txt) |
+| Wildcard | Compressed roots; importer must match subdomains | [wildcard/adfection-discovered-onlydomains.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-discovered-onlydomains.txt) |
+| Asterisk Wildcard | Explicit root + *.domain pairs; check importer support | [wildcard/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-discovered.txt) |
+| Domains | Pi-hole / plain domain import; all explicit hosts | [domains/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/domains/adfection-discovered.txt) |
+| Hosts | OS hosts file; exact hostnames | [hosts/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/hosts/adfection-discovered.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/rpz/adfection-discovered.txt) |
+| Unbound | Unbound local-zone configuration | [unbound/adfection-discovered.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/unbound/adfection-discovered.txt) |
+
 ### AdFection Intelos
 
 Published Intelos ADINT-associated infrastructure
@@ -128,11 +168,11 @@ Compression removes a hostname only when another entry covers its parent. Domain
 ```text
 sources/*.txt                 Published domains with category and source comments
 allowlist.txt                 Exact exclusions for shared platform roots and other exceptions
-candidates/approved.txt        Manually reviewed additions used by the build
-candidates/candidates-*.txt    Discovery leads, never included automatically
+candidates/approved.txt        Frozen legacy reviewed additions
+candidates/candidates-*.txt    Historical reports migrated into the register
 candidates/candidates-*.json   Discovery status, errors and skipped sources
 scripts/build.py              Validation, deduplication, compression and eight output formats
-scripts/discover.py           Bounded queries to public research services
+scripts/refresh.py            Independent collector and persistent queue
 lists/                        Generated subscription/configuration files; do not edit directly
 tests/                        Offline regression and format coverage tests
 .github/workflows/            Read-only CI and scheduled build/discovery automation
@@ -153,24 +193,18 @@ python3 scripts/build.py --check
 ## Discovery and updates
 
 ```bash
-python3 scripts/discover.py --max-seconds 600
-# Example: omit the optional legacy Censys integration
-python3 scripts/discover.py --skip censys --max-seconds 600
+python3 scripts/refresh.py --max-seconds 600  # exit 3 means partial observations, not corruption
+python3 scripts/publish.py
+python3 scripts/publish.py --check
+python3 scripts/build.py
+python3 scripts/build.py --check
 ```
 
-Discovery queries Certificate Transparency (crt.sh), existing urlscan.io search results and Cloudflare DNS over HTTPS. It does not submit websites for scanning or fetch suspected spyware endpoints. Optional `URLSCAN_API_KEY` raises authenticated service limits. Optional `CENSYS_API_ID` / `CENSYS_API_SECRET` enable a **legacy Censys v2 API** integration; availability depends on your account and is not guaranteed. Store credentials in environment variables or GitHub Actions secrets, never in repository files.
+The same independent engine as Pegasus collects CT/SAN, DNS, existing scans and bounded root-only HTTP/TLS evidence. AdFection additionally searches the request hosts serving its configured tracking assets, allowing standalone new roots without blocking publishers. It does not submit new third-party scans. `research/project.json` owns the search and unverified-tier rules; qualified verified detectors live in `research/detectors.json`. No API credentials are required.
 
-Results are **leads for manual review**, not verified malicious domains. Certificate issuance, a shared IP or a reference on a publisher's page does not establish malicious ownership. Discovery divides its time budget between enabled services so one unavailable source cannot prevent the others from being queried. It is bounded by time, API availability and first-page result limits. A JSON report records skipped sources and failures; partial runs exit with code 3, even when they found zero candidates. Invalid arguments and script failures retain separate nonzero exit codes.
+The frozen bootstrap preserves all existing category subscriptions and the reviewed additions previously stored in `approved.txt`. Historical discovery reports and open issue leads were migrated with their references and unknown observation dates, then queued for current measurements. Future additions are generated from the register, not by resynchronizing community lists. The legacy `discover.py` command remains available but is no longer the daily pipeline.
 
-- **CI** runs offline tests on Python 3.10 and 3.14, checks generated output, and validates resolver syntax on pushes and pull requests.
-- **Build and discovery** runs daily at **06:17 UTC**, on relevant pushes to `main`, and on manual dispatch. Push runs rebuild without discovery. Manual runs accept `discovery_seconds` (600 by default).
-- Maintenance creates a PR targeting `main` for generated list and discovery report changes, enables auto-merge, and explicitly dispatches CI on its branch. It never pushes updates directly to `main`.
-- Expected discovery source errors/time limits produce warnings and archived JSON reports. Unexpected script failures still fail the workflow. Candidates remain review leads and never become blocked domains automatically.
-- **Auto-merge validated PRs** automatically merges non-draft PRs from branches in this repository, including Dependabot, after CI passes for the current head commit. Fork PRs require maintainer review. The privileged merge job never checks out PR code.
-- Dependabot checks pinned GitHub Actions daily and groups available updates. The Python scripts use only the standard library, so there are no pip dependencies to upgrade.
-- Repository settings must allow Actions to create PRs and enable auto-merge. Branch protection requires the explicit `CI validated` commit status, published only after both Python matrix jobs pass. Dispatched CI publishes this status directly because GitHub does not attach dispatch job checks to PRs; ordinary PRs publish it through the trusted completion workflow. Branches are deleted after merge. Policies, conflicts and failing checks can still block merging.
-
-A discovery run does **not** re-extract new publications. Source additions and candidate approval require a maintainer. Check the [Actions history](https://github.com/LeonardSEO/adfection-blocklist/actions) and list headers to assess freshness.
+See the [architecture](docs/ARCHITECTURE.md) for evidence rules, isolation, direct-main publication and failure handling. CI uses Python 3.10/3.14 and resolver syntax checks. Dependabot and human contribution PRs retain their validated auto-merge path; daily research creates no PRs or review issues.
 
 ## Limitations
 

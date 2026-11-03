@@ -51,3 +51,7 @@ Plain hosts files cannot express the full coverage of reported wildcards. A list
 Citizen Lab Report 195 is by Bill Marczak, Wolfie Christl, John Scott-Railton, Astrid Perry, Siena Anstis and Ron Deibert, University of Toronto. The other publications are attributed to Confiant Threat Intelligence and Recorded Future Insikt Group respectively. Follow the linked originals for full methods, qualifications, company responses and publication terms.
 
 The project's CC BY-NC-SA offer concerns its own compilation and additions. It does not imply that Confiant or Recorded Future published their reports under that license or that their rights are transferred. HaGeZi is credited for organizational inspiration; no endorsement or source-list import is claimed.
+
+## Independent-source migration (3 November 2026)
+
+`sources/bootstrap.json` pins the initial source membership and hashes. Daily collection never downloads external blocklists. The register is now the publication source; old source/approved files remain historical records. New evidence-backed candidates are automatically published in the separate opt-in unverified tier under the rules in `docs/ARCHITECTURE.md`; verified attribution still uses qualified detectors. Historical manual-review instructions above describe the original bootstrap, not the current unverified workflow.

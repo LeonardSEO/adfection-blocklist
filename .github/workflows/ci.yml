@@ -24,16 +24,13 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Offline regression tests
         run: python3 -m unittest discover -s tests -v
+      - name: Validate registry and publication evidence
+        run: python3 scripts/publish.py --check
       - name: Check generated lists and README links
         run: python3 scripts/build.py --check
       - name: Validate Unbound syntax
         if: matrix.python == '3.14'
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y unbound bind9-utils dnsmasq-base
-          for file in lists/unbound/*.txt; do unbound-checkconf "$file"; done
-          for file in lists/rpz/*.txt; do named-checkzone rpz.invalid "$file"; done
-          for file in lists/dnsmasq/*.txt; do dnsmasq --test --conf-file="$file"; done
+        run: bash scripts/check-resolvers.sh
 
   finalize-dispatched-ci:
     if: github.event_name == 'workflow_dispatch'

@@ -1,0 +1,5 @@
+{
+  "detectors": [],
+  "reason": "Unverified evidence rules run automatically; confirmed attribution requires qualified detectors.",
+  "version": 1
+}
