@@ -2,7 +2,7 @@
 
 A focused domain blocklist for infrastructure associated with **AdFection**, ad-based spyware delivery and related advertising surveillance. It combines published indicators concerning Discover-Tech, Candiru / Integrity Labs, Bindecy and Intelos.
 
-**Coverage reviewed: 19 October 2026. This is a curated, partial dataset, not a complete inventory or a guarantee against spyware.** An entry can identify delivery, profiling, tracking, administration or associated corporate infrastructure; it does not mean every listed host delivered malware.
+**Coverage reviewed: 3 November 2026. This is a curated, partial dataset, not a complete inventory or a guarantee against spyware.** An entry can identify delivery, profiling, tracking, administration or associated corporate infrastructure; it does not mean every listed host delivered malware.
 
 Independent community project. Not affiliated with Citizen Lab, Confiant, Recorded Future or HaGeZi. The directory layout and list metadata are inspired by [HaGeZi DNS blocklists](https://github.com/hagezi/dns-blocklists).
 
@@ -19,7 +19,7 @@ The download links below point to raw text, suitable for subscription where the 
 
 <!-- LISTS:START -->
 
-**188 unique domains**, **159 after wildcard compression**.
+**211 unique domains**, **159 after wildcard compression**.
 
 ### AdFection Full
 
@@ -160,12 +160,15 @@ python3 scripts/discover.py --skip censys --max-seconds 600
 
 Discovery queries Certificate Transparency (crt.sh), existing urlscan.io search results and Cloudflare DNS over HTTPS. It does not submit websites for scanning or fetch suspected spyware endpoints. Optional `URLSCAN_API_KEY` raises authenticated service limits. Optional `CENSYS_API_ID` / `CENSYS_API_SECRET` enable a **legacy Censys v2 API** integration; availability depends on your account and is not guaranteed. Store credentials in environment variables or GitHub Actions secrets, never in repository files.
 
-Results are **leads for manual review**, not verified malicious domains. Certificate issuance, a shared IP or a reference on a publisher's page does not establish malicious ownership. Discovery divides its time budget between enabled services so one unavailable source cannot prevent the others from being queried. It is bounded by time, API availability and first-page result limits. A JSON report records skipped sources and failures; partial runs exit nonzero, even when they found zero candidates.
+Results are **leads for manual review**, not verified malicious domains. Certificate issuance, a shared IP or a reference on a publisher's page does not establish malicious ownership. Discovery divides its time budget between enabled services so one unavailable source cannot prevent the others from being queried. It is bounded by time, API availability and first-page result limits. A JSON report records skipped sources and failures; partial runs exit with code 3, even when they found zero candidates. Invalid arguments and script failures retain separate nonzero exit codes.
 
-- **CI** runs offline tests and checks generated output on pushes and pull requests.
-- **Build and discovery** rebuilds on relevant pushes to `main`. Every Monday at **06:17 UTC**, or when manually dispatched, it also performs discovery. Manual runs allow a custom time budget through the `discovery_seconds` input. Discovery failure does not stop the independent list build.
-- Automation commits generated list changes. Discovery results are committed separately and produce a review issue for new candidates or partial results, with duplicate issue titles suppressed.
-- The workflows explicitly request their required token permissions; changing the repository-wide default to read/write is normally unnecessary. Organization policies and branch protection can still restrict automated pushes.
+- **CI** runs offline tests on Python 3.10 and 3.14, checks generated output, and validates resolver syntax on pushes and pull requests.
+- **Build and discovery** runs daily at **06:17 UTC**, on relevant pushes to `main`, and on manual dispatch. Push runs rebuild without discovery. Manual runs accept `discovery_seconds` (600 by default).
+- Maintenance creates a PR targeting `main` for generated list and discovery report changes, enables auto-merge, and explicitly dispatches CI on its branch. It never pushes updates directly to `main`.
+- Expected discovery source errors/time limits produce warnings and archived JSON reports. Unexpected script failures still fail the workflow. Candidates remain review leads and never become blocked domains automatically.
+- **Auto-merge validated PRs** automatically merges non-draft PRs from branches in this repository, including Dependabot, after CI passes for the current head commit. Fork PRs require maintainer review. The privileged merge job never checks out PR code.
+- Dependabot checks pinned GitHub Actions daily and groups available updates. The Python scripts use only the standard library, so there are no pip dependencies to upgrade.
+- Repository settings must allow Actions to create PRs and enable auto-merge. Branch protection requires `validate (3.10)` and `validate (3.14)` before merging; generated updates use explicit CI dispatch to avoid approval-gated bot PR runs. Branches are deleted after merge. Policies, conflicts and failing checks can still block merging.
 
 A discovery run does **not** re-extract new publications. Source additions and candidate approval require a maintainer. Check the [Actions history](https://github.com/LeonardSEO/adfection-blocklist/actions) and list headers to assess freshness.
 

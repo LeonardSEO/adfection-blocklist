@@ -5,8 +5,8 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 02 Nov 2026 16:09 UTC
-# Version: 2026.1102.160925
+# Last modified: 03 Nov 2026 10:45 UTC
+# Version: 2026.1103.104515
 # Syntax: Plain domains, all explicit hosts
 # Number of entries: 1
 # Number of domains: 1

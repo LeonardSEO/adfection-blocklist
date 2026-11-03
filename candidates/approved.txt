@@ -1,1 +1,31 @@
-# Goedgekeurde domeinen uit discovery runs. Formaat: domein  # categorie: reden
+# Reviewed 2026-11-03: explicit hosts from candidates-20261102.txt.
+# These hosts are already covered by published wildcard indicators:
+# Citizen Lab Appendix C (mtrtb.com, myipinfo.io, tracookiepixel.xyz):
+# https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/
+# Confiant Indicators (*.adtimizer.co):
+# https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming
+# Adds exact-host coverage; no new parent domains or attribution based on shared IPs.
+
+1790180408009733-8822372887-52.ppv2.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+1790814041700313-3401190136-138.ppv2.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+amir-back.tracookiepixel.xyz # discover-tech: published parent indicator; discovery report 2026-11-02
+amir-front.tracookiepixel.xyz # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.admin.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.creatives.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.k8s.dashboard.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.tracker.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+cn.turnilo.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+front-ngrok.tracookiepixel.xyz # discover-tech: published parent indicator; discovery report 2026-11-02
+gam-eu.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+server-ngrok.tracookiepixel.xyz # discover-tech: published parent indicator; discovery report 2026-11-02
+sun.cn.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+tracker-eu.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+viewa.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+viewp.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+vpn.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+www.adtimizer.co # discover-tech: published parent indicator; discovery report 2026-11-02
+www.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+www.myipinfo.io # discover-tech: published parent indicator; discovery report 2026-11-02
+www.tracker.mtrtb.com # discover-tech: published parent indicator; discovery report 2026-11-02
+www.tracookiepixel.xyz # discover-tech: published parent indicator; discovery report 2026-11-02

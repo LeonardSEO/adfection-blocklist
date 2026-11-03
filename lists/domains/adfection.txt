@@ -5,12 +5,14 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 02 Nov 2026 16:09 UTC
-# Version: 2026.1102.160925
+# Last modified: 03 Nov 2026 10:45 UTC
+# Version: 2026.1103.104515
 # Syntax: Plain domains, all explicit hosts
-# Number of entries: 188
-# Number of domains: 188
+# Number of entries: 211
+# Number of domains: 211
 #
+1790180408009733-8822372887-52.ppv2.mtrtb.com
+1790814041700313-3401190136-138.ppv2.mtrtb.com
 admin.mtrtb.com
 ads-impressions.com
 ads-monitor.xyz
@@ -19,6 +21,8 @@ adv45.volasim.com
 adv50.volasim.com
 akedo.gg
 ambiguouscommerce.com
+amir-back.tracookiepixel.xyz
+amir-front.tracookiepixel.xyz
 antperspective.com
 aperturebelt.com
 archer.westeurope.cloudapp.azure.com
@@ -47,7 +51,13 @@ checkmyimp.com
 chickenstrawberry.com
 citecivilization.com
 closetmeat.com
+cn.admin.mtrtb.com
+cn.creatives.mtrtb.com
 cn.druid.mtrtb.com
+cn.k8s.dashboard.mtrtb.com
+cn.mtrtb.com
+cn.tracker.mtrtb.com
+cn.turnilo.mtrtb.com
 commonclever.com
 concretebottle.com
 conquerconfess.com
@@ -110,6 +120,8 @@ finalsalami.com
 flexibleelevator.com
 foamdirection.com
 forecastgarden.com
+front-ngrok.tracookiepixel.xyz
+gam-eu.mtrtb.com
 globaldatapoints.com
 goatsandals.com
 golfconcert.com
@@ -176,6 +188,7 @@ sacrificeprincipal.net
 salmonpride.net
 scoreparade.com
 selectedpazzle.com
+server-ngrok.tracookiepixel.xyz
 shareitwork.com
 sharethere.net
 signifyslight.com
@@ -185,17 +198,27 @@ stablesurface.com
 strangegarden.org
 stylebrakedown.com
 suggestutterly.com
+sun.cn.mtrtb.com
 sunsetpotential.com
 tacticscheap.net
 tekma-dmp.ai
 tekma.adtimizer.co
 tidalscreen.com
+tracker-eu.mtrtb.com
 tracker.mtrtb.com
 tracookiepixel.xyz
 tubeshape.com
 ultimatematter.info
 velvetpremier.com
+viewa.mtrtb.com
+viewp.mtrtb.com
 volasim.com
+vpn.mtrtb.com
 windomination.com
+www.adtimizer.co
 www.controlium.net
 www.discover-tech.io
+www.mtrtb.com
+www.myipinfo.io
+www.tracker.mtrtb.com
+www.tracookiepixel.xyz

@@ -1,6 +1,6 @@
 # Sources and coverage
 
-Reviewed on **19 October 2026**. This document describes the scope of this compilation; it is not a claim that all infrastructure or all domains mentioned anywhere in the reports are blocked.
+Reviewed on **3 November 2026**. This document describes the scope of this compilation; it is not a claim that all infrastructure or all domains mentioned anywhere in the reports are blocked.
 
 | Source file | Publication | Unique explicit hosts in file |
 | --- | --- | ---: |
@@ -8,7 +8,13 @@ Reviewed on **19 October 2026**. This document describes the scope of this compi
 | `sources/confiant-adint.txt` | [Confiant ADINT investigation](https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming), 15 October 2026 | 17 |
 | `sources/recordedfuture-candiru.txt` | [Recorded Future CTA-2025-0805](https://assets.recordedfuture.com/content/dam/insikt-report-pdfs/2025/cta-2025-0805.pdf), 5 August 2025 | 108 |
 
-Four hosts overlap between the source files. After deduplication, the compilation contains **188 unique hosts**, grouped as Candiru (124), Discover-Tech (56), Bindecy (7), and Intelos (1). Category assignment is for list selection, not an assertion of exclusive ownership.
+Four hosts overlap between the source files. After deduplication, the compilation contains **211 unique hosts**, grouped as Candiru (124), Discover-Tech (79), Bindecy (7), and Intelos (1). Category assignment is for list selection, not an assertion of exclusive ownership.
+
+## Review on 3 November 2026
+
+Rechecked Citizen Lab Appendix C and Confiant's Indicators section. No additional published parent indicator was identified in those sections. Reviewed the 23 explicit hosts in the 2 November discovery report: all fall beneath parent indicators already reported by Citizen Lab (`mtrtb.com`, `myipinfo.io`, `tracookiepixel.xyz`) or Confiant (`adtimizer.co`). They are now recorded in `candidates/approved.txt` to extend exact-host formats. The wildcard-compressed list remains at 159 domains. This approval follows published parent coverage, not shared IPs or certificate issuance alone.
+
+A new bounded discovery run is recorded separately; partial results and skipped sources remain visible in its JSON report. No exhaustive or live-malware validation is claimed.
 
 ## Review on 19 October 2026
 
