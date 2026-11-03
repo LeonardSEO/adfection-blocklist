@@ -23,34 +23,17 @@ Both projects use one credential-isolated urlscan/Censys coordinator in Adfectio
 
 See [Free API setup, limits and diagnosis](docs/FREE-API.md). The normal measurement jobs remain secret-free and use our sanitized public observations.
 
-## Independent source and optional unverified list
+## Independent research
 
-Daily Actions now produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists.
+Daily Actions produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists. The regular subscriptions contain historical bootstrap indicators and any own findings admitted by qualified detectors. Their presence does not imply every historical host is currently malicious.
 
-**`adfection-unverified.txt` is a separate, opt-in blocklist.** It automatically includes candidates with concrete infrastructure/measurement evidence before full actor attribution is verified. It has greater false-positive risk. Use it alongside the regular list if you want this broader coverage. All eight formats are linked below. Each inclusion has a reproducible rule and evidence IDs in [research/unverified.json](research/unverified.json); it does not claim verified malware or current actor control.
+Candidate observations and supporting evidence remain in [research/registry.json](research/registry.json). Candidates receive bounded DNS/TLS/HTTP measurements and enter a blocklist only after the configured admission requirements are met. The removed optional candidate-list subscriptions are no longer published.
 
-Research runs daily at **06:17 UTC**, with a ten-minute budget and a persistent queue. A read-only collector and separate offline publisher validate observations, tests, output consistency and resolver syntax, then push generated updates **directly to `main`**. No maintenance PR or per-domain human approval is required for the opt-in tier. Qualified detector rules remain available for automatic admission to the regular discovered list.
-
-See [architecture and evidence rules](docs/ARCHITECTURE.md), [research policy](research/project.json), [persistent register](research/registry.json) and [latest report](candidates/latest.json). Historical source dates and actual measurement dates are distinct.
+A read-only collector and separate publisher validate evidence, tests, generated lists and resolver syntax, then push updates directly to `main`. The shared Free API integration and daily schedules continue as described above and in [architecture](docs/ARCHITECTURE.md).
 
 <!-- LISTS:START -->
 
 **211 unique domains**, **159 after wildcard compression**.
-
-### AdFection Unverified
-
-Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk
-
-| Format | Intended use | Download / subscription |
-| --- | --- | --- |
-| Adblock | AdGuard Home, uBlock Origin; root + subdomains | [adblock/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/adblock/adfection-unverified.txt) |
-| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/dnsmasq/adfection-unverified.txt) |
-| Wildcard | Compressed roots; importer must match subdomains | [wildcard/adfection-unverified-onlydomains.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-unverified-onlydomains.txt) |
-| Asterisk Wildcard | Explicit root + *.domain pairs; check importer support | [wildcard/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/wildcard/adfection-unverified.txt) |
-| Domains | Pi-hole / plain domain import; all explicit hosts | [domains/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/domains/adfection-unverified.txt) |
-| Hosts | OS hosts file; exact hostnames | [hosts/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/hosts/adfection-unverified.txt) |
-| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/rpz/adfection-unverified.txt) |
-| Unbound | Unbound local-zone configuration | [unbound/adfection-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/adfection-blocklist/main/lists/unbound/adfection-unverified.txt) |
 
 ### AdFection Full
 
@@ -206,7 +189,7 @@ python3 scripts/build.py
 python3 scripts/build.py --check
 ```
 
-The same independent engine as Pegasus collects CT/SAN, DNS, existing scans and bounded root-only HTTP/TLS evidence. AdFection additionally searches the request hosts serving its configured tracking assets, allowing standalone new roots without blocking publishers. It does not submit new third-party scans. `research/project.json` owns the search and unverified-tier rules; qualified verified detectors live in `research/detectors.json`. No API credentials are required.
+The same independent engine as Pegasus collects CT/SAN, DNS, existing scans and bounded root-only HTTP/TLS evidence. AdFection additionally searches the request hosts serving its configured tracking assets, allowing standalone new roots without blocking publishers. It does not submit new third-party scans. `research/project.json` owns the search settings; qualified verified detectors live in `research/detectors.json`. No API credentials are required.
 
 The frozen bootstrap preserves all existing category subscriptions and the reviewed additions previously stored in `approved.txt`. Historical discovery reports and open issue leads were migrated with their references and unknown observation dates, then queued for current measurements. Future additions are generated from the register, not by resynchronizing community lists. The legacy `discover.py` command remains available but is no longer the daily pipeline.
 

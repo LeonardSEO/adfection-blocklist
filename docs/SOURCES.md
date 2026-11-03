@@ -54,4 +54,4 @@ The project's CC BY-NC-SA offer concerns its own compilation and additions. It d
 
 ## Independent-source migration (3 November 2026)
 
-`sources/bootstrap.json` pins the initial source membership and hashes. Daily collection never downloads external blocklists. The register is now the publication source; old source/approved files remain historical records. New evidence-backed candidates are automatically published in the separate opt-in unverified tier under the rules in `docs/ARCHITECTURE.md`; verified attribution still uses qualified detectors. Historical manual-review instructions above describe the original bootstrap, not the current unverified workflow.
+`sources/bootstrap.json` pins the initial source membership and hashes. Daily collection never downloads external blocklists. The register is now the publication source; old source/approved files remain historical records. Candidate evidence remains in the research register. Publication of own findings uses qualified detectors under the rules in `docs/ARCHITECTURE.md`. Historical manual-review instructions above describe the original bootstrap.

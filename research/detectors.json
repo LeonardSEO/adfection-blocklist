@@ -1,5 +1,5 @@
 {
   "detectors": [],
-  "reason": "Unverified evidence rules run automatically; confirmed attribution requires qualified detectors.",
+  "reason": "No qualified production detector is enabled. Candidate evidence is collected; automatic admission requires qualification.",
   "version": 1
 }
