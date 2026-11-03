@@ -5,12 +5,14 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 02 Nov 2026 16:09 UTC
-# Version: 2026.1102.160925
+# Last modified: 03 Nov 2026 10:45 UTC
+# Version: 2026.1103.104515
 # Syntax: Plain domains, all explicit hosts
-# Number of entries: 56
-# Number of domains: 56
+# Number of entries: 79
+# Number of domains: 79
 #
+1790180408009733-8822372887-52.ppv2.mtrtb.com
+1790814041700313-3401190136-138.ppv2.mtrtb.com
 admin.mtrtb.com
 ads-impressions.com
 ads-monitor.xyz
@@ -18,10 +20,18 @@ adtimizer.co
 adv45.volasim.com
 adv50.volasim.com
 akedo.gg
+amir-back.tracookiepixel.xyz
+amir-front.tracookiepixel.xyz
 bt.myweb3id.io
 bt.platc-tester.com
 checkmyimp.com
+cn.admin.mtrtb.com
+cn.creatives.mtrtb.com
 cn.druid.mtrtb.com
+cn.k8s.dashboard.mtrtb.com
+cn.mtrtb.com
+cn.tracker.mtrtb.com
+cn.turnilo.mtrtb.com
 controlium.net
 cookie-sync.xyz
 cookiesurfer.com
@@ -36,6 +46,8 @@ events-ui.discover-tech.io
 events-ui.myweb3id.io
 events.myweb3id.io
 events.platc-tester.com
+front-ngrok.tracookiepixel.xyz
+gam-eu.mtrtb.com
 imp.powerium.net
 infinoas.mtrtb.com
 js.cookie-sync.xyz
@@ -60,10 +72,21 @@ pqv2.mtrtb.com
 qa-noas.powerium.net
 relevantech.com
 remindmewhere.app
+server-ngrok.tracookiepixel.xyz
+sun.cn.mtrtb.com
 tekma-dmp.ai
 tekma.adtimizer.co
+tracker-eu.mtrtb.com
 tracker.mtrtb.com
 tracookiepixel.xyz
+viewa.mtrtb.com
+viewp.mtrtb.com
 volasim.com
+vpn.mtrtb.com
+www.adtimizer.co
 www.controlium.net
 www.discover-tech.io
+www.mtrtb.com
+www.myipinfo.io
+www.tracker.mtrtb.com
+www.tracookiepixel.xyz

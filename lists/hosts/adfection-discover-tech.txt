@@ -5,12 +5,14 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 02 Nov 2026 16:09 UTC
-# Version: 2026.1102.160925
+# Last modified: 03 Nov 2026 10:45 UTC
+# Version: 2026.1103.104515
 # Syntax: Hosts (0.0.0.0 domain)
-# Number of entries: 56
-# Number of domains: 56
+# Number of entries: 79
+# Number of domains: 79
 #
+0.0.0.0 1790180408009733-8822372887-52.ppv2.mtrtb.com
+0.0.0.0 1790814041700313-3401190136-138.ppv2.mtrtb.com
 0.0.0.0 admin.mtrtb.com
 0.0.0.0 ads-impressions.com
 0.0.0.0 ads-monitor.xyz
@@ -18,10 +20,18 @@
 0.0.0.0 adv45.volasim.com
 0.0.0.0 adv50.volasim.com
 0.0.0.0 akedo.gg
+0.0.0.0 amir-back.tracookiepixel.xyz
+0.0.0.0 amir-front.tracookiepixel.xyz
 0.0.0.0 bt.myweb3id.io
 0.0.0.0 bt.platc-tester.com
 0.0.0.0 checkmyimp.com
+0.0.0.0 cn.admin.mtrtb.com
+0.0.0.0 cn.creatives.mtrtb.com
 0.0.0.0 cn.druid.mtrtb.com
+0.0.0.0 cn.k8s.dashboard.mtrtb.com
+0.0.0.0 cn.mtrtb.com
+0.0.0.0 cn.tracker.mtrtb.com
+0.0.0.0 cn.turnilo.mtrtb.com
 0.0.0.0 controlium.net
 0.0.0.0 cookie-sync.xyz
 0.0.0.0 cookiesurfer.com
@@ -36,6 +46,8 @@
 0.0.0.0 events-ui.myweb3id.io
 0.0.0.0 events.myweb3id.io
 0.0.0.0 events.platc-tester.com
+0.0.0.0 front-ngrok.tracookiepixel.xyz
+0.0.0.0 gam-eu.mtrtb.com
 0.0.0.0 imp.powerium.net
 0.0.0.0 infinoas.mtrtb.com
 0.0.0.0 js.cookie-sync.xyz
@@ -60,10 +72,21 @@
 0.0.0.0 qa-noas.powerium.net
 0.0.0.0 relevantech.com
 0.0.0.0 remindmewhere.app
+0.0.0.0 server-ngrok.tracookiepixel.xyz
+0.0.0.0 sun.cn.mtrtb.com
 0.0.0.0 tekma-dmp.ai
 0.0.0.0 tekma.adtimizer.co
+0.0.0.0 tracker-eu.mtrtb.com
 0.0.0.0 tracker.mtrtb.com
 0.0.0.0 tracookiepixel.xyz
+0.0.0.0 viewa.mtrtb.com
+0.0.0.0 viewp.mtrtb.com
 0.0.0.0 volasim.com
+0.0.0.0 vpn.mtrtb.com
+0.0.0.0 www.adtimizer.co
 0.0.0.0 www.controlium.net
 0.0.0.0 www.discover-tech.io
+0.0.0.0 www.mtrtb.com
+0.0.0.0 www.myipinfo.io
+0.0.0.0 www.tracker.mtrtb.com
+0.0.0.0 www.tracookiepixel.xyz

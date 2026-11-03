@@ -5,12 +5,14 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 02 Nov 2026 16:09 UTC
-# Version: 2026.1102.160925
+# Last modified: 03 Nov 2026 10:45 UTC
+# Version: 2026.1103.104515
 # Syntax: Hosts (0.0.0.0 domain)
-# Number of entries: 188
-# Number of domains: 188
+# Number of entries: 211
+# Number of domains: 211
 #
+0.0.0.0 1790180408009733-8822372887-52.ppv2.mtrtb.com
+0.0.0.0 1790814041700313-3401190136-138.ppv2.mtrtb.com
 0.0.0.0 admin.mtrtb.com
 0.0.0.0 ads-impressions.com
 0.0.0.0 ads-monitor.xyz
@@ -19,6 +21,8 @@
 0.0.0.0 adv50.volasim.com
 0.0.0.0 akedo.gg
 0.0.0.0 ambiguouscommerce.com
+0.0.0.0 amir-back.tracookiepixel.xyz
+0.0.0.0 amir-front.tracookiepixel.xyz
 0.0.0.0 antperspective.com
 0.0.0.0 aperturebelt.com
 0.0.0.0 archer.westeurope.cloudapp.azure.com
@@ -47,7 +51,13 @@
 0.0.0.0 chickenstrawberry.com
 0.0.0.0 citecivilization.com
 0.0.0.0 closetmeat.com
+0.0.0.0 cn.admin.mtrtb.com
+0.0.0.0 cn.creatives.mtrtb.com
 0.0.0.0 cn.druid.mtrtb.com
+0.0.0.0 cn.k8s.dashboard.mtrtb.com
+0.0.0.0 cn.mtrtb.com
+0.0.0.0 cn.tracker.mtrtb.com
+0.0.0.0 cn.turnilo.mtrtb.com
 0.0.0.0 commonclever.com
 0.0.0.0 concretebottle.com
 0.0.0.0 conquerconfess.com
@@ -110,6 +120,8 @@
 0.0.0.0 flexibleelevator.com
 0.0.0.0 foamdirection.com
 0.0.0.0 forecastgarden.com
+0.0.0.0 front-ngrok.tracookiepixel.xyz
+0.0.0.0 gam-eu.mtrtb.com
 0.0.0.0 globaldatapoints.com
 0.0.0.0 goatsandals.com
 0.0.0.0 golfconcert.com
@@ -176,6 +188,7 @@
 0.0.0.0 salmonpride.net
 0.0.0.0 scoreparade.com
 0.0.0.0 selectedpazzle.com
+0.0.0.0 server-ngrok.tracookiepixel.xyz
 0.0.0.0 shareitwork.com
 0.0.0.0 sharethere.net
 0.0.0.0 signifyslight.com
@@ -185,17 +198,27 @@
 0.0.0.0 strangegarden.org
 0.0.0.0 stylebrakedown.com
 0.0.0.0 suggestutterly.com
+0.0.0.0 sun.cn.mtrtb.com
 0.0.0.0 sunsetpotential.com
 0.0.0.0 tacticscheap.net
 0.0.0.0 tekma-dmp.ai
 0.0.0.0 tekma.adtimizer.co
 0.0.0.0 tidalscreen.com
+0.0.0.0 tracker-eu.mtrtb.com
 0.0.0.0 tracker.mtrtb.com
 0.0.0.0 tracookiepixel.xyz
 0.0.0.0 tubeshape.com
 0.0.0.0 ultimatematter.info
 0.0.0.0 velvetpremier.com
+0.0.0.0 viewa.mtrtb.com
+0.0.0.0 viewp.mtrtb.com
 0.0.0.0 volasim.com
+0.0.0.0 vpn.mtrtb.com
 0.0.0.0 windomination.com
+0.0.0.0 www.adtimizer.co
 0.0.0.0 www.controlium.net
 0.0.0.0 www.discover-tech.io
+0.0.0.0 www.mtrtb.com
+0.0.0.0 www.myipinfo.io
+0.0.0.0 www.tracker.mtrtb.com
+0.0.0.0 www.tracookiepixel.xyz

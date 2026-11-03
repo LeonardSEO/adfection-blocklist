@@ -235,7 +235,7 @@ def main() -> None:
     }, indent=2) + '\n', encoding='utf-8')
     print(f"{len(new)} nieuwe kandidaten in {out.relative_to(ROOT)}")
     if ERRORS:
-        sys.exit(1)
+        sys.exit(3)
 
 
 if __name__ == "__main__":

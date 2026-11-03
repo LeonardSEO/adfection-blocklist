@@ -50,7 +50,7 @@ class DiscoveryTests(unittest.TestCase):
                  patch.dict(discover.os.environ, {'CENSYS_API_ID': '', 'CENSYS_API_SECRET': ''}):
                 with self.assertRaises(SystemExit) as error:
                     discover.main()
-                self.assertEqual(error.exception.code, 1)
+                self.assertEqual(error.exception.code, 3)
                 urlscan.assert_called_once()
             report = json.loads(next((root / 'candidates').glob('*.json')).read_text())
             self.assertEqual(report['status'], 'partial')
