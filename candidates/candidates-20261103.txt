@@ -1,0 +1,7 @@
+# Discovery run 2026-11-03 10:50 UTC
+# Status: PARTIAL - source errors or time limit
+# Skipped: censys (no credentials)
+# 0 nieuwe kandidaten (niet in sources/, approved.txt of allowlist.txt)
+# Controleer elke regel. Wat klopt: kopieer naar candidates/approved.txt
+# met een categorie, bijvoorbeeld:  foo.mtrtb.com  # discover-tech: crt.sh
+
