@@ -5,8 +5,8 @@
 # Sources: Citizen Lab Report 195, Confiant, Recorded Future CTA-2025-0805
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 03 Nov 2026 10:50 UTC
-# Version: 2026.1103.105047
+# Last modified: 03 Nov 2026 10:55 UTC
+# Version: 2026.1103.105559
 # Syntax: Unbound local-zone always_nxdomain
 # Number of entries: 7
 # Number of domains: 7
