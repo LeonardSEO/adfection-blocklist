@@ -34,3 +34,33 @@ jobs:
           for file in lists/unbound/*.txt; do unbound-checkconf "$file"; done
           for file in lists/rpz/*.txt; do named-checkzone rpz.invalid "$file"; done
           for file in lists/dnsmasq/*.txt; do dnsmasq --test --conf-file="$file"; done
+
+  finalize-dispatched-ci:
+    if: github.event_name == 'workflow_dispatch'
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      statuses: write
+      contents: write
+      pull-requests: write
+    steps:
+      # Dispatch job checks do not attach to PRs; publish an explicit commit status.
+      - name: Publish validated status and merge matching PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_BRANCH: ${{ github.ref_name }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          gh api --method POST "repos/$GH_REPO/statuses/$HEAD_SHA" \
+            -f state=success -f context='CI validated' \
+            -f description='Both Python versions, generated output and resolver syntax passed' \
+            -f target_url="$GITHUB_SERVER_URL/$GH_REPO/actions/runs/$GITHUB_RUN_ID"
+          gh pr list --base main --head "$HEAD_BRANCH" --state open --json number,headRefOid,isDraft,isCrossRepository \
+            --jq '.[] | select(.isDraft == false and .isCrossRepository == false) | [.number, .headRefOid] | @tsv' > "$RUNNER_TEMP/prs.tsv"
+          while IFS=$'\t' read -r number sha; do
+            if [ "$sha" = "$HEAD_SHA" ]; then
+              gh pr merge "$number" --auto --squash --match-head-commit "$HEAD_SHA"
+            fi
+          done < "$RUNNER_TEMP/prs.tsv"
