@@ -5,15 +5,17 @@
 ; Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ; Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ; Expires: 1 day
-; Last modified: 03 Nov 2026 13:05 UTC
-; Version: 2026.1103.130533
+; Last modified: 03 Nov 2026 13:37 UTC
+; Version: 2026.1103.133718
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
-; Number of entries: 2
-; Number of domains: 1
+; Number of entries: 4
+; Number of domains: 2
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1793711133 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1793713038 43200 3600 259200 300
 @ IN NS localhost.
 
 1787646375424138-3100197338-119.mtrtb.com CNAME .
 *.1787646375424138-3100197338-119.mtrtb.com CNAME .
+www.volasim.com CNAME .
+*.www.volasim.com CNAME .
