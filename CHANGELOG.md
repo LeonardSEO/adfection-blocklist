@@ -3,6 +3,7 @@
 ## 2026-11-03
 
 - Rechecked published parent indicators and approved 23 explicit hosts already within reported wildcard coverage: 211 unique domains, 159 after compression.
+- Publish an explicit required `CI validated` commit status after both test jobs pass so dispatched bot CI can satisfy PR protection without a separate access token.
 - Refresh lists and discovery daily through PRs to main, with explicit CI dispatch and automatic merge after required checks pass.
 - Distinguish partial discovery (exit 3, warning and report) from invalid arguments or unexpected script errors (workflow failure).
 - Update setup-python to 7.1.0; verify checkout 7.0.1 and upload-artifact 7.0.2 pins; check and group action updates daily through Dependabot.
