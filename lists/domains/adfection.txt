@@ -5,8 +5,8 @@
 # Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 03 Nov 2026 13:02 UTC
-# Version: 2026.1103.130254
+# Last modified: 03 Nov 2026 13:05 UTC
+# Version: 2026.1103.130533
 # Syntax: Plain domains, all explicit hosts
 # Number of entries: 211
 # Number of domains: 211

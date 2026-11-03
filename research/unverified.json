@@ -1,5 +1,17 @@
 {
-  "evaluated_at": "2026-11-03T13:02:54.809257+00:00",
-  "findings": {},
+  "evaluated_at": "2026-11-03T13:05:33.277078+00:00",
+  "findings": {
+    "1787646375424138-3100197338-119.mtrtb.com": {
+      "anchor": "mtrtb.com",
+      "attribution": "unverified",
+      "evaluated_at": "2026-11-03T13:05:33.277078+00:00",
+      "evidence": [
+        "72af280f247943ee99449bb007063d5904c371e185677210c97abcfa7b3d3eee",
+        "c02b84a009225e6e997d3686015ff24a5f971e908f91b9208f93e3e12914337b"
+      ],
+      "rule": "owned-subdomain-and-public-dns",
+      "version": "1"
+    }
+  },
   "version": 1
 }
