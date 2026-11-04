@@ -1,10 +1,9 @@
 {
-  "at": "2026-11-03T13:43:53.669704+00:00",
+  "at": "2026-11-04T13:24:01.043289+00:00",
   "blocked": {},
   "calls": {
     "censys": 2,
     "quota": 1,
-    "retrieve": 4,
     "search": 50
   },
   "deferred": {},
@@ -47,12 +46,6 @@
     },
     {
       "action": "search",
-      "error": "TimeoutError",
-      "provider": "urlscan",
-      "status": 0
-    },
-    {
-      "action": "search",
       "error": null,
       "provider": "urlscan",
       "status": 200
@@ -172,25 +165,7 @@
       "status": 200
     },
     {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "retrieve",
+      "action": "search",
       "error": null,
       "provider": "urlscan",
       "status": 200
@@ -353,8 +328,8 @@
     }
   ],
   "remaining_daily_allowance": {
-    "retrieve": 9996,
+    "retrieve": 10000,
     "search": 950
   },
-  "status": "partial"
+  "status": "completed"
 }

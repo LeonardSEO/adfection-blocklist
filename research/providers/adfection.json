@@ -15,17 +15,32 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/89f15670bb865221d0f0beec4c0feb41979456c0c134404eae72fd7800663cb6",
       "value": "89f15670bb865221d0f0beec4c0feb41979456c0c134404eae72fd7800663cb6"
+    },
+    {
+      "fetched_at": "2026-11-04T13:21:13.319366+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "stablesurface.com",
+          "observed_at": null
+        },
+        {
+          "name": "stablesurface.com",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/b26ed2c51eca16bfc80a1f894e9c27440380aab4c2dd8647199c56c9a2943320",
+      "value": "b26ed2c51eca16bfc80a1f894e9c27440380aab4c2dd8647199c56c9a2943320"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-03T13:37:48.811741+00:00",
+  "generated_at": "2026-11-04T13:17:58.108370+00:00",
   "provider_report": {
-    "at": "2026-11-03T13:43:53.669704+00:00",
+    "at": "2026-11-04T13:24:01.043289+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
-      "retrieve": 4,
       "search": 50
     },
     "deferred": {},
@@ -68,12 +83,6 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
-        "provider": "urlscan",
-        "status": 0
-      },
-      {
-        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -193,25 +202,7 @@
         "status": 200
       },
       {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
+        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -374,10 +365,10 @@
       }
     ],
     "remaining_daily_allowance": {
-      "retrieve": 9996,
+      "retrieve": 10000,
       "search": 950
     },
-    "status": "partial"
+    "status": "completed"
   },
   "responses": {
     "https://urlscan.io/api/v1/result/01a17def-c354-763d-824f-78b0ed99349b/": {
@@ -432,7 +423,7 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-03T13:40:53.521998+00:00"
+      "fetched_at": "2026-11-04T13:21:05.589890+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
@@ -447,43 +438,118 @@
               "time": "2026-10-30T11:09:12.211Z",
               "visibility": "public"
             }
-          },
-          {
-            "_id": "01a17df2-484d-7709-939c-6cf1824e01cd",
-            "page": {
-              "domain": "www.discover-tech.io",
-              "ip": "172.66.3.8"
-            },
-            "task": {
-              "time": "2026-10-27T15:20:01.757Z",
-              "visibility": "public"
-            }
-          },
-          {
-            "_id": "01a17df0-a4dc-757c-8378-e665026b4b82",
-            "page": {
-              "domain": "www.discover-tech.io",
-              "ip": "162.159.143.12"
-            },
-            "task": {
-              "time": "2026-10-27T15:18:15.316Z",
-              "visibility": "public"
-            }
-          },
-          {
-            "_id": "01a17def-c354-763d-824f-78b0ed99349b",
-            "page": {
-              "domain": "www.discover-tech.io",
-              "ip": "172.66.3.8"
-            },
-            "task": {
-              "time": "2026-10-27T15:17:18.669Z",
-              "visibility": "public"
-            }
           }
         ]
       },
-      "fetched_at": "2026-11-03T13:41:00.124263+00:00"
+      "fetched_at": "2026-11-04T13:21:12.412030+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:57.278584+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790814041700313-3401190136-138.ppv2.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:04.146108+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadmin.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:15.101543+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aads-impressions.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:21.940065+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aads-monitor.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:28.795029+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadtimizer.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:35.586786+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadv45.volasim.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:42.435461+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadv50.volasim.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:49.245524+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aakedo.gg%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:19:56.059861+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aambiguouscommerce.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:02.956857+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aamir-back.tracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:09.795422+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aamir-front.tracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:16.636627+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aantperspective.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:24.020311+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaperturebelt.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:31.019962+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aarcher.westeurope.cloudapp.azure.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:37.879988+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aasknapkin.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:44.704390+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abarnsecret.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:51.597812+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abaseagriculture.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:20:58.477734+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asincereaccertain.com%29&size=100": {
       "body": {
@@ -622,6 +688,54 @@
         "results": []
       },
       "fetched_at": "2026-11-03T13:40:46.804041+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.controlium.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:15.432634+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.discover-tech.io%29&size=100": {
+      "body": {
+        "results": [
+          {
+            "_id": "01a18c7f-9351-7191-a250-b01737a086d8",
+            "page": {
+              "domain": "www.discover-tech.io",
+              "ip": "162.159.143.12"
+            },
+            "task": {
+              "time": "2026-10-30T11:09:12.211Z",
+              "visibility": "public"
+            }
+          }
+        ]
+      },
+      "fetched_at": "2026-11-04T13:18:22.288666+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:29.127562+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.myipinfo.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:35.888936+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracker.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:42.909072+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-04T13:18:49.783152+00:00"
     }
   },
   "version": 1
