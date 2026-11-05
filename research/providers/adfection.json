@@ -31,12 +31,36 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/b26ed2c51eca16bfc80a1f894e9c27440380aab4c2dd8647199c56c9a2943320",
       "value": "b26ed2c51eca16bfc80a1f894e9c27440380aab4c2dd8647199c56c9a2943320"
+    },
+    {
+      "fetched_at": "2026-11-05T13:33:31.513544+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "mtrtb.com",
+          "observed_at": null
+        },
+        {
+          "name": "ppv2.mtrtb.com",
+          "observed_at": null
+        },
+        {
+          "name": "pqv2.mtrtb.com",
+          "observed_at": null
+        },
+        {
+          "name": "mtrtb.com",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/7021c6498c007147185ca606e0f781d0890be72ca0ce1a0984032656bf69ff0d",
+      "value": "7021c6498c007147185ca606e0f781d0890be72ca0ce1a0984032656bf69ff0d"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-04T13:17:58.108370+00:00",
+  "generated_at": "2026-11-05T13:30:04.125018+00:00",
   "provider_report": {
-    "at": "2026-11-04T13:24:01.043289+00:00",
+    "at": "2026-11-05T13:36:23.036965+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -423,7 +447,7 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-04T13:21:05.589890+00:00"
+      "fetched_at": "2026-11-05T13:33:23.659494+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
@@ -441,7 +465,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-04T13:21:12.412030+00:00"
+      "fetched_at": "2026-11-05T13:33:30.977412+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -550,6 +574,150 @@
         "results": []
       },
       "fetched_at": "2026-11-04T13:20:58.477734+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abasicstraw.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:30:26.169555+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abasinapposite.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:30:34.664956+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abd-mainserver.herokuapp.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:30:41.633872+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abeachvibesnow.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:30:48.710318+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abeneathbreadth.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:30:56.245498+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abizarreclassify.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:04.550927+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ablockroster.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:11.765263+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abondmuscle.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:18.634757+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abreadgroomer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:25.968920+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abronzemonth.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:32.789740+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abrowniebell.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:39.655315+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abt.myweb3id.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:46.464367+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abt.platc-tester.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:31:55.217697+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypassbirch.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:05.692198+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypasscalculate.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:13.890604+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypasscommerce.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:20.722430+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acalmbase.org%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:27.588065+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acartoondrop.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:34.706209+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acheckmyimp.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:41.533168+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Achickenstrawberry.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:48.524431+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acitecivilization.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:32:55.710864+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aclosetmeat.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:33:02.834224+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.admin.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:33:09.782845+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.creatives.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-05T13:33:16.833551+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asincereaccertain.com%29&size=100": {
       "body": {
