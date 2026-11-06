@@ -5,14 +5,14 @@
 ; Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ; Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ; Expires: 1 day
-; Last modified: 05 Nov 2026 14:43 UTC
-; Version: 2026.1105.144340
+; Last modified: 06 Nov 2026 14:21 UTC
+; Version: 2026.1106.142136
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
 ; Number of entries: 318
 ; Number of domains: 159
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1793889820 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1793974896 43200 3600 259200 300
 @ IN NS localhost.
 
 ads-impressions.com CNAME .

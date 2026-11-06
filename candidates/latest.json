@@ -1,69 +1,247 @@
 {
-  "candidate_count": 121,
+  "candidate_count": 131,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
-    "dns:domain:ipinfo.myweb3id.io",
-    "dns:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "measure:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "dns:domain:www.volasim.com",
-    "measure:domain:www.volasim.com",
-    "urlscan:domain:basicstraw.com",
-    "dns:domain:basicstraw.com",
-    "urlscan:domain:basinapposite.com",
-    "dns:domain:basinapposite.com",
-    "urlscan:domain:bd-mainserver.herokuapp.com",
-    "dns:domain:bd-mainserver.herokuapp.com",
-    "measure:domain:bd-mainserver.herokuapp.com",
-    "urlscan:domain:beachvibesnow.com",
-    "dns:domain:beachvibesnow.com",
-    "urlscan:domain:beneathbreadth.com",
-    "dns:domain:beneathbreadth.com",
-    "urlscan:domain:bizarreclassify.com",
-    "dns:domain:bizarreclassify.com",
-    "urlscan:domain:blockroster.net",
-    "dns:domain:blockroster.net",
-    "urlscan:domain:bondmuscle.com",
-    "dns:domain:bondmuscle.com",
-    "urlscan:domain:breadgroomer.com",
-    "dns:domain:breadgroomer.com",
-    "urlscan:domain:bronzemonth.com",
-    "dns:domain:bronzemonth.com",
-    "urlscan:domain:browniebell.com",
-    "dns:domain:browniebell.com",
-    "urlscan:domain:bt.myweb3id.io",
-    "dns:domain:bt.myweb3id.io",
-    "urlscan:domain:bt.platc-tester.com",
-    "dns:domain:bt.platc-tester.com",
-    "urlscan:domain:bypassbirch.com",
-    "dns:domain:bypassbirch.com",
-    "urlscan:domain:bypasscalculate.com",
-    "dns:domain:bypasscalculate.com",
-    "urlscan:domain:bypasscommerce.com",
-    "dns:domain:bypasscommerce.com",
-    "urlscan:domain:calmbase.org",
-    "dns:domain:calmbase.org",
-    "urlscan:domain:cartoondrop.net",
-    "dns:domain:cartoondrop.net",
-    "urlscan:domain:checkmyimp.com",
-    "dns:domain:checkmyimp.com",
-    "urlscan:domain:chickenstrawberry.com",
-    "dns:domain:chickenstrawberry.com",
-    "urlscan:domain:citecivilization.com",
-    "dns:domain:citecivilization.com",
-    "urlscan:domain:closetmeat.com",
-    "dns:domain:closetmeat.com",
-    "urlscan:domain:cn.admin.mtrtb.com",
-    "dns:domain:cn.admin.mtrtb.com",
-    "urlscan:domain:cn.creatives.mtrtb.com",
-    "dns:domain:cn.creatives.mtrtb.com",
-    "measure:domain:cn.creatives.mtrtb.com"
+    "dns:domain:va02.ingress.herokuapp.com",
+    "measure:domain:va02.ingress.herokuapp.com",
+    "urlscan:domain:cn.druid.mtrtb.com",
+    "dns:domain:cn.druid.mtrtb.com",
+    "measure:domain:cn.druid.mtrtb.com",
+    "urlscan:domain:cn.k8s.dashboard.mtrtb.com",
+    "dns:domain:cn.k8s.dashboard.mtrtb.com",
+    "measure:domain:cn.k8s.dashboard.mtrtb.com",
+    "urlscan:domain:cn.mtrtb.com",
+    "dns:domain:cn.mtrtb.com",
+    "urlscan:domain:cn.tracker.mtrtb.com",
+    "dns:domain:cn.tracker.mtrtb.com",
+    "urlscan:domain:cn.turnilo.mtrtb.com",
+    "dns:domain:cn.turnilo.mtrtb.com",
+    "urlscan:domain:commonclever.com",
+    "dns:domain:commonclever.com",
+    "urlscan:domain:concretebottle.com",
+    "dns:domain:concretebottle.com",
+    "urlscan:domain:conquerconfess.com",
+    "dns:domain:conquerconfess.com",
+    "urlscan:domain:containsnow.com",
+    "dns:domain:containsnow.com",
+    "urlscan:domain:contradictionblindness.com",
+    "dns:domain:contradictionblindness.com",
+    "urlscan:domain:controlium.net",
+    "dns:domain:controlium.net",
+    "urlscan:domain:convincechaotic.com",
+    "dns:domain:convincechaotic.com",
+    "urlscan:domain:cookie-sync.xyz",
+    "dns:domain:cookie-sync.xyz",
+    "urlscan:domain:cookiesurfer.com",
+    "dns:domain:cookiesurfer.com",
+    "measure:domain:cookiesurfer.com",
+    "urlscan:domain:cooperatedisinfect.net",
+    "dns:domain:cooperatedisinfect.net",
+    "urlscan:domain:cottonbread.com",
+    "dns:domain:cottonbread.com",
+    "urlscan:domain:cranberrybear.com",
+    "dns:domain:cranberrybear.com",
+    "urlscan:domain:cropcritique.com",
+    "dns:domain:cropcritique.com",
+    "urlscan:domain:crossoverdue.com",
+    "dns:domain:crossoverdue.com",
+    "urlscan:domain:d147nolwbekx2b.cloudfront.net",
+    "dns:domain:d147nolwbekx2b.cloudfront.net",
+    "urlscan:domain:d19oo8r6k9oumb.cloudfront.net",
+    "dns:domain:d19oo8r6k9oumb.cloudfront.net",
+    "urlscan:domain:d1fcoizt7mje85.cloudfront.net",
+    "dns:domain:d1fcoizt7mje85.cloudfront.net",
+    "urlscan:domain:d1fzw0miu1r9rc.cloudfront.net",
+    "dns:domain:d1fzw0miu1r9rc.cloudfront.net",
+    "urlscan:domain:d1x4e580sn23dn.cloudfront.net",
+    "dns:domain:d1x4e580sn23dn.cloudfront.net"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:ipinfo.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cn.druid.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cn.k8s.dashboard.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cn.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cn.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cn.tracker.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cn.tracker.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cn.turnilo.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cn.turnilo.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:commonclever.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:commonclever.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:concretebottle.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:concretebottle.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:conquerconfess.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:conquerconfess.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:containsnow.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:containsnow.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:contradictionblindness.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:contradictionblindness.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:controlium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:controlium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:convincechaotic.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:convincechaotic.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cookie-sync.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cookie-sync.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cookiesurfer.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cooperatedisinfect.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cooperatedisinfect.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cottonbread.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cottonbread.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cranberrybear.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cranberrybear.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:cropcritique.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cropcritique.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:crossoverdue.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:crossoverdue.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:d147nolwbekx2b.cloudfront.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:d147nolwbekx2b.cloudfront.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:d19oo8r6k9oumb.cloudfront.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:d19oo8r6k9oumb.cloudfront.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:d1fcoizt7mje85.cloudfront.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:d1fcoizt7mje85.cloudfront.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:d1fzw0miu1r9rc.cloudfront.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:d1fzw0miu1r9rc.cloudfront.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:d1x4e580sn23dn.cloudfront.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:d1x4e580sn23dn.cloudfront.net"
     },
     {
       "error": "OSError",
@@ -564,10 +742,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-05T14:42:08.919060+00:00",
-  "pending_tasks": 124,
+  "observed_at": "2026-11-06T14:20:07.129609+00:00",
+  "pending_tasks": 169,
   "providers": {
-    "at": "2026-11-05T13:36:23.036965+00:00",
+    "at": "2026-11-06T13:21:08.496096+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -896,7 +1074,7 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-05T13:30:04.125018+00:00",
+    "generated_at": "2026-11-06T13:15:08.394539+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
