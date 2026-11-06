@@ -55,12 +55,28 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/7021c6498c007147185ca606e0f781d0890be72ca0ce1a0984032656bf69ff0d",
       "value": "7021c6498c007147185ca606e0f781d0890be72ca0ce1a0984032656bf69ff0d"
+    },
+    {
+      "fetched_at": "2026-11-06T13:18:21.533587+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "ads-monitor.xyz",
+          "observed_at": null
+        },
+        {
+          "name": "ads-monitor.xyz",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/85bfdd1186e5096f98bd683019ee142d963ceed10909081453693b2cc067dc5a",
+      "value": "85bfdd1186e5096f98bd683019ee142d963ceed10909081453693b2cc067dc5a"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-05T13:30:04.125018+00:00",
+  "generated_at": "2026-11-06T13:15:08.394539+00:00",
   "provider_report": {
-    "at": "2026-11-05T13:36:23.036965+00:00",
+    "at": "2026-11-06T13:21:08.496096+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -447,25 +463,13 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-05T13:33:23.659494+00:00"
+      "fetched_at": "2026-11-06T13:18:14.230646+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
-        "results": [
-          {
-            "_id": "01a18c7f-9351-7191-a250-b01737a086d8",
-            "page": {
-              "domain": "www.discover-tech.io",
-              "ip": "162.159.143.12"
-            },
-            "task": {
-              "time": "2026-10-30T11:09:12.211Z",
-              "visibility": "public"
-            }
-          }
-        ]
+        "results": []
       },
-      "fetched_at": "2026-11-05T13:33:30.977412+00:00"
+      "fetched_at": "2026-11-06T13:18:20.994013+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -718,6 +722,150 @@
         "results": []
       },
       "fetched_at": "2026-11-05T13:33:16.833551+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.druid.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:15:24.773799+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.k8s.dashboard.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:15:31.523165+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:15:38.264014+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.tracker.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:15:45.031344+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.turnilo.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:15:54.146198+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acommonclever.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:01.201699+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconcretebottle.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:08.409736+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconquerconfess.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:15.581801+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontainsnow.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:22.333949+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontradictionblindness.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:29.072925+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontrolium.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:36.134166+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconvincechaotic.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:42.858415+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acookie-sync.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:51.557613+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acookiesurfer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:16:58.301791+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acooperatedisinfect.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:05.141881+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acottonbread.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:11.872946+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acranberrybear.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:18.676063+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acropcritique.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:26.368482+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acrossoverdue.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:33.255406+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad147nolwbekx2b.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:40.244849+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad19oo8r6k9oumb.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:47.061843+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1fcoizt7mje85.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:17:53.870177+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1fzw0miu1r9rc.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:18:00.683268+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1x4e580sn23dn.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-06T13:18:07.446542+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asincereaccertain.com%29&size=100": {
       "body": {
