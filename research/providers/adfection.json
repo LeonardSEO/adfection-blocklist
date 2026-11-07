@@ -71,12 +71,24 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/85bfdd1186e5096f98bd683019ee142d963ceed10909081453693b2cc067dc5a",
       "value": "85bfdd1186e5096f98bd683019ee142d963ceed10909081453693b2cc067dc5a"
+    },
+    {
+      "fetched_at": "2026-11-07T11:59:26.137016+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "adtimizer.co",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/292da8d7f7e120085a30b86d71a7c93502903e6aca8c87fd65dc73384b2c204e",
+      "value": "292da8d7f7e120085a30b86d71a7c93502903e6aca8c87fd65dc73384b2c204e"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-06T13:15:08.394539+00:00",
+  "generated_at": "2026-11-07T11:56:16.034733+00:00",
   "provider_report": {
-    "at": "2026-11-06T13:21:08.496096+00:00",
+    "at": "2026-11-07T12:02:31.520937+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -297,9 +309,9 @@
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
@@ -408,7 +420,7 @@
       "retrieve": 10000,
       "search": 950
     },
-    "status": "completed"
+    "status": "partial"
   },
   "responses": {
     "https://urlscan.io/api/v1/result/01a17def-c354-763d-824f-78b0ed99349b/": {
@@ -463,13 +475,13 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-06T13:18:14.230646+00:00"
+      "fetched_at": "2026-11-07T11:59:18.708823+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-06T13:18:20.994013+00:00"
+      "fetched_at": "2026-11-07T11:59:25.515523+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -866,6 +878,150 @@
         "results": []
       },
       "fetched_at": "2026-11-06T13:18:07.446542+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad23625plpxg1yn.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:56:33.106837+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad2epnp0vokbtl7.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:56:39.959206+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad2f4zpg1mgzwov.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:56:46.750640+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad39619tdxn6mhj.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:56:53.556503+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad8lmy5wyiokrq.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:00.323235+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adamageconsider.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:07.136751+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adcv2rnj2ograe.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:13.971491+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeardrill.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:20.806025+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adediccatedconsideration.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:28.329736+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeducedefend.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:35.276641+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeliverconcern.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:42.082867+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adensefoot.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:48.841276+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adesireeclipse.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:57:55.629661+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adetaincharity.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:02.519785+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeterdiffusion.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:09.301725+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adevotionbelief.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:16.150995+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscover-tech.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:23.108192+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscovertech-alb-100966113.us-east-1.elb.amazonaws.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:30.222084+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscovertech.us.auth0.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:37.019469+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adistractionfar.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:44.182132+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adrivesplash.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:50.977741+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adruid.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:58:57.837317+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adrummerjourney.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:59:04.645169+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.adtimizer.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-07T11:59:11.508905+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asincereaccertain.com%29&size=100": {
       "body": {
