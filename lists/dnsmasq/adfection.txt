@@ -5,8 +5,8 @@
 # Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 # Expires: 1 day
-# Last modified: 06 Nov 2026 14:21 UTC
-# Version: 2026.1106.142136
+# Last modified: 07 Nov 2026 13:08 UTC
+# Version: 2026.1107.130825
 # Syntax: DNSMasq (local=/domain/, includes subdomains)
 # Number of entries: 159
 # Number of domains: 159
