@@ -86,9 +86,9 @@
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-07T11:56:16.034733+00:00",
+  "generated_at": "2026-11-08T12:12:53.599789+00:00",
   "provider_report": {
-    "at": "2026-11-07T12:02:31.520937+00:00",
+    "at": "2026-11-08T12:18:46.608255+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -263,7 +263,7 @@
         "action": "censys",
         "error": null,
         "provider": "censys",
-        "status": 200
+        "status": 404
       },
       {
         "action": "search",
@@ -309,9 +309,9 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
@@ -475,13 +475,13 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-07T11:59:18.708823+00:00"
+      "fetched_at": "2026-11-08T12:15:55.764424+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-07T11:59:25.515523+00:00"
+      "fetched_at": "2026-11-08T12:16:02.407330+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -1022,6 +1022,150 @@
         "results": []
       },
       "fetched_at": "2026-11-07T11:59:11.508905+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.adtimizer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:05.369494+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:12.074797+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adumplingbell.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:18.769635+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aelectric-prime.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:25.565921+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aelifluousscintillam.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:32.321794+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aeminententwine.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:39.156478+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aenjoymultiplecats.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:45.840315+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aevents-ui.discover-tech.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:52.662737+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aevents-ui.myweb3id.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:13:59.388908+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aevents.myweb3id.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:06.041888+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aevents.platc-tester.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:12.714382+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aexhibitexpanse.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:19.383961+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afallaciousessential.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:26.126121+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afearevolve.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:32.797278+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afileswaper.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:43.660966+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afinalsalami.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:50.346969+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aflexibleelevator.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:14:57.002055+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afoamdirection.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:03.724588+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aforecastgarden.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:10.466024+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Afront-ngrok.tracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:17.079140+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Agam-eu.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:23.802439+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aglobaldatapoints.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:31.512689+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Agoatsandals.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:38.359359+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Agolfconcert.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-08T12:15:45.061277+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asincereaccertain.com%29&size=100": {
       "body": {

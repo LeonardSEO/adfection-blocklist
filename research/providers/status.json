@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-07T12:02:31.520937+00:00",
+  "at": "2026-11-08T12:18:46.608255+00:00",
   "blocked": {},
   "calls": {
     "censys": 2,
@@ -174,7 +174,7 @@
       "action": "censys",
       "error": null,
       "provider": "censys",
-      "status": 200
+      "status": 404
     },
     {
       "action": "search",
@@ -220,9 +220,9 @@
     },
     {
       "action": "search",
-      "error": "TimeoutError",
+      "error": null,
       "provider": "urlscan",
-      "status": 0
+      "status": 200
     },
     {
       "action": "search",
