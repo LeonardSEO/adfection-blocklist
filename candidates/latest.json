@@ -1,71 +1,246 @@
 {
-  "candidate_count": 179,
+  "candidate_count": 189,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
     "dns:domain:ipinfo.myweb3id.io",
-    "dns:domain:va02.ingress.herokuapp.com",
-    "measure:domain:va02.ingress.herokuapp.com",
     "dns:domain:1787646375424138-3100197338-119.mtrtb.com",
     "measure:domain:1787646375424138-3100197338-119.mtrtb.com",
+    "dns:domain:va02.ingress.herokuapp.com",
+    "measure:domain:va02.ingress.herokuapp.com",
     "dns:domain:www.volasim.com",
     "measure:domain:www.volasim.com",
-    "urlscan:domain:dtech.adtimizer.com",
-    "dns:domain:dtech.adtimizer.com",
-    "urlscan:domain:dtech.mtrtb.com",
-    "dns:domain:dtech.mtrtb.com",
-    "measure:domain:dtech.mtrtb.com",
-    "urlscan:domain:dumplingbell.com",
-    "dns:domain:dumplingbell.com",
-    "measure:domain:dumplingbell.com",
-    "urlscan:domain:electric-prime.com",
-    "dns:domain:electric-prime.com",
-    "urlscan:domain:elifluousscintillam.com",
-    "dns:domain:elifluousscintillam.com",
-    "urlscan:domain:eminententwine.com",
-    "dns:domain:eminententwine.com",
-    "urlscan:domain:enjoymultiplecats.com",
-    "dns:domain:enjoymultiplecats.com",
-    "urlscan:domain:events-ui.discover-tech.io",
-    "dns:domain:events-ui.discover-tech.io",
-    "urlscan:domain:events-ui.myweb3id.io",
-    "dns:domain:events-ui.myweb3id.io",
-    "urlscan:domain:events.myweb3id.io",
-    "dns:domain:events.myweb3id.io",
-    "urlscan:domain:events.platc-tester.com",
-    "dns:domain:events.platc-tester.com",
-    "urlscan:domain:exhibitexpanse.com",
-    "dns:domain:exhibitexpanse.com",
-    "urlscan:domain:fallaciousessential.net",
-    "dns:domain:fallaciousessential.net",
-    "urlscan:domain:fearevolve.com",
-    "dns:domain:fearevolve.com",
-    "urlscan:domain:fileswaper.com",
-    "dns:domain:fileswaper.com",
-    "urlscan:domain:finalsalami.com",
-    "dns:domain:finalsalami.com",
-    "urlscan:domain:flexibleelevator.com",
-    "dns:domain:flexibleelevator.com",
-    "urlscan:domain:foamdirection.com",
-    "dns:domain:foamdirection.com",
-    "urlscan:domain:forecastgarden.com",
-    "dns:domain:forecastgarden.com",
-    "urlscan:domain:front-ngrok.tracookiepixel.xyz",
-    "dns:domain:front-ngrok.tracookiepixel.xyz",
-    "urlscan:domain:gam-eu.mtrtb.com",
-    "dns:domain:gam-eu.mtrtb.com",
-    "urlscan:domain:globaldatapoints.com",
-    "dns:domain:globaldatapoints.com",
-    "urlscan:domain:goatsandals.com",
-    "dns:domain:goatsandals.com",
-    "urlscan:domain:golfconcert.com",
-    "dns:domain:golfconcert.com"
+    "urlscan:domain:groundbreakinginitative.com",
+    "dns:domain:groundbreakinginitative.com",
+    "urlscan:domain:guitarcalculate.com",
+    "dns:domain:guitarcalculate.com",
+    "urlscan:domain:hostilefauna.com",
+    "dns:domain:hostilefauna.com",
+    "urlscan:domain:icecreamtester.com",
+    "dns:domain:icecreamtester.com",
+    "urlscan:domain:imp.powerium.net",
+    "dns:domain:imp.powerium.net",
+    "measure:domain:imp.powerium.net",
+    "urlscan:domain:infinoas.mtrtb.com",
+    "dns:domain:infinoas.mtrtb.com",
+    "measure:domain:infinoas.mtrtb.com",
+    "urlscan:domain:infoanalytics.live",
+    "dns:domain:infoanalytics.live",
+    "urlscan:domain:insightenterprisells.com",
+    "dns:domain:insightenterprisells.com",
+    "urlscan:domain:isolatelecture.com",
+    "dns:domain:isolatelecture.com",
+    "urlscan:domain:jellybat.net",
+    "dns:domain:jellybat.net",
+    "measure:domain:jellybat.net",
+    "urlscan:domain:jobmarcher.com",
+    "dns:domain:jobmarcher.com",
+    "urlscan:domain:journeyjest.net",
+    "dns:domain:journeyjest.net",
+    "urlscan:domain:js.cookie-sync.xyz",
+    "dns:domain:js.cookie-sync.xyz",
+    "urlscan:domain:js.tracookiepixel.xyz",
+    "dns:domain:js.tracookiepixel.xyz",
+    "urlscan:domain:kartingrumble.com",
+    "dns:domain:kartingrumble.com",
+    "urlscan:domain:keyadapter.com",
+    "dns:domain:keyadapter.com",
+    "urlscan:domain:labyrinthextravagance.org",
+    "dns:domain:labyrinthextravagance.org",
+    "urlscan:domain:leafconfuse.net",
+    "dns:domain:leafconfuse.net",
+    "urlscan:domain:lessonhandle.com",
+    "dns:domain:lessonhandle.com",
+    "urlscan:domain:logger.controlium.net",
+    "dns:domain:logger.controlium.net",
+    "measure:domain:logger.controlium.net",
+    "urlscan:domain:logger.powerium.net",
+    "dns:domain:logger.powerium.net",
+    "measure:domain:logger.powerium.net",
+    "urlscan:domain:macrodrop.net",
+    "dns:domain:macrodrop.net",
+    "urlscan:domain:macromint.net",
+    "dns:domain:macromint.net",
+    "urlscan:domain:maturitygenesis.com",
+    "dns:domain:maturitygenesis.com"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:ipinfo.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:groundbreakinginitative.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:groundbreakinginitative.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:guitarcalculate.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:guitarcalculate.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:hostilefauna.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:hostilefauna.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:icecreamtester.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:icecreamtester.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:imp.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:infinoas.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:infoanalytics.live"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:infoanalytics.live"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:insightenterprisells.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:insightenterprisells.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:isolatelecture.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:isolatelecture.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:jellybat.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:jobmarcher.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:jobmarcher.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:journeyjest.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:journeyjest.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:js.cookie-sync.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:js.cookie-sync.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:js.tracookiepixel.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:js.tracookiepixel.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:kartingrumble.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:kartingrumble.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:keyadapter.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:keyadapter.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:labyrinthextravagance.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:labyrinthextravagance.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:leafconfuse.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:leafconfuse.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:lessonhandle.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:lessonhandle.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:logger.controlium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:logger.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:macrodrop.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:macrodrop.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:macromint.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:macromint.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:maturitygenesis.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:maturitygenesis.com"
     },
     {
       "error": "OSError",
@@ -1102,10 +1277,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-08T13:28:48.104187+00:00",
-  "pending_tasks": 258,
+  "observed_at": "2026-11-09T16:26:24.863317+00:00",
+  "pending_tasks": 301,
   "providers": {
-    "at": "2026-11-08T12:18:46.608255+00:00",
+    "at": "2026-11-09T14:29:41.588513+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -1333,9 +1508,9 @@
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
@@ -1434,7 +1609,7 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-08T12:12:53.599789+00:00",
+    "generated_at": "2026-11-09T14:23:28.637039+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
