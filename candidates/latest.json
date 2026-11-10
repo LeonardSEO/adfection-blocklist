@@ -1,74 +1,237 @@
 {
-  "candidate_count": 189,
+  "candidate_count": 232,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
-    "dns:domain:ipinfo.myweb3id.io",
-    "dns:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "measure:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "dns:domain:va02.ingress.herokuapp.com",
-    "measure:domain:va02.ingress.herokuapp.com",
-    "dns:domain:www.volasim.com",
-    "measure:domain:www.volasim.com",
-    "urlscan:domain:groundbreakinginitative.com",
-    "dns:domain:groundbreakinginitative.com",
-    "urlscan:domain:guitarcalculate.com",
-    "dns:domain:guitarcalculate.com",
-    "urlscan:domain:hostilefauna.com",
-    "dns:domain:hostilefauna.com",
-    "urlscan:domain:icecreamtester.com",
-    "dns:domain:icecreamtester.com",
-    "urlscan:domain:imp.powerium.net",
-    "dns:domain:imp.powerium.net",
-    "measure:domain:imp.powerium.net",
-    "urlscan:domain:infinoas.mtrtb.com",
-    "dns:domain:infinoas.mtrtb.com",
-    "measure:domain:infinoas.mtrtb.com",
-    "urlscan:domain:infoanalytics.live",
-    "dns:domain:infoanalytics.live",
-    "urlscan:domain:insightenterprisells.com",
-    "dns:domain:insightenterprisells.com",
-    "urlscan:domain:isolatelecture.com",
-    "dns:domain:isolatelecture.com",
-    "urlscan:domain:jellybat.net",
-    "dns:domain:jellybat.net",
-    "measure:domain:jellybat.net",
-    "urlscan:domain:jobmarcher.com",
-    "dns:domain:jobmarcher.com",
-    "urlscan:domain:journeyjest.net",
-    "dns:domain:journeyjest.net",
-    "urlscan:domain:js.cookie-sync.xyz",
-    "dns:domain:js.cookie-sync.xyz",
-    "urlscan:domain:js.tracookiepixel.xyz",
-    "dns:domain:js.tracookiepixel.xyz",
-    "urlscan:domain:kartingrumble.com",
-    "dns:domain:kartingrumble.com",
-    "urlscan:domain:keyadapter.com",
-    "dns:domain:keyadapter.com",
-    "urlscan:domain:labyrinthextravagance.org",
-    "dns:domain:labyrinthextravagance.org",
-    "urlscan:domain:leafconfuse.net",
-    "dns:domain:leafconfuse.net",
-    "urlscan:domain:lessonhandle.com",
-    "dns:domain:lessonhandle.com",
-    "urlscan:domain:logger.controlium.net",
-    "dns:domain:logger.controlium.net",
-    "measure:domain:logger.controlium.net",
-    "urlscan:domain:logger.powerium.net",
-    "dns:domain:logger.powerium.net",
-    "measure:domain:logger.powerium.net",
-    "urlscan:domain:macrodrop.net",
-    "dns:domain:macrodrop.net",
-    "urlscan:domain:macromint.net",
-    "dns:domain:macromint.net",
-    "urlscan:domain:maturitygenesis.com",
-    "dns:domain:maturitygenesis.com"
+    "urlscan:domain:measurecabin.com",
+    "dns:domain:measurecabin.com",
+    "urlscan:domain:mtrtb.com",
+    "dns:domain:mtrtb.com",
+    "measure:domain:mtrtb.com",
+    "urlscan:domain:mushroompalm.com",
+    "dns:domain:mushroompalm.com",
+    "urlscan:domain:mydsp.io",
+    "dns:domain:mydsp.io",
+    "measure:domain:mydsp.io",
+    "urlscan:domain:myipinfo.io",
+    "dns:domain:myipinfo.io",
+    "measure:domain:myipinfo.io",
+    "urlscan:domain:myweb3id.io",
+    "dns:domain:myweb3id.io",
+    "measure:domain:myweb3id.io",
+    "urlscan:domain:noas.adtimizer.co",
+    "dns:domain:noas.adtimizer.co",
+    "urlscan:domain:noas.impchkdsp.com",
+    "dns:domain:noas.impchkdsp.com",
+    "measure:domain:noas.impchkdsp.com",
+    "urlscan:domain:noas.mtrtb.com",
+    "dns:domain:noas.mtrtb.com",
+    "measure:domain:noas.mtrtb.com",
+    "dns:domain:noas.powerium.net",
+    "urlscan:domain:noas.trakking.co",
+    "dns:domain:noas.trakking.co",
+    "urlscan:domain:notableexam.org",
+    "dns:domain:notableexam.org",
+    "urlscan:domain:notionnowadays.com",
+    "dns:domain:notionnowadays.com",
+    "urlscan:domain:nutralove.co",
+    "dns:domain:nutralove.co",
+    "urlscan:domain:outdooutcome.com",
+    "dns:domain:outdooutcome.com",
+    "urlscan:domain:pagead.trustlayersdk.com",
+    "dns:domain:pagead.trustlayersdk.com",
+    "urlscan:domain:parkourbus.com",
+    "dns:domain:parkourbus.com",
+    "urlscan:domain:patternperiod.com",
+    "dns:domain:patternperiod.com",
+    "urlscan:domain:penslice.com",
+    "dns:domain:penslice.com",
+    "urlscan:domain:pepperdominate.com",
+    "dns:domain:pepperdominate.com",
+    "urlscan:domain:pickarest.com",
+    "dns:domain:pickarest.com",
+    "urlscan:domain:plasticbells.com",
+    "dns:domain:plasticbells.com",
+    "urlscan:domain:platc-tester.com",
+    "dns:domain:platc-tester.com",
+    "urlscan:domain:powerium.net",
+    "dns:domain:powerium.net",
+    "measure:domain:powerium.net",
+    "measure:domain:icecreamtester.com"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:ipinfo.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:measurecabin.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:measurecabin.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mushroompalm.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:mushroompalm.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mydsp.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:myipinfo.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:noas.adtimizer.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:noas.adtimizer.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:noas.impchkdsp.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:noas.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:noas.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:noas.powerium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:noas.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:noas.trakking.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:noas.trakking.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:notableexam.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:notableexam.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:notionnowadays.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:notionnowadays.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:nutralove.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:nutralove.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:outdooutcome.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:outdooutcome.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:pagead.trustlayersdk.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:pagead.trustlayersdk.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:parkourbus.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:parkourbus.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:patternperiod.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:patternperiod.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:penslice.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:penslice.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:pepperdominate.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:pepperdominate.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:pickarest.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:pickarest.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:plasticbells.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:plasticbells.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:platc-tester.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:platc-tester.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:powerium.net"
     },
     {
       "error": "OSError",
@@ -97,10 +260,6 @@
     {
       "error": "OSError",
       "query": "ct:domain:icecreamtester.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:icecreamtester.com"
     },
     {
       "error": "OSError",
@@ -1277,10 +1436,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-09T16:26:24.863317+00:00",
-  "pending_tasks": 301,
+  "observed_at": "2026-11-10T14:56:33.759281+00:00",
+  "pending_tasks": 344,
   "providers": {
-    "at": "2026-11-09T14:29:41.588513+00:00",
+    "at": "2026-11-10T13:53:39.814555+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -1301,162 +1460,6 @@
         "error": null,
         "provider": "urlscan",
         "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "censys",
-        "error": null,
-        "provider": "censys",
-        "status": 404
       },
       {
         "action": "search",
@@ -1603,13 +1606,169 @@
         "status": 200
       },
       {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "censys",
+        "error": null,
+        "provider": "censys",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
         "action": "censys",
         "error": null,
         "provider": "censys",
         "status": 200
       }
     ],
-    "generated_at": "2026-11-09T14:23:28.637039+00:00",
+    "generated_at": "2026-11-10T13:47:41.800824+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
