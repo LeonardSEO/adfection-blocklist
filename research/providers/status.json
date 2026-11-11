@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T13:53:39.814555+00:00",
+  "at": "2026-11-11T13:04:50.764733+00:00",
   "blocked": {},
   "calls": {
     "censys": 2,
@@ -10,6 +10,42 @@
   "events": [
     {
       "action": "quota",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
+      "error": null,
+      "provider": "urlscan",
+      "status": 200
+    },
+    {
+      "action": "search",
       "error": null,
       "provider": "urlscan",
       "status": 200
@@ -135,46 +171,10 @@
       "status": 200
     },
     {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "search",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
       "action": "censys",
       "error": null,
       "provider": "censys",
-      "status": 200
+      "status": 404
     },
     {
       "action": "search",
@@ -324,7 +324,7 @@
       "action": "censys",
       "error": null,
       "provider": "censys",
-      "status": 200
+      "status": 404
     }
   ],
   "remaining_daily_allowance": {

@@ -489,9 +489,9 @@
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-10T13:47:41.800824+00:00",
+  "generated_at": "2026-11-11T12:58:03.709580+00:00",
   "provider_report": {
-    "at": "2026-11-10T13:53:39.814555+00:00",
+    "at": "2026-11-11T13:04:50.764733+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -502,6 +502,42 @@
     "events": [
       {
         "action": "quota",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -627,46 +663,10 @@
         "status": 200
       },
       {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
         "action": "censys",
         "error": null,
         "provider": "censys",
-        "status": 200
+        "status": 404
       },
       {
         "action": "search",
@@ -816,7 +816,7 @@
         "action": "censys",
         "error": null,
         "provider": "censys",
-        "status": 200
+        "status": 404
       }
     ],
     "remaining_daily_allowance": {
@@ -1821,6 +1821,150 @@
         "results": []
       },
       "fetched_at": "2026-11-10T13:53:39.277847+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdating-link.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:01:52.829792+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdating-url.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:00.482075+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdating-url.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:10.041450+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdatingnews.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:17.240366+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdatingpage.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:25.093643+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdatingwebpage.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:32.255196+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupdete.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:39.594310+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupgrade-sim-card.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:46.887194+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupgradediminish.link%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:02:55.247462+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Auphillpucker.org%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:03.411764+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupholdfrigidity.link%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:12.946955+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupkeepno.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:21.270096+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupload-now.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:28.742033+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Auponsurreal.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:35.576427+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupperlair.org%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:43.105411+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aups.so%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:50.165047+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupstagedown.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:03:57.639846+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupstateexponent.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:04.863237+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aupswinggreedless.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:11.936445+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Auptightattendee.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:21.676792+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Auptownfun.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:28.868752+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurbanhouseladder.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:35.960257+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurbanthree.eu%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:43.175175+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurbestfriends.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-11T13:04:50.278285+00:00"
     }
   },
   "version": 1
