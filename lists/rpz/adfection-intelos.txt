@@ -5,14 +5,14 @@
 ; Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ; Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ; Expires: 1 day
-; Last modified: 10 Nov 2026 14:58 UTC
-; Version: 2026.1110.145849
+; Last modified: 12 Nov 2026 15:22 UTC
+; Version: 2026.1112.152201
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
 ; Number of entries: 2
 ; Number of domains: 1
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1794322729 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1794496921 43200 3600 259200 300
 @ IN NS localhost.
 
 globaldatapoints.com CNAME .
