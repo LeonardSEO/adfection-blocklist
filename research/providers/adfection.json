@@ -87,12 +87,40 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/f9053950817d1904fd4535f1539deb2e817505a1af0681075b872e7d8cdeeedf",
       "value": "f9053950817d1904fd4535f1539deb2e817505a1af0681075b872e7d8cdeeedf"
+    },
+    {
+      "fetched_at": "2026-11-16T14:04:47.605224+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "edge.tenants.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "guardian.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "webtask.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "auth0.com",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/5b1c1effbb135082ae84f394a75297a2ba22263b92aa5df3a9424a750e392ab2",
+      "value": "5b1c1effbb135082ae84f394a75297a2ba22263b92aa5df3a9424a750e392ab2"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-15T12:58:04.407843+00:00",
+  "generated_at": "2026-11-16T14:01:10.073259+00:00",
   "provider_report": {
-    "at": "2026-11-15T13:04:58.574153+00:00",
+    "at": "2026-11-16T14:07:55.814512+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -139,117 +167,117 @@
       },
       {
         "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
         "error": "TimeoutError",
         "provider": "urlscan",
         "status": 0
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
       },
       {
         "action": "search",
@@ -431,13 +459,13 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:01:45.131074+00:00"
+      "fetched_at": "2026-11-16T14:04:40.207824+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:01:53.626585+00:00"
+      "fetched_at": "2026-11-16T14:04:47.135764+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -846,6 +874,144 @@
         "results": []
       },
       "fetched_at": "2026-11-15T13:01:01.670716+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adamageconsider.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:01:22.568591+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adcv2rnj2ograe.cloudfront.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:01:30.369706+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeardrill.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:01:37.486839+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adediccatedconsideration.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:01:45.301876+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeducedefend.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:01:53.010157+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adensefoot.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:13.337312+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adesireeclipse.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:20.883795+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adetaincharity.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:31.458163+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adeterdiffusion.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:38.693995+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adevotionbelief.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:45.993400+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscover-tech.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:02:55.188458+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscovertech-alb-100966113.us-east-1.elb.amazonaws.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:04.017665+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adiscovertech.us.auth0.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:12.047993+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adistractionfar.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:19.487425+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adrivesplash.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:27.069474+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adruid.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:36.174555+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adrummerjourney.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:44.293246+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.adtimizer.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:03:53.008848+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.adtimizer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:04:01.771887+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adtech.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:04:10.705979+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adumplingbell.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:04:17.488307+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aelectric-prime.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:04:26.458595+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aelifluousscintillam.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-16T14:04:33.462973+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Agroundbreakinginitative.com%29&size=100": {
       "body": {
