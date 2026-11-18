@@ -6,8 +6,8 @@
 ! Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ! Issues: https://github.com/LeonardSEO/adfection-blocklist/issues
 ! Expires: 1 day
-! Last modified: 17 Nov 2026 16:06 UTC
-! Version: 2026.1117.160644
+! Last modified: 18 Nov 2026 15:46 UTC
+! Version: 2026.1118.154606
 ! Syntax: Adblock domain rules (AdGuard Home, uBlock Origin)
 ! Number of entries: 124
 ! Number of domains: 124

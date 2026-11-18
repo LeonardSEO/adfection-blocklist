@@ -1,78 +1,373 @@
 {
-  "candidate_count": 286,
+  "candidate_count": 362,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
-    "dns:domain:ipinfo.myweb3id.io",
+    "dns:domain:abelia.compute.herokuapp.com",
+    "dns:domain:acacia.compute.herokuapp.com",
+    "dns:domain:agave.compute.herokuapp.com",
+    "dns:domain:alder.compute.herokuapp.com",
+    "dns:domain:aloe.compute.herokuapp.com",
+    "dns:domain:amaryllis.compute.herokuapp.com",
+    "dns:domain:anemone.compute.herokuapp.com",
+    "dns:domain:anise.compute.herokuapp.com",
+    "dns:domain:apple.compute.herokuapp.com",
+    "dns:domain:ash.compute.herokuapp.com",
+    "dns:domain:aster.compute.herokuapp.com",
+    "dns:domain:avocado.compute.herokuapp.com",
+    "dns:domain:azalea.compute.herokuapp.com",
+    "dns:domain:banyan.compute.herokuapp.com",
+    "dns:domain:baobab.compute.herokuapp.com",
+    "dns:domain:barberry.compute.herokuapp.com",
+    "dns:domain:barley.compute.herokuapp.com",
+    "dns:domain:basil.compute.herokuapp.com",
+    "dns:domain:bayberry.compute.herokuapp.com",
+    "dns:domain:beet.compute.herokuapp.com",
+    "dns:domain:begonia.compute.herokuapp.com",
+    "dns:domain:birch.compute.herokuapp.com",
+    "dns:domain:borage.compute.herokuapp.com",
+    "dns:domain:bougainvillea.compute.herokuapp.com",
+    "dns:domain:camellia.compute.herokuapp.com",
+    "dns:domain:cherry.compute.herokuapp.com",
+    "dns:domain:crocus.compute.herokuapp.com",
+    "dns:domain:eucalyptus.compute.herokuapp.com",
+    "dns:domain:ficus.compute.herokuapp.com",
+    "dns:domain:fuchsia.compute.herokuapp.com",
+    "dns:domain:geranium.compute.herokuapp.com",
+    "dns:domain:ginger.compute.herokuapp.com",
+    "dns:domain:gingko.compute.herokuapp.com",
+    "dns:domain:heather.compute.herokuapp.com",
+    "dns:domain:hibiscus.compute.herokuapp.com",
+    "dns:domain:holly.compute.herokuapp.com",
+    "dns:domain:honeysuckle.compute.herokuapp.com",
+    "dns:domain:hydrangea.compute.herokuapp.com",
+    "dns:domain:iris.compute.herokuapp.com",
+    "dns:domain:ivy.compute.herokuapp.com",
+    "dns:domain:jacaranda.compute.herokuapp.com",
+    "dns:domain:lavender.compute.herokuapp.com",
+    "dns:domain:lilac.compute.herokuapp.com",
+    "dns:domain:lotus.compute.herokuapp.com",
+    "dns:domain:magnolia.compute.herokuapp.com",
+    "dns:domain:neem.compute.herokuapp.com",
+    "dns:domain:oak.compute.herokuapp.com",
+    "dns:domain:orchid.compute.herokuapp.com",
+    "dns:domain:pear.compute.herokuapp.com",
+    "dns:domain:peony.compute.herokuapp.com",
+    "dns:domain:pine.compute.herokuapp.com",
+    "dns:domain:plum.compute.herokuapp.com",
+    "dns:domain:plumeria.compute.herokuapp.com",
+    "dns:domain:primrose.compute.herokuapp.com",
+    "dns:domain:redbud.compute.herokuapp.com",
+    "dns:domain:redwood.compute.herokuapp.com",
+    "dns:domain:rhododendron.compute.herokuapp.com",
+    "dns:domain:rose.compute.herokuapp.com",
+    "dns:domain:shamrock.compute.herokuapp.com",
+    "dns:domain:spruce.compute.herokuapp.com",
+    "dns:domain:willow.compute.herokuapp.com",
     "dns:domain:edge.tenants.auth0.com",
-    "measure:domain:blog.mydsp.io",
-    "dns:domain:blog.mydsp.io",
     "dns:domain:guardian.auth0.com",
     "measure:domain:guardian.auth0.com",
     "dns:domain:webtask.auth0.com",
     "measure:domain:webtask.auth0.com",
-    "dns:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "measure:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "dns:domain:va02.ingress.herokuapp.com",
-    "measure:domain:va02.ingress.herokuapp.com",
-    "dns:domain:va03.ingress.herokuapp.com",
-    "measure:domain:va03.ingress.herokuapp.com",
-    "dns:domain:www.volasim.com",
-    "measure:domain:www.volasim.com",
-    "urlscan:domain:eminententwine.com",
-    "dns:domain:eminententwine.com",
-    "urlscan:domain:enjoymultiplecats.com",
-    "dns:domain:enjoymultiplecats.com",
-    "urlscan:domain:events-ui.discover-tech.io",
-    "dns:domain:events-ui.discover-tech.io",
-    "urlscan:domain:events-ui.myweb3id.io",
-    "dns:domain:events-ui.myweb3id.io",
-    "urlscan:domain:events.myweb3id.io",
-    "dns:domain:events.myweb3id.io",
-    "urlscan:domain:events.platc-tester.com",
-    "dns:domain:events.platc-tester.com",
-    "urlscan:domain:exhibitexpanse.com",
-    "dns:domain:exhibitexpanse.com",
-    "urlscan:domain:fallaciousessential.net",
-    "dns:domain:fallaciousessential.net",
-    "urlscan:domain:fearevolve.com",
-    "dns:domain:fearevolve.com",
-    "urlscan:domain:fileswaper.com",
-    "dns:domain:fileswaper.com",
-    "urlscan:domain:finalsalami.com",
-    "dns:domain:finalsalami.com",
-    "urlscan:domain:flexibleelevator.com",
-    "dns:domain:flexibleelevator.com",
-    "urlscan:domain:foamdirection.com",
-    "dns:domain:foamdirection.com",
-    "urlscan:domain:forecastgarden.com",
-    "dns:domain:forecastgarden.com",
-    "urlscan:domain:front-ngrok.tracookiepixel.xyz",
-    "dns:domain:front-ngrok.tracookiepixel.xyz",
-    "urlscan:domain:gam-eu.mtrtb.com",
-    "dns:domain:gam-eu.mtrtb.com",
-    "urlscan:domain:globaldatapoints.com",
-    "dns:domain:globaldatapoints.com",
-    "urlscan:domain:goatsandals.com",
-    "dns:domain:goatsandals.com",
-    "urlscan:domain:golfconcert.com",
-    "dns:domain:golfconcert.com",
-    "urlscan:domain:groundbreakinginitative.com",
-    "dns:domain:groundbreakinginitative.com",
-    "urlscan:domain:guitarcalculate.com",
-    "dns:domain:guitarcalculate.com",
-    "urlscan:domain:hostilefauna.com",
-    "dns:domain:hostilefauna.com",
-    "urlscan:domain:icecreamtester.com",
-    "dns:domain:icecreamtester.com",
-    "measure:domain:icecreamtester.com",
-    "urlscan:domain:imp.powerium.net",
-    "dns:domain:imp.powerium.net",
-    "measure:domain:imp.powerium.net",
-    "measure:domain:cn.creatives.mtrtb.com"
+    "urlscan:domain:infinoas.mtrtb.com",
+    "dns:domain:infinoas.mtrtb.com",
+    "urlscan:domain:infoanalytics.live",
+    "dns:domain:infoanalytics.live",
+    "urlscan:domain:insightenterprisells.com",
+    "dns:domain:insightenterprisells.com",
+    "urlscan:domain:isolatelecture.com",
+    "dns:domain:isolatelecture.com",
+    "urlscan:domain:jellybat.net",
+    "dns:domain:jellybat.net",
+    "measure:domain:jellybat.net",
+    "urlscan:domain:jobmarcher.com",
+    "dns:domain:jobmarcher.com",
+    "urlscan:domain:journeyjest.net",
+    "dns:domain:journeyjest.net",
+    "urlscan:domain:js.cookie-sync.xyz",
+    "dns:domain:js.cookie-sync.xyz",
+    "urlscan:domain:js.tracookiepixel.xyz",
+    "dns:domain:js.tracookiepixel.xyz",
+    "urlscan:domain:kartingrumble.com",
+    "dns:domain:kartingrumble.com",
+    "urlscan:domain:keyadapter.com",
+    "dns:domain:keyadapter.com",
+    "urlscan:domain:labyrinthextravagance.org",
+    "dns:domain:labyrinthextravagance.org",
+    "urlscan:domain:leafconfuse.net",
+    "dns:domain:leafconfuse.net",
+    "urlscan:domain:lessonhandle.com",
+    "dns:domain:lessonhandle.com",
+    "urlscan:domain:logger.controlium.net",
+    "dns:domain:logger.controlium.net",
+    "urlscan:domain:logger.powerium.net",
+    "dns:domain:logger.powerium.net",
+    "urlscan:domain:macrodrop.net",
+    "dns:domain:macrodrop.net",
+    "urlscan:domain:macromint.net",
+    "dns:domain:macromint.net",
+    "urlscan:domain:maturitygenesis.com",
+    "dns:domain:maturitygenesis.com",
+    "urlscan:domain:measurecabin.com",
+    "dns:domain:measurecabin.com",
+    "urlscan:domain:mtrtb.com",
+    "dns:domain:mtrtb.com",
+    "measure:domain:mtrtb.com",
+    "urlscan:domain:mushroompalm.com",
+    "dns:domain:mushroompalm.com",
+    "urlscan:domain:mydsp.io",
+    "dns:domain:mydsp.io",
+    "measure:domain:mydsp.io",
+    "urlscan:domain:myipinfo.io",
+    "dns:domain:myipinfo.io",
+    "measure:domain:myipinfo.io"
   ],
   "errors": [
+    {
+      "error": "ValueError",
+      "query": "measure:domain:abelia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:acacia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:agave.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:alder.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:aloe.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:amaryllis.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:anemone.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:anise.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:apple.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ash.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:aster.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:avocado.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:azalea.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:banyan.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:baobab.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:barberry.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:barley.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:basil.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:bayberry.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:beet.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:begonia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:birch.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:borage.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:bougainvillea.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:camellia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cherry.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:crocus.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:eucalyptus.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ficus.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:fuchsia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:geranium.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ginger.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:gingko.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:heather.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:hibiscus.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:holly.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:honeysuckle.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:hydrangea.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:iris.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ivy.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:jacaranda.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:lavender.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:lilac.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:lotus.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:magnolia.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:neem.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:oak.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:orchid.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:pear.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:peony.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:pine.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:plum.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:plumeria.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:primrose.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:redbud.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:redwood.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:rhododendron.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:rose.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:shamrock.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:spruce.compute.herokuapp.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:willow.compute.herokuapp.com"
+    },
     {
       "error": "ValueError",
       "query": "measure:domain:ipinfo.myweb3id.io"
@@ -80,6 +375,182 @@
     {
       "error": "ValueError",
       "query": "measure:domain:edge.tenants.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:infinoas.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:infinoas.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:infoanalytics.live"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:infoanalytics.live"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:insightenterprisells.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:insightenterprisells.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:isolatelecture.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:isolatelecture.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:jellybat.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:jobmarcher.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:jobmarcher.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:journeyjest.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:journeyjest.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:js.cookie-sync.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:js.cookie-sync.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:js.tracookiepixel.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:js.tracookiepixel.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:kartingrumble.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:kartingrumble.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:keyadapter.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:keyadapter.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:labyrinthextravagance.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:labyrinthextravagance.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:leafconfuse.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:leafconfuse.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:lessonhandle.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:lessonhandle.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:logger.controlium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:logger.controlium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:logger.powerium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:logger.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:macrodrop.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:macrodrop.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:macromint.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:macromint.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:maturitygenesis.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:maturitygenesis.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:measurecabin.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:measurecabin.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mushroompalm.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:mushroompalm.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:mydsp.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:myipinfo.io"
     },
     {
       "error": "OSError",
@@ -1155,34 +1626,6 @@
     },
     {
       "error": "OSError",
-      "query": "ct:domain:measurecabin.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:measurecabin.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:mushroompalm.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:mushroompalm.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:mydsp.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:myipinfo.io"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:myweb3id.io"
     },
     {
@@ -1319,142 +1762,6 @@
     },
     {
       "error": "OSError",
-      "query": "ct:domain:infinoas.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:infoanalytics.live"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:infoanalytics.live"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:insightenterprisells.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:insightenterprisells.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:isolatelecture.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:isolatelecture.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:jellybat.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:jobmarcher.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:jobmarcher.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:journeyjest.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:journeyjest.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:js.cookie-sync.xyz"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:js.cookie-sync.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:js.tracookiepixel.xyz"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:js.tracookiepixel.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:kartingrumble.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:kartingrumble.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:keyadapter.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:keyadapter.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:labyrinthextravagance.org"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:labyrinthextravagance.org"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:leafconfuse.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:leafconfuse.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:lessonhandle.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:lessonhandle.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:logger.controlium.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:logger.powerium.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:macrodrop.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:macrodrop.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:macromint.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:macromint.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:maturitygenesis.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:maturitygenesis.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:sincereaccertain.com"
     },
     {
@@ -1500,10 +1807,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-17T16:04:25.693566+00:00",
-  "pending_tasks": 355,
+  "observed_at": "2026-11-18T15:43:06.457153+00:00",
+  "pending_tasks": 419,
   "providers": {
-    "at": "2026-11-17T15:03:11.135702+00:00",
+    "at": "2026-11-18T14:40:56.780673+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -1749,81 +2056,81 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "censys",
@@ -1832,7 +2139,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-17T14:55:51.167558+00:00",
+    "generated_at": "2026-11-18T14:35:08.285990+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
