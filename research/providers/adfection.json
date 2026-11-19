@@ -1,34 +1,6 @@
 {
   "censys": [
     {
-      "fetched_at": "2026-11-12T14:03:41.699212+00:00",
-      "kind": "certificate",
-      "names": [
-        {
-          "name": "auth0.com",
-          "observed_at": null
-        },
-        {
-          "name": "edge.tenants.auth0.com",
-          "observed_at": null
-        },
-        {
-          "name": "guardian.auth0.com",
-          "observed_at": null
-        },
-        {
-          "name": "webtask.auth0.com",
-          "observed_at": null
-        },
-        {
-          "name": "auth0.com",
-          "observed_at": null
-        }
-      ],
-      "url": "https://api.platform.censys.io/v3/global/asset/certificate/c319ccb6ac8e4bbd311e0a5d8e7af6c2836addde84abb18f384dc741cace133e",
-      "value": "c319ccb6ac8e4bbd311e0a5d8e7af6c2836addde84abb18f384dc741cace133e"
-    },
-    {
       "fetched_at": "2026-11-13T13:30:31.972355+00:00",
       "kind": "certificate",
       "names": [
@@ -371,12 +343,40 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/f298099394cc8855011193b8f5ba643652abf4ab74df21adc49509d873e79511",
       "value": "f298099394cc8855011193b8f5ba643652abf4ab74df21adc49509d873e79511"
+    },
+    {
+      "fetched_at": "2026-11-19T14:45:20.325633+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "edge.tenants.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "guardian.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "webtask.auth0.com",
+          "observed_at": null
+        },
+        {
+          "name": "auth0.com",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/c319ccb6ac8e4bbd311e0a5d8e7af6c2836addde84abb18f384dc741cace133e",
+      "value": "c319ccb6ac8e4bbd311e0a5d8e7af6c2836addde84abb18f384dc741cace133e"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-18T14:35:08.285990+00:00",
+  "generated_at": "2026-11-19T14:42:11.991698+00:00",
   "provider_report": {
-    "at": "2026-11-18T14:40:56.780673+00:00",
+    "at": "2026-11-19T14:48:12.328718+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -715,13 +715,13 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-18T14:38:08.571791+00:00"
+      "fetched_at": "2026-11-19T14:45:13.162138+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-18T14:38:15.135901+00:00"
+      "fetched_at": "2026-11-19T14:45:19.846311+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -1557,143 +1557,219 @@
       },
       "fetched_at": "2026-11-18T14:38:01.956289+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asuggestutterly.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Amyweb3id.io%29&size=100": {
       "body": {
-        "results": []
+        "results": [
+          {
+            "_id": "01a1e375-7fcf-756a-b797-34ee5a608016",
+            "page": {
+              "domain": "myweb3id.io",
+              "ip": "52.222.136.13"
+            },
+            "task": {
+              "time": "2026-11-16T08:24:57.208Z",
+              "visibility": "public"
+            }
+          }
+        ]
       },
-      "fetched_at": "2026-11-12T14:00:10.513544+00:00"
+      "fetched_at": "2026-11-19T14:42:30.885379+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asun.cn.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anoas.adtimizer.co%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:00:20.307297+00:00"
+      "fetched_at": "2026-11-19T14:42:37.476473+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Asunsetpotential.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anoas.impchkdsp.com%29&size=100": {
       "body": {
-        "results": []
+        "results": [
+          {
+            "_id": "01a1d247-bc47-7557-b9b4-8e6c62c12049",
+            "page": {
+              "domain": "noas.impchkdsp.com",
+              "ip": "34.205.40.226"
+            },
+            "task": {
+              "time": "2026-11-13T00:21:28.336Z",
+              "visibility": "public"
+            }
+          }
+        ]
       },
-      "fetched_at": "2026-11-12T14:00:31.393800+00:00"
+      "fetched_at": "2026-11-19T14:42:44.006081+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atacticscheap.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anoas.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:00:40.931520+00:00"
+      "fetched_at": "2026-11-19T14:42:50.548626+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atekma-dmp.ai%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anoas.powerium.net%29&size=100": {
       "body": {
-        "results": []
+        "results": [
+          {
+            "_id": "01a1d125-e0bf-76a7-95c4-c87d4d8e4123",
+            "page": {
+              "domain": "noas.powerium.net",
+              "ip": "75.2.117.168"
+            },
+            "task": {
+              "time": "2026-11-12T19:04:48.252Z",
+              "visibility": "public"
+            }
+          }
+        ]
       },
-      "fetched_at": "2026-11-12T14:00:48.707007+00:00"
+      "fetched_at": "2026-11-19T14:42:57.082285+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atekma.adtimizer.co%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anoas.trakking.co%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:00:55.820869+00:00"
+      "fetched_at": "2026-11-19T14:43:03.626794+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atidalscreen.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anotableexam.org%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:03.206744+00:00"
+      "fetched_at": "2026-11-19T14:43:11.960869+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracker-eu.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anotionnowadays.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:10.098762+00:00"
+      "fetched_at": "2026-11-19T14:43:19.382806+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracker.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Anutralove.co%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:18.733909+00:00"
+      "fetched_at": "2026-11-19T14:43:25.992612+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracookiepixel.xyz%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aoutdooutcome.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:27.951348+00:00"
+      "fetched_at": "2026-11-19T14:43:32.509703+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aultimatematter.info%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apagead.trustlayersdk.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:46.921601+00:00"
+      "fetched_at": "2026-11-19T14:43:39.218444+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avelvetpremier.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aparkourbus.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:01:53.814737+00:00"
+      "fetched_at": "2026-11-19T14:43:45.762024+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviewa.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apatternperiod.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:01.232420+00:00"
+      "fetched_at": "2026-11-19T14:43:52.303272+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviewp.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apenslice.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:08.618328+00:00"
+      "fetched_at": "2026-11-19T14:43:58.889755+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avolasim.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apepperdominate.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:16.073672+00:00"
+      "fetched_at": "2026-11-19T14:44:05.533675+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avpn.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apickarest.com%29&size=100": {
       "body": {
-        "results": []
+        "results": [
+          {
+            "_id": "01a1e3ec-65f9-762e-9c93-4b502e202da9",
+            "page": {
+              "domain": "pickarest.com"
+            },
+            "task": {
+              "time": "2026-11-16T10:35:13.112Z",
+              "visibility": "public"
+            }
+          }
+        ]
       },
-      "fetched_at": "2026-11-12T14:02:23.921052+00:00"
+      "fetched_at": "2026-11-19T14:44:12.135859+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindomination.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aplasticbells.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:31.173125+00:00"
+      "fetched_at": "2026-11-19T14:44:18.731164+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.adtimizer.co%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aplatc-tester.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:39.399393+00:00"
+      "fetched_at": "2026-11-19T14:44:25.855218+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.controlium.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apowerium.net%29&size=100": {
       "body": {
-        "results": []
+        "results": [
+          {
+            "_id": "01a1d12d-1a6a-76ec-b4f7-511b0feb5f46",
+            "page": {
+              "domain": "qa-noas.powerium.net",
+              "ip": "54.85.237.203"
+            },
+            "task": {
+              "time": "2026-11-12T19:12:42.113Z",
+              "visibility": "public"
+            }
+          },
+          {
+            "_id": "01a1d125-e0bf-76a7-95c4-c87d4d8e4123",
+            "page": {
+              "domain": "noas.powerium.net",
+              "ip": "75.2.117.168"
+            },
+            "task": {
+              "time": "2026-11-12T19:04:48.252Z",
+              "visibility": "public"
+            }
+          }
+        ]
       },
-      "fetched_at": "2026-11-12T14:02:46.628687+00:00"
+      "fetched_at": "2026-11-19T14:44:32.437012+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.discover-tech.io%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Appv2.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:02:56.258853+00:00"
+      "fetched_at": "2026-11-19T14:44:39.070760+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apqv2.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:03:05.105515+00:00"
+      "fetched_at": "2026-11-19T14:44:45.668280+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.myipinfo.io%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aprawnbasket.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:03:14.407386+00:00"
+      "fetched_at": "2026-11-19T14:44:52.235660+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracker.mtrtb.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apredictproper.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-12T14:03:22.269531+00:00"
+      "fetched_at": "2026-11-19T14:44:58.814630+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Apressaviation.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:05.852267+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracookiepixel.xyz%29&size=100": {
       "body": {

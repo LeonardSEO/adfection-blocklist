@@ -1,9 +1,9 @@
 {
   "censys": [],
   "disabled": [],
-  "generated_at": "2026-11-18T14:35:08.285990+00:00",
+  "generated_at": "2026-11-19T14:42:11.991698+00:00",
   "provider_report": {
-    "at": "2026-11-18T14:40:56.780673+00:00",
+    "at": "2026-11-19T14:48:12.328718+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -338,144 +338,6 @@
     "status": "partial"
   },
   "responses": {
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurchindecipher.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:03:48.447733+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-configure.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:03:55.567712+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-direct.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:02.780790+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-hoster.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:09.604751+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-loading.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:16.736017+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-promo.club%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:23.568826+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-redirect.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:30.669637+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl-tiny.app%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:51.499698+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurl2all.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:04:58.551425+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlconfig.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:06.933458+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlconnection.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:14.172722+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurldefender.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:21.077709+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurllink.xyz%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:27.882936+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlpage-redirect.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:34.821489+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlpush.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:42.286859+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlredirect.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:49.122693+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlregistrar.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:05:56.864886+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlreload.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:04.371960+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlscanner.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:11.978589+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlsync.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:20.656260+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlupdates.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:28.087708+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurlviaweb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:34.895954+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aursidaewinter.org%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-12T14:06:42.094770+00:00"
-    },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aurspanishteacher.net%29&size=100": {
       "body": {
         "results": []
@@ -1231,6 +1093,150 @@
         "results": []
       },
       "fetched_at": "2026-11-18T14:40:56.373698+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebprotocol.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:26.441213+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebresourcer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:33.623350+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsconnector.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:44.156111+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsiteconnecting.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:52.832432+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsiteeco.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:45:59.812800+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsitereconnecting.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:07.191771+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsites4yourhost.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:13.789158+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsitetosubmit.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:20.904041+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebstrings.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:27.448225+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebsupporter.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:33.998201+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebtechuse.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:40.550427+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebtunnels.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:47.186442+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebupdater.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:46:53.698187+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awebview-redirect.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:00.867563+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awedding-strategy.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:08.081737+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aweddingbandsoft.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:15.059913+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awelcomehosting.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:24.182364+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awelovebigcakes.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:30.769710+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awelovelollipops.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:37.718507+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awelovemorningcoffees.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:44.329874+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awestcareast.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:50.883437+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awewantflowersnow.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:47:57.630314+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awha.tsapp.me%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:48:04.167727+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awhatcando.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-19T14:48:12.059348+00:00"
     }
   },
   "version": 1
