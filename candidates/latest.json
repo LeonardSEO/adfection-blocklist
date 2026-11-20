@@ -1,19 +1,9 @@
 {
-  "candidate_count": 363,
+  "candidate_count": 384,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
-    "dns:domain:ipinfo.myweb3id.io",
-    "dns:domain:1787646375424138-3100197338-119.mtrtb.com",
-    "dns:domain:blog.mydsp.io",
-    "measure:domain:blog.mydsp.io",
-    "dns:domain:va02.ingress.herokuapp.com",
-    "measure:domain:va02.ingress.herokuapp.com",
-    "dns:domain:va03.ingress.herokuapp.com",
-    "measure:domain:va03.ingress.herokuapp.com",
-    "dns:domain:www.volasim.com",
-    "measure:domain:www.volasim.com",
     "dns:domain:abelia.compute.herokuapp.com",
     "dns:domain:acacia.compute.herokuapp.com",
     "dns:domain:agave.compute.herokuapp.com",
@@ -80,54 +70,56 @@
     "measure:domain:guardian.auth0.com",
     "dns:domain:webtask.auth0.com",
     "measure:domain:webtask.auth0.com",
-    "urlscan:domain:ppv2.mtrtb.com",
-    "dns:domain:ppv2.mtrtb.com",
-    "urlscan:domain:pqv2.mtrtb.com",
-    "dns:domain:pqv2.mtrtb.com",
-    "urlscan:domain:prawnbasket.com",
-    "dns:domain:prawnbasket.com",
-    "urlscan:domain:predictproper.com",
-    "dns:domain:predictproper.com",
-    "urlscan:domain:pressaviation.com",
-    "dns:domain:pressaviation.com",
-    "urlscan:domain:myweb3id.io",
-    "dns:domain:myweb3id.io",
-    "urlscan:domain:noas.adtimizer.co",
-    "dns:domain:noas.adtimizer.co",
-    "urlscan:domain:noas.impchkdsp.com",
-    "dns:domain:noas.impchkdsp.com",
-    "urlscan:domain:noas.mtrtb.com",
-    "dns:domain:noas.mtrtb.com",
-    "urlscan:domain:noas.powerium.net",
-    "dns:domain:noas.powerium.net",
-    "urlscan:domain:noas.trakking.co",
-    "dns:domain:noas.trakking.co",
-    "urlscan:domain:notableexam.org",
-    "dns:domain:notableexam.org",
-    "urlscan:domain:notionnowadays.com",
-    "dns:domain:notionnowadays.com",
-    "urlscan:domain:nutralove.co",
-    "dns:domain:nutralove.co",
-    "urlscan:domain:outdooutcome.com",
-    "dns:domain:outdooutcome.com",
-    "urlscan:domain:pagead.trustlayersdk.com",
-    "dns:domain:pagead.trustlayersdk.com",
-    "urlscan:domain:parkourbus.com",
-    "dns:domain:parkourbus.com",
-    "urlscan:domain:patternperiod.com",
-    "dns:domain:patternperiod.com",
-    "urlscan:domain:penslice.com",
-    "dns:domain:penslice.com",
-    "urlscan:domain:pepperdominate.com",
-    "dns:domain:pepperdominate.com",
-    "urlscan:domain:pickarest.com",
-    "dns:domain:pickarest.com",
-    "urlscan:domain:plasticbells.com",
-    "dns:domain:plasticbells.com",
-    "urlscan:domain:platc-tester.com",
-    "dns:domain:platc-tester.com",
-    "urlscan:domain:powerium.net",
-    "dns:domain:powerium.net"
+    "urlscan:domain:profligatecensure.com",
+    "dns:domain:profligatecensure.com",
+    "urlscan:domain:qa-noas.powerium.net",
+    "dns:domain:qa-noas.powerium.net",
+    "urlscan:domain:relevantech.com",
+    "dns:domain:relevantech.com",
+    "measure:domain:relevantech.com",
+    "urlscan:domain:remindmewhere.app",
+    "dns:domain:remindmewhere.app",
+    "urlscan:domain:rollstrech.com",
+    "dns:domain:rollstrech.com",
+    "urlscan:domain:romancedrum.com",
+    "dns:domain:romancedrum.com",
+    "urlscan:domain:sacrificeprincipal.net",
+    "dns:domain:sacrificeprincipal.net",
+    "urlscan:domain:salmonpride.net",
+    "dns:domain:salmonpride.net",
+    "urlscan:domain:scoreparade.com",
+    "dns:domain:scoreparade.com",
+    "urlscan:domain:selectedpazzle.com",
+    "dns:domain:selectedpazzle.com",
+    "urlscan:domain:server-ngrok.tracookiepixel.xyz",
+    "dns:domain:server-ngrok.tracookiepixel.xyz",
+    "urlscan:domain:shareitwork.com",
+    "dns:domain:shareitwork.com",
+    "urlscan:domain:sharethere.net",
+    "dns:domain:sharethere.net",
+    "urlscan:domain:signifyslight.com",
+    "dns:domain:signifyslight.com",
+    "urlscan:domain:sincereaccertain.com",
+    "dns:domain:sincereaccertain.com",
+    "urlscan:domain:spongefruit.com",
+    "dns:domain:spongefruit.com",
+    "urlscan:domain:stablesurface.com",
+    "dns:domain:stablesurface.com",
+    "urlscan:domain:strangegarden.org",
+    "dns:domain:strangegarden.org",
+    "urlscan:domain:stylebrakedown.com",
+    "dns:domain:stylebrakedown.com",
+    "urlscan:domain:suggestutterly.com",
+    "dns:domain:suggestutterly.com",
+    "urlscan:domain:sun.cn.mtrtb.com",
+    "dns:domain:sun.cn.mtrtb.com",
+    "urlscan:domain:sunsetpotential.com",
+    "dns:domain:sunsetpotential.com",
+    "urlscan:domain:tacticscheap.net",
+    "dns:domain:tacticscheap.net",
+    "urlscan:domain:tekma-dmp.ai",
+    "dns:domain:tekma-dmp.ai",
+    "measure:domain:tekma-dmp.ai"
   ],
   "errors": [
     {
@@ -385,6 +377,190 @@
     {
       "error": "ValueError",
       "query": "measure:domain:edge.tenants.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:profligatecensure.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:profligatecensure.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:qa-noas.powerium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:qa-noas.powerium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:relevantech.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:remindmewhere.app"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:remindmewhere.app"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:rollstrech.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:rollstrech.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:romancedrum.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:romancedrum.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:sacrificeprincipal.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:sacrificeprincipal.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:salmonpride.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:salmonpride.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:scoreparade.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:scoreparade.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:selectedpazzle.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:selectedpazzle.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:server-ngrok.tracookiepixel.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:server-ngrok.tracookiepixel.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:shareitwork.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:shareitwork.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:sharethere.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:sharethere.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:signifyslight.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:signifyslight.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:sincereaccertain.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:sincereaccertain.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:spongefruit.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:spongefruit.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:stablesurface.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:stablesurface.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:strangegarden.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:strangegarden.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:stylebrakedown.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:stylebrakedown.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:suggestutterly.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:suggestutterly.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:sun.cn.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:sun.cn.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:sunsetpotential.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:sunsetpotential.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tacticscheap.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tacticscheap.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tekma-dmp.ai"
     },
     {
       "error": "OSError",
@@ -1672,42 +1848,6 @@
     },
     {
       "error": "OSError",
-      "query": "ct:domain:suggestutterly.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:suggestutterly.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:sun.cn.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:sun.cn.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:sunsetpotential.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:sunsetpotential.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tacticscheap.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tacticscheap.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tekma-dmp.ai"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tekma.adtimizer.co"
     },
     {
@@ -1825,46 +1965,6 @@
     {
       "error": "OSError",
       "query": "ct:domain:www.tracker.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:sincereaccertain.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:sincereaccertain.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:spongefruit.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:spongefruit.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:stablesurface.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:stablesurface.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:strangegarden.org"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:strangegarden.org"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:stylebrakedown.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:stylebrakedown.com"
     }
   ],
   "limits": {
@@ -1873,14 +1973,15 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-19T15:47:22.867998+00:00",
-  "pending_tasks": 434,
+  "observed_at": "2026-11-20T15:30:11.630487+00:00",
+  "pending_tasks": 461,
   "providers": {
-    "at": "2026-11-19T14:48:12.328718+00:00",
+    "at": "2026-11-20T14:29:40.022997+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
+      "retrieve": 3,
       "search": 50
     },
     "deferred": {},
@@ -2049,6 +2150,24 @@
         "status": 200
       },
       {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
         "action": "censys",
         "error": null,
         "provider": "censys",
@@ -2205,9 +2324,9 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-19T14:42:11.991698+00:00",
+    "generated_at": "2026-11-20T14:23:34.236444+00:00",
     "remaining_daily_allowance": {
-      "retrieve": 10000,
+      "retrieve": 9997,
       "search": 950
     },
     "status": "partial"
