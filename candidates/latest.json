@@ -1,9 +1,17 @@
 {
-  "candidate_count": 384,
+  "candidate_count": 387,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
+    "dns:domain:blog.mydsp.io",
+    "measure:domain:blog.mydsp.io",
+    "dns:domain:va02.ingress.herokuapp.com",
+    "measure:domain:va02.ingress.herokuapp.com",
+    "dns:domain:va03.ingress.herokuapp.com",
+    "measure:domain:va03.ingress.herokuapp.com",
+    "dns:domain:www.volasim.com",
+    "measure:domain:www.volasim.com",
     "dns:domain:abelia.compute.herokuapp.com",
     "dns:domain:acacia.compute.herokuapp.com",
     "dns:domain:agave.compute.herokuapp.com",
@@ -70,56 +78,59 @@
     "measure:domain:guardian.auth0.com",
     "dns:domain:webtask.auth0.com",
     "measure:domain:webtask.auth0.com",
-    "urlscan:domain:profligatecensure.com",
-    "dns:domain:profligatecensure.com",
-    "urlscan:domain:qa-noas.powerium.net",
-    "dns:domain:qa-noas.powerium.net",
-    "urlscan:domain:relevantech.com",
-    "dns:domain:relevantech.com",
-    "measure:domain:relevantech.com",
-    "urlscan:domain:remindmewhere.app",
-    "dns:domain:remindmewhere.app",
-    "urlscan:domain:rollstrech.com",
-    "dns:domain:rollstrech.com",
-    "urlscan:domain:romancedrum.com",
-    "dns:domain:romancedrum.com",
-    "urlscan:domain:sacrificeprincipal.net",
-    "dns:domain:sacrificeprincipal.net",
-    "urlscan:domain:salmonpride.net",
-    "dns:domain:salmonpride.net",
-    "urlscan:domain:scoreparade.com",
-    "dns:domain:scoreparade.com",
-    "urlscan:domain:selectedpazzle.com",
-    "dns:domain:selectedpazzle.com",
-    "urlscan:domain:server-ngrok.tracookiepixel.xyz",
-    "dns:domain:server-ngrok.tracookiepixel.xyz",
-    "urlscan:domain:shareitwork.com",
-    "dns:domain:shareitwork.com",
-    "urlscan:domain:sharethere.net",
-    "dns:domain:sharethere.net",
-    "urlscan:domain:signifyslight.com",
-    "dns:domain:signifyslight.com",
-    "urlscan:domain:sincereaccertain.com",
-    "dns:domain:sincereaccertain.com",
-    "urlscan:domain:spongefruit.com",
-    "dns:domain:spongefruit.com",
-    "urlscan:domain:stablesurface.com",
-    "dns:domain:stablesurface.com",
-    "urlscan:domain:strangegarden.org",
-    "dns:domain:strangegarden.org",
-    "urlscan:domain:stylebrakedown.com",
-    "dns:domain:stylebrakedown.com",
-    "urlscan:domain:suggestutterly.com",
-    "dns:domain:suggestutterly.com",
-    "urlscan:domain:sun.cn.mtrtb.com",
-    "dns:domain:sun.cn.mtrtb.com",
-    "urlscan:domain:sunsetpotential.com",
-    "dns:domain:sunsetpotential.com",
-    "urlscan:domain:tacticscheap.net",
-    "dns:domain:tacticscheap.net",
-    "urlscan:domain:tekma-dmp.ai",
-    "dns:domain:tekma-dmp.ai",
-    "measure:domain:tekma-dmp.ai"
+    "urlscan:domain:tekma.adtimizer.co",
+    "dns:domain:tekma.adtimizer.co",
+    "urlscan:domain:tidalscreen.com",
+    "dns:domain:tidalscreen.com",
+    "urlscan:domain:tracker-eu.mtrtb.com",
+    "dns:domain:tracker-eu.mtrtb.com",
+    "urlscan:domain:tracker.mtrtb.com",
+    "dns:domain:tracker.mtrtb.com",
+    "urlscan:domain:tracookiepixel.xyz",
+    "dns:domain:tracookiepixel.xyz",
+    "urlscan:domain:tubeshape.com",
+    "dns:domain:tubeshape.com",
+    "urlscan:domain:ultimatematter.info",
+    "dns:domain:ultimatematter.info",
+    "urlscan:domain:velvetpremier.com",
+    "dns:domain:velvetpremier.com",
+    "urlscan:domain:viewa.mtrtb.com",
+    "dns:domain:viewa.mtrtb.com",
+    "urlscan:domain:viewp.mtrtb.com",
+    "dns:domain:viewp.mtrtb.com",
+    "urlscan:domain:volasim.com",
+    "dns:domain:volasim.com",
+    "measure:domain:volasim.com",
+    "urlscan:domain:vpn.mtrtb.com",
+    "dns:domain:vpn.mtrtb.com",
+    "urlscan:domain:windomination.com",
+    "dns:domain:windomination.com",
+    "urlscan:domain:www.adtimizer.co",
+    "dns:domain:www.adtimizer.co",
+    "measure:domain:www.adtimizer.co",
+    "urlscan:domain:www.controlium.net",
+    "dns:domain:www.controlium.net",
+    "urlscan:domain:www.discover-tech.io",
+    "dns:domain:www.discover-tech.io",
+    "measure:domain:www.discover-tech.io",
+    "urlscan:domain:www.mtrtb.com",
+    "dns:domain:www.mtrtb.com",
+    "measure:domain:www.mtrtb.com",
+    "urlscan:domain:www.myipinfo.io",
+    "dns:domain:www.myipinfo.io",
+    "measure:domain:www.myipinfo.io",
+    "urlscan:domain:www.tracker.mtrtb.com",
+    "dns:domain:www.tracker.mtrtb.com",
+    "urlscan:domain:www.tracookiepixel.xyz",
+    "dns:domain:www.tracookiepixel.xyz",
+    "urlscan:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+    "dns:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com",
+    "urlscan:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+    "dns:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com",
+    "urlscan:domain:admin.mtrtb.com",
+    "dns:domain:admin.mtrtb.com",
+    "urlscan:domain:ads-impressions.com",
+    "dns:domain:ads-impressions.com"
   ],
   "errors": [
     {
@@ -377,6 +388,178 @@
     {
       "error": "ValueError",
       "query": "measure:domain:edge.tenants.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tekma.adtimizer.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tekma.adtimizer.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tidalscreen.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tidalscreen.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tracker-eu.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tracker-eu.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tracker.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tracker.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tracookiepixel.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tracookiepixel.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubeshape.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubeshape.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ultimatematter.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ultimatematter.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:velvetpremier.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:velvetpremier.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viewa.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viewa.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viewp.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viewp.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:volasim.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vpn.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vpn.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:windomination.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:windomination.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.adtimizer.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.controlium.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:www.controlium.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.discover-tech.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.myipinfo.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.tracker.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:www.tracker.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:www.tracookiepixel.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:www.tracookiepixel.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:admin.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:admin.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ads-impressions.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ads-impressions.com"
     },
     {
       "error": "OSError",
@@ -1664,42 +1847,6 @@
     },
     {
       "error": "OSError",
-      "query": "ct:domain:www.tracookiepixel.xyz"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:www.tracookiepixel.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:1790180408009733-8822372887-52.ppv2.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:1790814041700313-3401190136-138.ppv2.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:admin.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:ads-impressions.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:ads-impressions.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:ads-monitor.xyz"
     },
     {
@@ -1845,126 +1992,6 @@
     {
       "error": "ValueError",
       "query": "measure:domain:beneathbreadth.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tekma.adtimizer.co"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tekma.adtimizer.co"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tidalscreen.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tidalscreen.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tracker-eu.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tracker-eu.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tracker.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tracookiepixel.xyz"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tracookiepixel.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:tubeshape.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:tubeshape.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tubeshape.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:ultimatematter.info"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:ultimatematter.info"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:velvetpremier.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:velvetpremier.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:viewa.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:viewa.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:viewp.mtrtb.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:viewp.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:volasim.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:vpn.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:windomination.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:windomination.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.adtimizer.co"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.controlium.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.discover-tech.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.myipinfo.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:www.tracker.mtrtb.com"
     }
   ],
   "limits": {
@@ -1973,15 +2000,14 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-20T15:30:11.630487+00:00",
-  "pending_tasks": 461,
+  "observed_at": "2026-11-21T14:42:01.082624+00:00",
+  "pending_tasks": 465,
   "providers": {
-    "at": "2026-11-20T14:29:40.022997+00:00",
+    "at": "2026-11-21T13:49:21.795330+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
-      "retrieve": 3,
       "search": 50
     },
     "deferred": {},
@@ -2150,24 +2176,6 @@
         "status": 200
       },
       {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
         "action": "censys",
         "error": null,
         "provider": "censys",
@@ -2324,9 +2332,9 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-20T14:23:34.236444+00:00",
+    "generated_at": "2026-11-21T13:43:31.685514+00:00",
     "remaining_daily_allowance": {
-      "retrieve": 9997,
+      "retrieve": 10000,
       "search": 950
     },
     "status": "partial"
