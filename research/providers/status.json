@@ -1,10 +1,9 @@
 {
-  "at": "2026-11-20T14:29:40.022997+00:00",
+  "at": "2026-11-21T13:49:21.795330+00:00",
   "blocked": {},
   "calls": {
     "censys": 2,
     "quota": 1,
-    "retrieve": 3,
     "search": 50
   },
   "deferred": {},
@@ -172,24 +171,6 @@
       "status": 200
     },
     {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
-      "action": "retrieve",
-      "error": null,
-      "provider": "urlscan",
-      "status": 200
-    },
-    {
       "action": "censys",
       "error": null,
       "provider": "censys",
@@ -347,7 +328,7 @@
     }
   ],
   "remaining_daily_allowance": {
-    "retrieve": 9997,
+    "retrieve": 10000,
     "search": 950
   },
   "status": "partial"

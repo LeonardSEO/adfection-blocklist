@@ -1,18 +1,6 @@
 {
   "censys": [
     {
-      "fetched_at": "2026-11-14T12:34:44.608372+00:00",
-      "kind": "certificate",
-      "names": [
-        {
-          "name": "adtimizer.co",
-          "observed_at": null
-        }
-      ],
-      "url": "https://api.platform.censys.io/v3/global/asset/certificate/4fae694b4e0fd7537e36f5841676c31b3a775f32ca19fe78d940bcb7c8b58bb2",
-      "value": "4fae694b4e0fd7537e36f5841676c31b3a775f32ca19fe78d940bcb7c8b58bb2"
-    },
-    {
       "fetched_at": "2026-11-15T13:01:54.344303+00:00",
       "kind": "certificate",
       "names": [
@@ -371,17 +359,28 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/d9d89168274bad0679bc5d2169cdb2290f1a6008637eec632b0f5a874393ad17",
       "value": "d9d89168274bad0679bc5d2169cdb2290f1a6008637eec632b0f5a874393ad17"
+    },
+    {
+      "fetched_at": "2026-11-21T13:46:33.241991+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "cn.creatives.mtrtb.com",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/72fd29885c9dbfc397c592f6d034c94c00a0e0fa26b731c702a284666de7331e",
+      "value": "72fd29885c9dbfc397c592f6d034c94c00a0e0fa26b731c702a284666de7331e"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-20T14:23:34.236444+00:00",
+  "generated_at": "2026-11-21T13:43:31.685514+00:00",
   "provider_report": {
-    "at": "2026-11-20T14:29:40.022997+00:00",
+    "at": "2026-11-21T13:49:21.795330+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
-      "retrieve": 3,
       "search": 50
     },
     "deferred": {},
@@ -549,24 +548,6 @@
         "status": 200
       },
       {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
         "action": "censys",
         "error": null,
         "provider": "censys",
@@ -724,7 +705,7 @@
       }
     ],
     "remaining_daily_allowance": {
-      "retrieve": 9997,
+      "retrieve": 10000,
       "search": 950
     },
     "status": "partial"
@@ -770,7 +751,7 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-20T14:26:46.312021+00:00"
+      "fetched_at": "2026-11-21T13:46:26.045739+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
@@ -810,151 +791,31 @@
           }
         ]
       },
-      "fetched_at": "2026-11-20T14:26:53.007939+00:00"
+      "fetched_at": "2026-11-21T13:46:32.636500+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abizarreclassify.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-14T12:31:36.001418+00:00"
+      "fetched_at": "2026-11-21T13:45:58.964536+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ablockroster.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790814041700313-3401190136-138.ppv2.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-14T12:31:44.117387+00:00"
+      "fetched_at": "2026-11-21T13:46:05.545922+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abondmuscle.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadmin.mtrtb.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-14T12:31:51.690295+00:00"
+      "fetched_at": "2026-11-21T13:46:12.231618+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abreadgroomer.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aads-impressions.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-14T12:31:58.805231+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abronzemonth.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:05.800552+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abrowniebell.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:12.623806+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abt.myweb3id.io%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:20.265331+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abt.platc-tester.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:27.454912+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypassbirch.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:34.858400+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypasscalculate.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:41.614241+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abypasscommerce.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:48.396494+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acalmbase.org%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:32:55.573957+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acartoondrop.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:04.435229+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acheckmyimp.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:12.298156+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Achickenstrawberry.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:20.296333+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acitecivilization.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:27.116521+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aclosetmeat.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:34.778530+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.admin.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:41.799972+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.creatives.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:50.745736+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.druid.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:33:58.508800+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.k8s.dashboard.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:05.210020+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:12.692310+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.tracker.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:21.671547+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acn.turnilo.mtrtb.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:29.333742+00:00"
+      "fetched_at": "2026-11-21T13:46:19.434188+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acommonclever.com%29&size=100": {
       "body": {
@@ -1876,6 +1737,160 @@
         "results": []
       },
       "fetched_at": "2026-11-20T14:26:39.735443+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atekma.adtimizer.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:43:45.882614+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atidalscreen.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:43:52.485600+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracker-eu.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:43:59.098318+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracker.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:05.736772+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:12.417592+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Atubeshape.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:19.049179+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aultimatematter.info%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:25.669592+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avelvetpremier.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:32.269400+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviewa.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:38.852077+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviewp.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:45.672362+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avolasim.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:52.265602+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avpn.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:44:59.267852+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindomination.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:06.010172+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.adtimizer.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:12.682176+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.controlium.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:19.261872+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.discover-tech.io%29&size=100": {
+      "body": {
+        "results": [
+          {
+            "_id": "01a1f46a-bd3a-75c9-aa4c-5c1c76289485",
+            "page": {
+              "domain": "www.discover-tech.io",
+              "ip": "162.159.143.12"
+            },
+            "task": {
+              "time": "2026-11-19T15:26:49.454Z",
+              "visibility": "public"
+            }
+          },
+          {
+            "_id": "01a1f46a-32e4-766c-983a-2954ab4362ec",
+            "page": {
+              "domain": "www.discover-tech.io",
+              "ip": "162.159.143.12"
+            },
+            "task": {
+              "time": "2026-11-19T15:26:20.598Z",
+              "visibility": "public"
+            }
+          },
+          {
+            "_id": "01a1f469-d0d1-752f-a742-5f8b4ac2a20b",
+            "page": {
+              "domain": "www.discover-tech.io",
+              "ip": "172.66.3.8"
+            },
+            "task": {
+              "time": "2026-11-19T15:25:46.298Z",
+              "visibility": "public"
+            }
+          }
+        ]
+      },
+      "fetched_at": "2026-11-21T13:45:25.899403+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:32.494794+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.myipinfo.io%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:39.083170+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracker.mtrtb.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:45.685833+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awww.tracookiepixel.xyz%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:45:52.297352+00:00"
     }
   },
   "version": 1

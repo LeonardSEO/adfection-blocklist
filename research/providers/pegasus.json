@@ -1,14 +1,13 @@
 {
   "censys": [],
   "disabled": [],
-  "generated_at": "2026-11-20T14:23:34.236444+00:00",
+  "generated_at": "2026-11-21T13:43:31.685514+00:00",
   "provider_report": {
-    "at": "2026-11-20T14:29:40.022997+00:00",
+    "at": "2026-11-21T13:49:21.795330+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
-      "retrieve": 3,
       "search": 50
     },
     "deferred": {},
@@ -176,24 +175,6 @@
         "status": 200
       },
       {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
         "action": "censys",
         "error": null,
         "provider": "censys",
@@ -351,150 +332,12 @@
       }
     ],
     "remaining_daily_allowance": {
-      "retrieve": 9997,
+      "retrieve": 10000,
       "search": 950
     },
     "status": "partial"
   },
   "responses": {
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avarmintreptile.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:50.887586+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avarnishdeeply.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:34:57.634377+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avastdealsnow.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:05.131764+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avault-encryption.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:12.800778+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avelvetroad.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:32.221640+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aventriclesample.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:39.787755+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aventurecheesy.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:46.769984+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averdictdelirious.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:35:53.600654+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averification-approve.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:00.463149+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averification-approves.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:07.141095+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averifications-approve.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:13.961791+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averify-app.online%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:21.244728+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averify-mail.pro%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:28.631470+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Averifymail.live%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:35.871711+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avers.pw%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:42.938781+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aversionbobtail.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:49.587606+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avertigoreviver.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:36:56.335503+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avestruby.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:03.118057+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avetostate.link%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:10.168280+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avhelpu.eu%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:16.840692+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviabilitydriver.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:25.592573+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aviaggiarenelmondo.net%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:32.416095+00:00"
-    },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avictorscivils.com%29&size=100": {
-      "body": {
-        "results": []
-      },
-      "fetched_at": "2026-11-14T12:37:39.237556+00:00"
-    },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Avideosdownload.co%29&size=100": {
       "body": {
         "results": []
@@ -1280,6 +1123,150 @@
         "results": []
       },
       "fetched_at": "2026-11-20T14:29:39.688438+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awillowsquishy.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:46:39.236762+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awillpurpleshe.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:46:50.287587+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindowtiles.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:46:56.881857+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindwhensolar.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:03.472043+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindyone.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:10.060725+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinfoxflip.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:16.829993+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinkingtapestry.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:24.328885+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinningsdwarf.link%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:30.949460+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinter-balance.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:37.867090+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinterflavorful.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:44.441135+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awintertimes.co%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:51.077777+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awirelesspuritan.org%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:47:57.827880+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awisehardware.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:04.562484+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awishdownget.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:11.171392+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awithout-additional.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:21.188840+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awitness-delay.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:27.874382+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awitquote.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:34.457390+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobbleaerosol.link%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:41.085046+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobblingduration.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:47.955741+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobblyprofessed.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:48:54.600864+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awomanlyshrapnel.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:49:01.328043+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awondercakemake.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:49:07.976753+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awonderfulinsights.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:49:14.651050+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awonderonbrain.net%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-21T13:49:21.297326+00:00"
     }
   },
   "version": 1
