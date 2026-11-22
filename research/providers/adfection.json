@@ -1,22 +1,6 @@
 {
   "censys": [
     {
-      "fetched_at": "2026-11-15T13:01:54.344303+00:00",
-      "kind": "certificate",
-      "names": [
-        {
-          "name": "akedo.gg",
-          "observed_at": null
-        },
-        {
-          "name": "akedo.gg",
-          "observed_at": null
-        }
-      ],
-      "url": "https://api.platform.censys.io/v3/global/asset/certificate/f9053950817d1904fd4535f1539deb2e817505a1af0681075b872e7d8cdeeedf",
-      "value": "f9053950817d1904fd4535f1539deb2e817505a1af0681075b872e7d8cdeeedf"
-    },
-    {
       "fetched_at": "2026-11-16T14:04:47.605224+00:00",
       "kind": "certificate",
       "names": [
@@ -371,12 +355,24 @@
       ],
       "url": "https://api.platform.censys.io/v3/global/asset/certificate/72fd29885c9dbfc397c592f6d034c94c00a0e0fa26b731c702a284666de7331e",
       "value": "72fd29885c9dbfc397c592f6d034c94c00a0e0fa26b731c702a284666de7331e"
+    },
+    {
+      "fetched_at": "2026-11-22T13:40:38.768042+00:00",
+      "kind": "certificate",
+      "names": [
+        {
+          "name": "auth.emag.bg",
+          "observed_at": null
+        }
+      ],
+      "url": "https://api.platform.censys.io/v3/global/asset/certificate/bdc61678f89f7ef5497045b7ff1056369e06a98a1490d0e45ac99fc51a39b7f9",
+      "value": "bdc61678f89f7ef5497045b7ff1056369e06a98a1490d0e45ac99fc51a39b7f9"
     }
   ],
   "disabled": [],
-  "generated_at": "2026-11-21T13:43:31.685514+00:00",
+  "generated_at": "2026-11-22T13:37:27.752783+00:00",
   "provider_report": {
-    "at": "2026-11-21T13:49:21.795330+00:00",
+    "at": "2026-11-22T13:43:18.860261+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -751,7 +747,7 @@
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:46:26.045739+00:00"
+      "fetched_at": "2026-11-22T13:40:31.665537+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28filename%3A%22c_tracking_pixel_gdpr_enhanced.js%22%29&size=20": {
       "body": {
@@ -791,7 +787,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T13:46:32.636500+00:00"
+      "fetched_at": "2026-11-22T13:40:38.265565+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3A1790180408009733-8822372887-52.ppv2.mtrtb.com%29&size=100": {
       "body": {
@@ -817,131 +813,149 @@
       },
       "fetched_at": "2026-11-21T13:46:19.434188+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acommonclever.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aads-monitor.xyz%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:58:28.006044+00:00"
+      "fetched_at": "2026-11-22T13:37:49.394920+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconcretebottle.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadtimizer.co%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:58:34.855690+00:00"
+      "fetched_at": "2026-11-22T13:37:55.941208+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconquerconfess.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadv45.volasim.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:58:41.686653+00:00"
+      "fetched_at": "2026-11-22T13:38:02.493574+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontainsnow.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aadv50.volasim.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:58:51.783154+00:00"
+      "fetched_at": "2026-11-22T13:38:09.043451+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontradictionblindness.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aakedo.gg%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:58:58.597743+00:00"
+      "fetched_at": "2026-11-22T13:38:15.765013+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acontrolium.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aambiguouscommerce.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:05.451995+00:00"
+      "fetched_at": "2026-11-22T13:38:22.312520+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aconvincechaotic.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aamir-back.tracookiepixel.xyz%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:13.805146+00:00"
+      "fetched_at": "2026-11-22T13:38:28.873983+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acookie-sync.xyz%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aamir-front.tracookiepixel.xyz%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:20.887133+00:00"
+      "fetched_at": "2026-11-22T13:38:35.420034+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acookiesurfer.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aantperspective.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:28.080788+00:00"
+      "fetched_at": "2026-11-22T13:38:42.850984+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acooperatedisinfect.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaperturebelt.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:35.395954+00:00"
+      "fetched_at": "2026-11-22T13:38:50.120915+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acottonbread.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aarcher.westeurope.cloudapp.azure.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:42.348662+00:00"
+      "fetched_at": "2026-11-22T13:38:56.683084+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acranberrybear.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aasknapkin.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:49.177057+00:00"
+      "fetched_at": "2026-11-22T13:39:03.224222+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acropcritique.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abarnsecret.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T12:59:56.004438+00:00"
+      "fetched_at": "2026-11-22T13:39:11.606327+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Acrossoverdue.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abaseagriculture.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:04.315025+00:00"
+      "fetched_at": "2026-11-22T13:39:18.155995+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad147nolwbekx2b.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abasicstraw.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:12.630475+00:00"
+      "fetched_at": "2026-11-22T13:39:24.727984+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad19oo8r6k9oumb.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abasinapposite.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:20.187073+00:00"
+      "fetched_at": "2026-11-22T13:39:31.351917+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1fcoizt7mje85.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abd-mainserver.herokuapp.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:27.897792+00:00"
+      "fetched_at": "2026-11-22T13:39:38.583360+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1fzw0miu1r9rc.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abeachvibesnow.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:36.318091+00:00"
+      "fetched_at": "2026-11-22T13:39:45.123534+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad1x4e580sn23dn.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abeneathbreadth.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:43.822101+00:00"
+      "fetched_at": "2026-11-22T13:39:51.750976+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad23625plpxg1yn.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abizarreclassify.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:00:53.369214+00:00"
+      "fetched_at": "2026-11-22T13:39:58.321255+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ad2epnp0vokbtl7.cloudfront.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Ablockroster.net%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-15T13:01:01.670716+00:00"
+      "fetched_at": "2026-11-22T13:40:05.194293+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abondmuscle.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-22T13:40:11.789033+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abreadgroomer.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-22T13:40:18.551012+00:00"
+    },
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Abronzemonth.com%29&size=100": {
+      "body": {
+        "results": []
+      },
+      "fetched_at": "2026-11-22T13:40:25.124571+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Adamageconsider.com%29&size=100": {
       "body": {
