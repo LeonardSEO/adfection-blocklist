@@ -230,11 +230,22 @@
       ],
       "retrieve": 200,
       "search": 50
+    },
+    "2026-11-24": {
+      "censys": 2,
+      "reserved": [
+        "urlscan:adfection",
+        "censys:adfection",
+        "urlscan:pegasus",
+        "censys:pegasus"
+      ],
+      "retrieve": 200,
+      "search": 50
     }
   },
   "months": {
     "2026-11": {
-      "censys": 42
+      "censys": 44
     }
   },
   "version": 1
