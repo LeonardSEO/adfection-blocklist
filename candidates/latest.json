@@ -1,127 +1,55 @@
 {
-  "candidate_count": 399,
+  "candidate_count": 411,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "specific-assets",
+    "dns:domain:blog.mydsp.io",
+    "measure:domain:blog.mydsp.io",
+    "dns:domain:va02.ingress.herokuapp.com",
+    "measure:domain:va02.ingress.herokuapp.com",
+    "dns:domain:va03.ingress.herokuapp.com",
+    "measure:domain:va03.ingress.herokuapp.com",
+    "dns:domain:www.volasim.com",
     "dns:domain:auth.emag.bg",
-    "dns:domain:abelia.compute.herokuapp.com",
-    "dns:domain:acacia.compute.herokuapp.com",
-    "dns:domain:agave.compute.herokuapp.com",
-    "dns:domain:alder.compute.herokuapp.com",
-    "dns:domain:aloe.compute.herokuapp.com",
-    "dns:domain:amaryllis.compute.herokuapp.com",
-    "dns:domain:anemone.compute.herokuapp.com",
-    "dns:domain:anise.compute.herokuapp.com",
-    "dns:domain:apple.compute.herokuapp.com",
-    "dns:domain:ash.compute.herokuapp.com",
-    "dns:domain:aster.compute.herokuapp.com",
-    "dns:domain:avocado.compute.herokuapp.com",
-    "dns:domain:azalea.compute.herokuapp.com",
-    "dns:domain:banyan.compute.herokuapp.com",
-    "dns:domain:baobab.compute.herokuapp.com",
-    "dns:domain:barberry.compute.herokuapp.com",
-    "dns:domain:barley.compute.herokuapp.com",
-    "dns:domain:basil.compute.herokuapp.com",
-    "dns:domain:bayberry.compute.herokuapp.com",
-    "dns:domain:beet.compute.herokuapp.com",
-    "dns:domain:begonia.compute.herokuapp.com",
-    "dns:domain:birch.compute.herokuapp.com",
-    "dns:domain:borage.compute.herokuapp.com",
-    "dns:domain:bougainvillea.compute.herokuapp.com",
-    "dns:domain:camellia.compute.herokuapp.com",
-    "dns:domain:cherry.compute.herokuapp.com",
-    "dns:domain:crocus.compute.herokuapp.com",
-    "dns:domain:eucalyptus.compute.herokuapp.com",
-    "dns:domain:ficus.compute.herokuapp.com",
-    "dns:domain:fuchsia.compute.herokuapp.com",
-    "dns:domain:geranium.compute.herokuapp.com",
-    "dns:domain:ginger.compute.herokuapp.com",
-    "dns:domain:gingko.compute.herokuapp.com",
-    "dns:domain:heather.compute.herokuapp.com",
-    "dns:domain:hibiscus.compute.herokuapp.com",
-    "dns:domain:holly.compute.herokuapp.com",
-    "dns:domain:honeysuckle.compute.herokuapp.com",
-    "dns:domain:hydrangea.compute.herokuapp.com",
-    "dns:domain:iris.compute.herokuapp.com",
-    "dns:domain:ivy.compute.herokuapp.com",
-    "dns:domain:jacaranda.compute.herokuapp.com",
-    "dns:domain:lavender.compute.herokuapp.com",
-    "dns:domain:lilac.compute.herokuapp.com",
-    "dns:domain:lotus.compute.herokuapp.com",
-    "dns:domain:magnolia.compute.herokuapp.com",
-    "dns:domain:neem.compute.herokuapp.com",
-    "dns:domain:oak.compute.herokuapp.com",
-    "dns:domain:orchid.compute.herokuapp.com",
-    "dns:domain:pear.compute.herokuapp.com",
-    "dns:domain:peony.compute.herokuapp.com",
-    "dns:domain:pine.compute.herokuapp.com",
-    "dns:domain:plum.compute.herokuapp.com",
-    "dns:domain:plumeria.compute.herokuapp.com",
-    "dns:domain:primrose.compute.herokuapp.com",
-    "dns:domain:redbud.compute.herokuapp.com",
-    "dns:domain:redwood.compute.herokuapp.com",
-    "dns:domain:rhododendron.compute.herokuapp.com",
-    "dns:domain:rose.compute.herokuapp.com",
-    "dns:domain:shamrock.compute.herokuapp.com",
-    "dns:domain:spruce.compute.herokuapp.com",
-    "dns:domain:willow.compute.herokuapp.com",
     "dns:domain:edge.tenants.auth0.com",
     "dns:domain:guardian.auth0.com",
     "measure:domain:guardian.auth0.com",
     "dns:domain:webtask.auth0.com",
     "measure:domain:webtask.auth0.com",
-    "urlscan:domain:controlium.net",
-    "dns:domain:controlium.net",
-    "urlscan:domain:convincechaotic.com",
-    "dns:domain:convincechaotic.com",
-    "urlscan:domain:cookie-sync.xyz",
-    "dns:domain:cookie-sync.xyz",
-    "urlscan:domain:cookiesurfer.com",
-    "dns:domain:cookiesurfer.com",
-    "measure:domain:cookiesurfer.com",
-    "urlscan:domain:cooperatedisinfect.net",
-    "dns:domain:cooperatedisinfect.net",
-    "urlscan:domain:cottonbread.com",
-    "dns:domain:cottonbread.com",
-    "urlscan:domain:cranberrybear.com",
-    "dns:domain:cranberrybear.com",
-    "urlscan:domain:cropcritique.com",
-    "dns:domain:cropcritique.com",
-    "urlscan:domain:crossoverdue.com",
-    "dns:domain:crossoverdue.com",
-    "urlscan:domain:d147nolwbekx2b.cloudfront.net",
-    "dns:domain:d147nolwbekx2b.cloudfront.net",
-    "urlscan:domain:d19oo8r6k9oumb.cloudfront.net",
-    "dns:domain:d19oo8r6k9oumb.cloudfront.net",
-    "urlscan:domain:d1fcoizt7mje85.cloudfront.net",
-    "dns:domain:d1fcoizt7mje85.cloudfront.net",
-    "urlscan:domain:d1fzw0miu1r9rc.cloudfront.net",
-    "dns:domain:d1fzw0miu1r9rc.cloudfront.net",
-    "urlscan:domain:d1x4e580sn23dn.cloudfront.net",
-    "dns:domain:d1x4e580sn23dn.cloudfront.net",
-    "urlscan:domain:d23625plpxg1yn.cloudfront.net",
-    "dns:domain:d23625plpxg1yn.cloudfront.net",
-    "urlscan:domain:d2epnp0vokbtl7.cloudfront.net",
-    "dns:domain:d2epnp0vokbtl7.cloudfront.net",
-    "urlscan:domain:d2f4zpg1mgzwov.cloudfront.net",
-    "dns:domain:d2f4zpg1mgzwov.cloudfront.net",
-    "urlscan:domain:d39619tdxn6mhj.cloudfront.net",
-    "dns:domain:d39619tdxn6mhj.cloudfront.net",
-    "urlscan:domain:d8lmy5wyiokrq.cloudfront.net",
-    "dns:domain:d8lmy5wyiokrq.cloudfront.net",
-    "urlscan:domain:damageconsider.com",
-    "dns:domain:damageconsider.com",
-    "urlscan:domain:dcv2rnj2ograe.cloudfront.net",
-    "dns:domain:dcv2rnj2ograe.cloudfront.net",
-    "urlscan:domain:deardrill.com",
-    "dns:domain:deardrill.com",
-    "urlscan:domain:dediccatedconsideration.com",
-    "dns:domain:dediccatedconsideration.com",
-    "urlscan:domain:deducedefend.com",
-    "dns:domain:deducedefend.com"
+    "dns:domain:deliverconcern.net",
+    "dns:domain:densefoot.com",
+    "dns:domain:desireeclipse.com",
+    "dns:domain:detaincharity.net",
+    "dns:domain:deterdiffusion.com",
+    "dns:domain:devotionbelief.com",
+    "dns:domain:discover-tech.io",
+    "measure:domain:discover-tech.io",
+    "dns:domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com",
+    "dns:domain:discovertech.us.auth0.com",
+    "measure:domain:discovertech.us.auth0.com",
+    "dns:domain:distractionfar.com",
+    "dns:domain:drivesplash.com",
+    "dns:domain:druid.mtrtb.com",
+    "dns:domain:drummerjourney.com",
+    "dns:domain:dtech.adtimizer.co",
+    "dns:domain:dtech.adtimizer.com",
+    "dns:domain:dtech.mtrtb.com",
+    "dns:domain:dumplingbell.com",
+    "measure:domain:dumplingbell.com",
+    "dns:domain:electric-prime.com",
+    "dns:domain:elifluousscintillam.com",
+    "dns:domain:eminententwine.com",
+    "dns:domain:enjoymultiplecats.com",
+    "dns:domain:events-ui.discover-tech.io",
+    "dns:domain:events-ui.myweb3id.io",
+    "dns:domain:events.myweb3id.io"
   ],
   "errors": [
+    {
+      "error": "ValueError",
+      "query": "measure:domain:www.volasim.com"
+    },
     {
       "error": "ValueError",
       "query": "measure:domain:ipinfo.myweb3id.io"
@@ -381,6 +309,282 @@
     {
       "error": "ValueError",
       "query": "measure:domain:edge.tenants.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:deliverconcern.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:deliverconcern.net"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:deliverconcern.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:densefoot.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:densefoot.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:densefoot.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:desireeclipse.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:desireeclipse.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:desireeclipse.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:detaincharity.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:detaincharity.net"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:detaincharity.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:deterdiffusion.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:deterdiffusion.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:deterdiffusion.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:devotionbelief.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:devotionbelief.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:devotionbelief.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:discover-tech.io"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:discover-tech.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:discovertech.us.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:discovertech.us.auth0.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:distractionfar.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:distractionfar.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:distractionfar.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:drivesplash.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:drivesplash.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:drivesplash.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:druid.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:druid.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:druid.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:drummerjourney.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:drummerjourney.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:drummerjourney.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:dtech.adtimizer.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:dtech.adtimizer.co"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:dtech.adtimizer.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:dtech.adtimizer.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:dtech.adtimizer.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:dtech.adtimizer.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:dtech.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:dtech.mtrtb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:dtech.mtrtb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:dumplingbell.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:dumplingbell.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:electric-prime.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:electric-prime.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:electric-prime.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:elifluousscintillam.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:elifluousscintillam.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:elifluousscintillam.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:eminententwine.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:eminententwine.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:eminententwine.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:enjoymultiplecats.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:enjoymultiplecats.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:enjoymultiplecats.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:events-ui.discover-tech.io"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:events-ui.discover-tech.io"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:events-ui.discover-tech.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:events-ui.myweb3id.io"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:events-ui.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:events-ui.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:events.myweb3id.io"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:events.myweb3id.io"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:events.myweb3id.io"
     },
     {
       "error": "OSError",
@@ -1668,46 +1872,6 @@
     },
     {
       "error": "OSError",
-      "query": "ct:domain:eminententwine.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:eminententwine.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:enjoymultiplecats.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:enjoymultiplecats.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:events-ui.discover-tech.io"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:events-ui.discover-tech.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:events-ui.myweb3id.io"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:events-ui.myweb3id.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:events.myweb3id.io"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:events.myweb3id.io"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:events.platc-tester.com"
     },
     {
@@ -1849,138 +2013,6 @@
     {
       "error": "OSError",
       "query": "ct:domain:imp.powerium.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:deliverconcern.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:deliverconcern.net"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:deliverconcern.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:densefoot.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:densefoot.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:desireeclipse.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:desireeclipse.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:detaincharity.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:detaincharity.net"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:deterdiffusion.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:deterdiffusion.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:devotionbelief.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:devotionbelief.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:discover-tech.io"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:discovertech-alb-100966113.us-east-1.elb.amazonaws.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:discovertech.us.auth0.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:distractionfar.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:distractionfar.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:drivesplash.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:drivesplash.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:druid.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:drummerjourney.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:drummerjourney.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:dtech.adtimizer.co"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:dtech.adtimizer.co"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:dtech.adtimizer.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:dtech.adtimizer.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:dtech.mtrtb.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:dumplingbell.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:electric-prime.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:electric-prime.com"
-    },
-    {
-      "error": "OSError",
-      "query": "ct:domain:elifluousscintillam.com"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:elifluousscintillam.com"
     }
   ],
   "limits": {
@@ -1989,8 +2021,8 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-24T17:50:20.336448+00:00",
-  "pending_tasks": 465,
+  "observed_at": "2026-11-25T17:16:24.646568+00:00",
+  "pending_tasks": 492,
   "providers": {
     "at": "2026-11-24T16:34:27.127088+00:00",
     "blocked": {},
