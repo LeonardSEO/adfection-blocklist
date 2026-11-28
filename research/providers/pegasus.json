@@ -1,9 +1,9 @@
 {
   "censys": [],
   "disabled": [],
-  "generated_at": "2026-11-27T15:37:08.607118+00:00",
+  "generated_at": "2026-11-28T14:33:05.701815+00:00",
   "provider_report": {
-    "at": "2026-11-27T15:43:14.257083+00:00",
+    "at": "2026-11-28T14:39:02.098308+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -571,149 +571,149 @@
       },
       "fetched_at": "2026-11-27T15:43:13.654901+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awillowsquishy.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountapp.xyz%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:46:39.236762+00:00"
+      "fetched_at": "2026-11-28T14:36:23.091529+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awillpurpleshe.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountcanceled.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:46:50.287587+00:00"
+      "fetched_at": "2026-11-28T14:36:29.929116+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindowtiles.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountnotify.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:46:56.881857+00:00"
+      "fetched_at": "2026-11-28T14:36:36.800175+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindwhensolar.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-mysecure.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:03.472043+00:00"
+      "fetched_at": "2026-11-28T14:36:43.822760+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awindyone.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-mysecures.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:10.060725+00:00"
+      "fetched_at": "2026-11-28T14:36:50.672200+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinfoxflip.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-secuirty.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:16.829993+00:00"
+      "fetched_at": "2026-11-28T14:36:57.500371+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinkingtapestry.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-securtiy.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:24.328885+00:00"
+      "fetched_at": "2026-11-28T14:37:04.330268+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinningsdwarf.link%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-servicse.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:30.949460+00:00"
+      "fetched_at": "2026-11-28T14:37:11.199046+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinter-balance.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts-settings.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:37.867090+00:00"
+      "fetched_at": "2026-11-28T14:37:18.050296+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awinterflavorful.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts.loginshare.info%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:44.441135+00:00"
+      "fetched_at": "2026-11-28T14:37:24.920350+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awintertimes.co%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccounts.mx%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:51.077777+00:00"
+      "fetched_at": "2026-11-28T14:37:32.284444+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awirelesspuritan.org%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountsections.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:47:57.827880+00:00"
+      "fetched_at": "2026-11-28T14:37:39.170733+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awisehardware.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountsecurities.org%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:04.562484+00:00"
+      "fetched_at": "2026-11-28T14:37:46.037016+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awishdownget.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aaccountsgoog1e.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:11.171392+00:00"
+      "fetched_at": "2026-11-28T14:37:52.898015+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awithout-additional.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aacetonenemesis.net%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:21.188840+00:00"
+      "fetched_at": "2026-11-28T14:37:59.725828+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awitness-delay.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aachinessfiddle.net%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:27.874382+00:00"
+      "fetched_at": "2026-11-28T14:38:06.566846+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awitquote.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aacidconfront.link%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:34.457390+00:00"
+      "fetched_at": "2026-11-28T14:38:13.419913+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobbleaerosol.link%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aacquaditerraverde.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:41.085046+00:00"
+      "fetched_at": "2026-11-28T14:38:20.269643+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobblingduration.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactivate-discount.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:47.955741+00:00"
+      "fetched_at": "2026-11-28T14:38:27.110561+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awobblyprofessed.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactivatepromenade.org%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:48:54.600864+00:00"
+      "fetched_at": "2026-11-28T14:38:33.959606+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awomanlyshrapnel.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactive-folders.com%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:49:01.328043+00:00"
+      "fetched_at": "2026-11-28T14:38:40.825569+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awondercakemake.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactivecurrent.net%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:49:07.976753+00:00"
+      "fetched_at": "2026-11-28T14:38:47.845792+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awonderfulinsights.com%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactorsshop.net%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:49:14.651050+00:00"
+      "fetched_at": "2026-11-28T14:38:54.683591+00:00"
     },
-    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awonderonbrain.net%29&size=100": {
+    "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Aactu24.online%29&size=100": {
       "body": {
         "results": []
       },
-      "fetched_at": "2026-11-21T13:49:21.297326+00:00"
+      "fetched_at": "2026-11-28T14:39:01.563540+00:00"
     },
     "https://urlscan.io/api/v1/search/?q=task.visibility%3Apublic+AND+date%3A%3Enow-7d+AND+%28page.domain%3Awonderwhythis.net%29&size=100": {
       "body": {
